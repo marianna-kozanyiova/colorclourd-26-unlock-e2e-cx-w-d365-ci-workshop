@@ -8,12 +8,12 @@ During today's workshop you will configure an end to end customer journey for Ma
 
 ## Hands-on Labs
 The following labs are part of this workshop:
-- [Lab 1](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab01) - Access Environment & Finaliza Configuration
-- [Lab 2](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab02) - Build Trigger-based Subscription Incentive Journey
-- [Lab 3](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03) - Build Segment-based Post-Purchase Onboarding & Upsell Journey
-- [Lab 4](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab04) - Build Segment-based First Use Feedback Journey
-- [Lab 5](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab05) - Build Days to First Use Measure
-- [Lab 6 - Optional](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06) - Ingest New Data Source & Update Unification
+- [Lab 1](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab01.md): Access Environment & Finaliza Configuration
+- [Lab 2](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab02.md): Build Trigger-based Subscription Incentive Journey
+- [Lab 3](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03.md): Build Segment-based Post-Purchase Onboarding & Upsell Journey
+- [Lab 4](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab04.md): Build Segment-based First Use Feedback Journey
+- [Lab 5](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab05.md): Build Days to First Use Measure
+- [Lab 6 - Optional](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06.md): Ingest New Data Source & Update Unification
 
 ## Links to Microsoft documentation
 [Dynamics 365 Customer Insights - Data](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/overview)
