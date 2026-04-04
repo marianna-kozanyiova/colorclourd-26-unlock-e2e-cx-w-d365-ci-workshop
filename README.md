@@ -8,7 +8,7 @@ During today's workshop you will configure an end to end customer journey for Ma
 
 ## Hands-on Labs
 The following labs are part of this workshop:
-- [Lab 1](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab01) - Access CI-J Environment & Finaliza Configuration
+- [Lab 1](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab01) - Access Environment & Finaliza Configuration
 - [Lab 2](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab02) - Build Trigger-based Subscription Incentive Journey
 - [Lab 3](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03) - Build Segment-based Post-Purchase Onboarding & Upsell Journey
 - [Lab 4](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab04) - Build Segment-based First Use Feedback Journey
