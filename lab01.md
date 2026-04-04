@@ -24,28 +24,6 @@ By the end of this lab, you will be able to:
 # Exercise 1: Access Environment
 Each participant is assigned preconfigured CI-J and CI-D environments.
 
-| ID | CI-J URL | Email address | Password | Participant name |
-
-| 02 | [ColorCloud 02](https://colorcloudci02.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 03 | [ColorCloud 03](https://colorcloudci03.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 04 | [ColorCloud 04](https://colorcloudci04.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 05 | [ColorCloud 05](https://colorcloudci05.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 06 | [ColorCloud 06](https://colorcloudci06.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 07 | [ColorCloud 07](https://colorcloudci07.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 08 | [ColorCloud 08](https://colorcloudci08.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 09 | [ColorCloud 09](https://colorcloudci09.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 10 | [ColorCloud 10](https://colorcloudci10.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
-| 11 | [ColorCloud 11](https://colorcloudci11.crm.dynamics.com/) | ------------- | -------- | ---------------- |
-
 # Exercise 2: Verify Preconfigured CI-D Components
 
 # Exercise 3: Verify Preconfigured CI-J Components
