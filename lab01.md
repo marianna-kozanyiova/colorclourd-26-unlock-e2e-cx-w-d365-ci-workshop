@@ -1,7 +1,7 @@
 # Lab 1: Access Environment & Finalize Configuration
 Contents
 
-[Lab overview](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#lab-overview)
+[Lab Overview](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#lab-overview)
 
 [Exercise 1](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#exercise-1-access-environment)
 
@@ -11,7 +11,7 @@ Contents
 
 [Exercise 4](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#exercise-4-finalize-ci-j-configuration)
 
-# Lab overview
+# Lab Overview
 ## Introduction
 In this lab, you will get access to the Dynamics 365 Customer Insights environments and review the setup prepared for the workshop. You will validate key configurations across Customer Insights - Data and Customer Insights - Journeys to ensure everything is ready for building end-to-end customer experience for Maya.
 
