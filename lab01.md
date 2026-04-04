@@ -13,7 +13,7 @@ Contents
 
 # Lab Overview
 ## Introduction
-In this lab, you will get access to the Dynamics 365 Customer Insights environments and review the setup prepared for the workshop. You will validate key configurations across Customer Insights - Data and Customer Insights - Journeys to ensure everything is ready for building end-to-end customer experience for Maya.
+In this lab, you will get access to the Dynamics 365 Customer Insights environments and review the setup prepared for the workshop. You will validate key configurations across CI-D and CI-J to ensure everything is ready for building end-to-end customer experience for Maya.
 
 ## Objectives
 By the end of this lab, you will be able to:
