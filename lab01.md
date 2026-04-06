@@ -158,6 +158,7 @@ In this exercise, you will return to the Customer Insights - Journeys app and ve
 - Still under the ColorCloud Commercial DOI record check Double opt-in (used for forms with Consent purpose checkboxes, where, if enabled, Double opt-in is sent right after form submission to verify email address of the person submitting the form prior to Contact and/or Lead + Consent record creation)
 - Go back to Compliance profiles and open ColorCloud Legitimate Interest
 - Open Preference center (allows recipients to unsubscribe from Legitimate interest Purpose communication, that is the only difference opposed to ColorCloud Commercial DOI)
+
 [Consent management overview](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings)
 
 **Step 8. Verify Audience data**
