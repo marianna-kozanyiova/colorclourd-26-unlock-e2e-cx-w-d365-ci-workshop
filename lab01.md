@@ -1,15 +1,4 @@
 # Lab 1: Access Environment & Finalize Configuration
-Contents
-
-[Lab Overview](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#lab-overview)
-
-[Exercise 1](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#exercise-1-access-environment)
-
-[Exercise 2](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#exercise-2-verify-preconfigured-ci-d-components)
-
-[Exercise 3](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#exercise-3-verify-preconfigured-ci-j-components)
-
-[Exercise 4](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab01.md#exercise-4-finalize-ci-j-template-configuration)
 
 # Lab Overview
 ## Introduction
