@@ -21,7 +21,7 @@ By the end of this lab, you will be able to:
 - Familiarize yourself with & verify the preconfigured components
 - Ensure your environment is ready for the upcoming labs
 
-# Exercise 1: Access Environment
+# Exercise 1: Login
 Each participant is assigned preconfigured CI-J and CI-D environments.
 
 # Exercise 2: Verify Preconfigured CI-D Components
