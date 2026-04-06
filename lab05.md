@@ -1,1 +1,1 @@
-# Lab 5: Build Days to First Use Measure
+# Lab 5: Measure Customer Adoption and Engagement
