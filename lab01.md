@@ -9,7 +9,7 @@ Contents
 
 [Exercise 3](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#exercise-3-verify-preconfigured-ci-j-components)
 
-[Exercise 4](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/edit/main/lab01.md#exercise-4-finalize-ci-j-configuration)
+[Exercise 4](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab01.md#exercise-4-finalize-ci-j-template-configuration)
 
 # Lab Overview
 ## Introduction
