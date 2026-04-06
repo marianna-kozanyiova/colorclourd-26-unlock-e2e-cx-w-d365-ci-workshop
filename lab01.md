@@ -75,7 +75,7 @@ In this exercise, you will access the Customer Insights - Data environment conne
 - Wait for the Customer Insights - Data home (welcome) page to load
 
 **Step 6. Confirm the number of customers**
-- In the top-right corner of the page, verify that you see 500 customers
+- In the top-right corner of the page, verify that you see 600 customers
 
 **Step 7. Verify data sources**
 - Navigate to Data > Data sources
