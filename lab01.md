@@ -186,6 +186,38 @@ You have successfully verified that all required Customer Insights - Journeys co
 - Audience data and consent records
 - Marketing assets (files and content blocks)
 
-You are now almost ready to start building segments and journeys in the next labs.
+You are now almost ready to start building Maya's customer journey in the next labs.
 
 # Exercise 4: Finalize CI-J Template Configuration
+In this exercise, you will continue with the Customer Insights - Journeys app and finalize the email and form templates.
+
+**Step 1. Finalize ColorCloud Email Template**
+- Still in the Real-time journeys area, under Assets section click on Templates
+- Click on Email and Custom templates tab
+- Open ColorCloud Email Template record
+- In the icon menu on the right side of the Elements click on Content blocks (beehive structure icon)
+- Click on Header content block and add it to the top of the email by clicking on top plus sign in the email body
+- Click on Commercial Footer content block and add it to the bottom of the email by clicking on bottom plus sign in the email body
+- In the right top command bar click on Save
+- Go back to Email Custom templates view and select the ColorCloud Email Template
+- Once selected, click on Activate in the top command bar and click on Activate button again in the pop up window
+
+**Step 2. Finalize ColorCloud Form Template**
+- Still in the Real-time journeys area, under Assets section click on Templates
+- Click on Form and Custom templates tab
+- Open ColorCloud Form Template record
+- In the Fields section on the right side search for Mobile Phone (expand the Contact section if needed)
+- Click on Mobile Phone and add it to the form by clicking on the top plus sign in the form body
+- Drag the Mobile Phone field under Email field
+- While having the Mobile Phone selected, remove the Placeholder text, set it to Required and check that Validation is set to Phone number (all available on the right side under Edit field)
+- In the icon menu on the right side of the Edit field click on Elements (plus sign in square shape icon) and under Consent section select Purpose, then add it on the form same as the Mobile Phone field and drag right under Mobile Phone, but above reCAPTCHA
+- While having the Purpose selected, choose Compliance profile ColorCloud Commercial DOI, Purpose Commercial and set to Required (all available on the right side under Edit purpose)
+- Change the checkbox label to: I understand that by submitting this form, ColorCloud and its affiliates will use my personal data to send me news, product tips, and special offers in accordance with the Privacy Notice. I can withdraw my consent at any time by clicking the unsubscribe link in any communication
+- Bonus: Add https://colorcloud.rocks/ link behind Privacy Notice text in the label by using the command bar above the header of the form and adjust the font and font color
+- In the right top corner click on Save
+- Go back to Form Custom templates view and select the ColorCloud Form Template
+- Once selected, click on Activate in the top command bar and click on Activate button again in the pop up window
+
+**Expected outcome**
+
+You have successfully finalized the email and form templates and are ready to start with [Lab 2: Build Trigger-based Subscription Incentive Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab02.md).
