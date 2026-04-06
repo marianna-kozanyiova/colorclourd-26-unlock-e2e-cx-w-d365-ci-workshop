@@ -1,1 +1,1 @@
-# Lab 6 - Optional: Ingest New Data Source & Update Unification
+# Lab 6 - Optional: AI-Powered Customer Insights
