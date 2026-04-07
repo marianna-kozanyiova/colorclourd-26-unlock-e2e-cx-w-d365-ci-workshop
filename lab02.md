@@ -9,33 +9,28 @@ This journey represents the moment when a prospective customer subscribes to the
 ## Objectives
 By the end of this lab, you will be able to:
 - Create a marketing form from an existing custom form template
-- Create a subscription confirmation email from an existing custom email template
+- Create an email from an existing custom email template
 - Build a trigger-based journey using the Marketing form submitted trigger
-- Configure a journey condition based on a specific form
-- Set a journey goal to onboard new customers
-- Define success as 1000 recipients opening the email
-
+- Set a journey goal
 
 # Exercise 1: Build the subscription form
 In this exercise, you will create a new marketing form based on the preconfigured ColorCloud Form Template. This form will be used to capture newsletter subscription requests from prospective customers who want to receive a discount code.
 
 **Step 1. Go to Forms**
 - In Customer Insights - Journeys, make sure you are in the Real-time journeys area
-- In the left navigation, go to Assets > Forms
+- In the left navigation, go to Channels > Forms
 
 **Step 2. Create a new form from template**
-- Select **+ New**
-- Choose to create the form from an existing template
-- Select **ColorCloud Form Template**
+- At the top command bar, select **+ New**
+- In the Form Templates pop up window, under Custom templates, click on **ColorCloud Form Template** and click on Select in the right bottom corner
 
 **Step 3. Enter form details**
-- Name the form **ColorCloud Newsletter Subscription Form**
+- Name the form **ColorCloud Newsletter Subscription**
 - Review the initial structure that was inherited from the template
 
 **Step 4. Review and update the form fields**
 - Confirm that the form is intended to capture at minimum the subscriber’s email address
 - Review whether the template already contains the required consent-related elements
-- If needed, update labels or helper text so the form clearly communicates that the subscriber will receive a newsletter subscription confirmation and a discount code
 
 **Step 5. Review form settings**
 - Open the form settings and verify the correct configuration inherited from the template
