@@ -68,8 +68,9 @@ In this exercise, you will create the first marketing email in the ColorCloud sc
 **Step 4. Verify the email details**
 - Confirm that the Brand profile in the right top corner is set to ColorCloud
 - Expand the email header and confirm that the Sender is ColorCloud and that the Subject is Welcome to ColorCloud – here’s your exclusive offer 🎁
-- In the icon menu on the right side, click on Personalize (person with lightning bolt icon) and check that under Dynamic text FirstName is set to Contact > First Name
-- In the icon menu on the right side, click on Settings (mailbox with cog wheel icon), check that Company address is the same as the one you saw in Compliance profile in Lab 1, then expand Compliance section and check that Compliance profile is set to ColorCloud Commercial DOI and that the Purpose is set to Transactional
+- In the icon menu on the right side, click on Personalize (person with lightning bolt icon) and check that under Dynamic text FirstName is set to Contact > First Name (defines the attribute from which the value will be pulled from Contact record for each recipient, represented in the email body as {{FirstName}})
+- In the icon menu on the right side, click on Settings (mailbox with cog wheel icon), check that Company address is the same as the one you saw in Compliance profile in Lab 1, then expand Compliance section and check that Compliance profile is set to ColorCloud Commercial DOI and that the Purpose is set to Transactional (since the discount code was promised after subscription to newsletter, this email needs to be sent independently of consent given for the specific email address)
+- In the body of the email check the footer content block and confirm that there is no Unsubscribe link (since the email is classified as Transactional and the enforcement model for this Purpose is Disabled, it means that we always send these kinds of emails to deliver information to the customer that is necessary for ColorCloud products and services, therefore, don't really offer a way to unsubscribe from transactional communication)
 
 **Step 5. Save and publish the email**
 - Once verified, click on Save in the right top corner and then click on **Ready to send**
