@@ -10,6 +10,7 @@ By the end of this lab, you will be able to:
 - Familiarize yourself with & verify the preconfigured components
 - Ensure your environment is ready for the upcoming labs
 
+
 # Exercise 1: Sign in to Customer Insights - Journeys
 In this exercise, you will sign in to your assigned Dynamics 365 Customer Insights - Journeys environment by using the details provided on your access card. It is recommended that you use a separate browser profile for the workshop.
 
@@ -50,6 +51,7 @@ You are signed in to your assigned Customer Insights - Journeys environment and 
 - Use only the browser profile created for the workshop.
 - Do not sign in with your personal or corporate Microsoft account unless instructed to do so.
 - If the page does not load or you see an access error, ask the instructor for assistance before proceeding.
+
 
 # Exercise 2: Verify Preconfigured CI-D Components
 In this exercise, you will access the Customer Insights - Data environment connected to your Customer Insights - Journeys app and verify that the required data and configuration are available for the workshop.
@@ -106,6 +108,7 @@ You have successfully accessed Customer Insights - Data and verified that:
 - All required data sources and tables are available
 - Unified customer profiles have been created
 You are now ready to use this data in the upcoming labs.
+
 
 # Exercise 3: Verify Preconfigured CI-J Components
 In this exercise, you will return to the Customer Insights - Journeys app and verify that key components required for the workshop are already configured.
