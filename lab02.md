@@ -126,35 +126,16 @@ In this exercise, you will create a trigger-based journey that starts when the n
 
 **Expected outcome**
 
-You have created and published a trigger-based journey named **ColorCloud Subscription Incentive Journey**. The journey starts when someone submits the ColorCloud newsletter subscription form, sends a confirmation email with a discount code, and tracks progress toward the onboarding goal. The goal is considered achieved when 1000 recipients open the email.
-
-
-# Exercise 4: Test and validate the end-to-end setup
-In this exercise, you will validate that all assets are connected correctly and that the journey is ready for use.
-
-**Step 1. Review published assets**
-- Confirm that the following assets are published or ready to send:
-  - **ColorCloud Newsletter Subscription Form**
-  - **ColorCloud Newsletter Subscription Confirmation with Discount Code**
-  - **ColorCloud Subscription Incentive Journey**
-
-**Step 2. Verify journey logic**
-- Open the live journey and review the trigger and email steps
-- Confirm that the journey starts only from the intended form submission event
-
-**Step 3. Discuss the scenario**
-- Consider where this journey fits in Maya Novak’s experience:
-  - Maya discovers ColorCloud online
-  - She subscribes to receive a discount code
-  - She receives the confirmation email and discount code
-  - This becomes the starting point for her first purchase journey
-
-**Expected outcome**
-
-You have validated the complete subscription incentive setup in CI-J. ColorCloud now has a working trigger-based entry journey for prospective customers who subscribe through the marketing form.
+You have created and published a trigger-based journey named **ColorCloud Subscription Incentive**. The journey starts when someone submits the ColorCloud newsletter subscription form, sends a confirmation email with a discount code, and tracks progress toward the onboarding goal. The goal is considered achieved when 1000 recipients open the email.
 
 
 # Lab Summary
 In this lab, you created the first live interaction in Maya’s ColorCloud journey. You built a subscription form, created a confirmation email with a discount code, and connected both assets through a trigger-based real-time journey in Customer Insights - Journeys.
+
+Consider where this journey fits in Maya Novak’s experience:
+  - Maya discovers ColorCloud online
+  - She subscribes to receive a discount code via **ColorCloud Newsletter Subscription** Form
+  - She receives the **ColorCloud Newsletter Subscription Confirmation with Discount Code** confirmation email and discount code via **ColorCloud Subscription Incentive** Journey
+  - This becomes the starting point for her first purchase journey
 
 You are now ready to continue with the next step of Maya’s experience in [Lab 3: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03.md).
