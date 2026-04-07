@@ -21,30 +21,34 @@ In this exercise, you will create a new marketing form based on the preconfigure
 - In the left navigation, go to Channels > Forms
 
 **Step 2. Create a new form from template**
-- At the top command bar, select **+ New**
+- In the top command bar, select **+ New**
 - In the Form Templates pop up window, under Custom templates, click on **ColorCloud Form Template** and click on Select in the right bottom corner
 
 **Step 3. Enter form details**
 - Name the form **ColorCloud Newsletter Subscription**
 - Review the initial structure that was inherited from the template
 
-**Step 4. Review and update the form fields**
-- Confirm that the form is intended to capture at minimum the subscriber’s email address
-- Review whether the template already contains the required consent-related elements
+**Step 4. Review the form fields and elements**
+- Confirm that the form is intended to capture at minimum the subscriber’s email address, click on the Email field and review the Edit field section on the right side making sure the Required flag is On and under Advanced section, Validation is set to Email
+- Review whether the template already contains the required consent-related elements, click on the consent checkbox field and review the Edit purpose section on the right side, where Compliance profile should be set to ColorCloud Commercial DOI, Purpose set to Commercial, Required flag is On and under Properties section, Update user's consent for both Email and Text is checked
+- Confirm that reCAPTCHA is placed on the form
 
 **Step 5. Review form settings**
-- Open the form settings and verify the correct configuration inherited from the template
-- Confirm that the form uses the preconfigured compliance setup appropriate for commercial communication
-- Confirm that reCAPTCHA is enabled through the default form settings prepared in Lab 1
+- Check that the Audience is set to Contact in the right top corner
+- In the icon menu on the right side from Edit purpose section, click on Form settings (4th icon from the top)
+- Expand the Audience section and check that Choose how to handle duplicate contacts is set to Use a rule to match an existing contact and Select contact matching rule is set to Update contact using email
+- Exapnd the Submission section and check that the Thank you notification refers to Double opt-in email
+- Expand the Consent setion and check that the Double opt-in is Enabled (it should be since the Compliance profile ColorCloud Commercial DOI has been selected for the consent checkbox of the form)
 
 **Step 6. Save and publish the form**
-- Select **Save**
-- Then select **Publish**
+- In the right top corner click on **Save**
+- Then click on **Publish**
 - Wait until the form is published successfully
+- Click on Publish options and create new standalone page (you have the possibility to copy script with which you can embed on your own website, or use standalone page created by Microsoft where the form is hoted, if you finish this lab earlier, you can utilize the standalone page to test the form submission)
 
 **Expected outcome**
 
-You have created and published a form named **ColorCloud Newsletter Subscription Form** based on the ColorCloud Form Template. The form is ready to be used in a trigger-based journey.
+You have created and published a form named **ColorCloud Newsletter Subscription** based on the ColorCloud Form Template. The form is ready to be used in a trigger-based journey.
 
 
 # Exercise 2: Build the subscription confirmation email
@@ -52,39 +56,24 @@ In this exercise, you will create the first marketing email in the ColorCloud sc
 
 **Step 1. Go to Emails**
 - In Customer Insights - Journeys, stay in the Real-time journeys area
-- In the left navigation, go to Assets > Emails
+- In the left navigation, go to Channels > Emails
 
 **Step 2. Create a new email from template**
-- Select **+ New**
-- Choose to create the email from an existing template
-- Select **ColorCloud Email Template**
+- In the top command bar, select **+ New**
+- In the Email Templates pop up window, under Custom templates, click on **ColorCloud Email Template** and click on Select in the right bottom corner
 
 **Step 3. Enter email details**
 - Name the email **ColorCloud Newsletter Subscription Confirmation with Discount Code**
-- Select the appropriate Brand profile for ColorCloud if it is not already prepopulated
 
-**Step 4. Update the subject line**
-- Enter a subject line that reflects the purpose of the message, for example:
-  - **Welcome to ColorCloud - here is your discount code**
+**Step 4. Verify the email details**
+- Confirm that the Brand profile in the right top corner is set to ColorCloud
+- Expand the email header and confirm that the Sender is ColorCloud and that the Subject is Welcome to ColorCloud – here’s your exclusive offer 🎁
+- In the icon menu on the right side, click on Personalize (person with lightning bolt icon) and check that under Dynamic text FirstName is set to Contact > First Name
+- In the icon menu on the right side, click on Settings (mailbox with cog wheel icon), check that Company address is the same as the one you saw in Compliance profile in Lab 1, then expand Compliance section and check that Compliance profile is set to ColorCloud Commercial DOI and that the Purpose is set to Transactional
 
-**Step 5. Build the email content**
-- Update the body of the email so it thanks the recipient for subscribing to the ColorCloud newsletter
-- Add copy that introduces ColorCloud as a connected lifestyle brand
-- Clearly present the discount code for the subscriber’s first purchase
-- Include a short call to action that encourages the recipient to browse ColorCloud products
-- Keep the branded header and footer content inherited from the template
-
-**Step 6. Review compliance and sender settings**
-- Verify that the correct compliance profile is selected for commercial communication
-- Verify the sender details inherited from the Brand profile
-
-**Step 7. Run required checks**
-- Select **Check content**
-- Resolve any issues or warnings that prevent the email from being made ready to send
-
-**Step 8. Make the email ready to send**
-- Once validation passes, select **Ready to send**
-- Wait until the email status updates successfully
+**Step 5. Save and publish the email**
+- Once verified, click on Save in the right top corner and then click on **Ready to send**
+- Wait until the email is published successfully
 
 **Expected outcome**
 
