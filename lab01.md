@@ -151,7 +151,7 @@ In this exercise, you will return to the Customer Insights - Journeys app and ve
 - Go back to Compliance profiles and open ColorCloud Legitimate Interest
 - Open Preference center (allows recipients to unsubscribe from Legitimate interest Purpose communication, that is the only difference opposed to ColorCloud Commercial DOI)
 
-[Consent management overview](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings)
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings) to learn more about Compliance profiles and consent management in CI-J
 
 **Step 8. Verify Audience data**
 - Navigate to Real-time journeys area, Audience section in the left side menu and click on Contacts
@@ -164,7 +164,7 @@ In this exercise, you will return to the Customer Insights - Journeys app and ve
 - Still in the Real-time journeys area, go to Assets section in the left side menu and click on Library
 - Verify that there is 1 font and 2 logo files available
 - Still in the Assets section, click on Content blocks
-- Verify that there are 3 Content block records, Header, Commercial Footer and Transactional Footer
+- Verify that there are 3 Content block records, Header, Commercial Footer and Transactional Footer (footer content blocks include Company address, Preference center (hidden behind Unsubscribe) and Social links (also hidden behind text) dynamic values which are pulled from Compliance profile and Brand profile chosen for the email where these are used)
 - Still in the Assets section, click on Templates > Email > Custom templates
 - Verify that there is ColorCloud Email Template record
 - Still in the Assets section, click on Templates > Form > Custom templates
