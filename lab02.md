@@ -97,6 +97,8 @@ In this exercise, you will create a trigger-based journey that starts when the n
 - Choose **ColorCloud Newsletter Subscription** form under Choose a form - leave empty for all forms
 - Click on Create in the right bottom corner
 
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-trigger-based-journey) to learn more about Trigger-based journeys and Triggers
+
 **Step 6. Add the email**
 - In the journey canvas, add an **Email** tile after the Trigger Marketing Form Submitted by clicking on the plus sign Add an action and choosing Email (Send an email) in the pop up window
 - In the Email section on the right, choose **ColorCloud Newsletter Subscription Confirmation with Discount Code** under Select email
