@@ -86,48 +86,35 @@ In this exercise, you will create a trigger-based journey that starts when the n
 
 **Step 1. Go to Journeys**
 - In Customer Insights - Journeys, stay in the Real-time journeys area
-- In the left navigation, go to Journeys
+- In the left navigation, go to Engagement > Journeys
 
 **Step 2. Create a new trigger-based journey**
-- Select **+ New journey**
-- Choose **Trigger-based journey**
-
-**Step 3. Enter journey details**
-- Name the journey **ColorCloud Subscription Incentive Journey**
-- Confirm that the journey type is trigger-based
-
-**Step 4. Select the trigger**
-- For the journey trigger, select **Marketing form submitted**
-- Continue to the journey designer
-
-**Step 5. Add the form condition**
-- In the trigger configuration, specify that the journey should only start when the submitted form is the **ColorCloud Newsletter Subscription Form**
-- This ensures the journey reacts only to the subscription form created in Exercise 1
+- In the top command bar, select **+ New journey**
+- In the Create new journey pop up window click on Skip and create from blank in the right bottom corner
+- Name the journey **ColorCloud Subscription Incentive**
+- Choose **Trigger-based**
+- Choose Marketing Form Submitted trigger by starting to type in the Choose a trigger field
+- Choose **ColorCloud Newsletter Subscription** form under Choose a form - leave empty for all forms
+- Click on Create in the right bottom corner
 
 **Step 6. Add the email**
-- In the journey canvas, add an **Email** tile after the trigger
-- Select **ColorCloud Newsletter Subscription Confirmation with Discount Code** as the email to send
+- In the journey canvas, add an **Email** tile after the Trigger Marketing Form Submitted by clicking on the plus sign Add an action and choosing Email (Send an email) in the pop up window
+- In the Email section on the right, choose **ColorCloud Newsletter Subscription Confirmation with Discount Code** under Select email
+- Click on Save in the right top corner
 
-**Step 7. Configure the journey goal**
-- Open the goal settings for the journey
-- Set the business goal to **Onboard new customers**
-- Configure the goal success condition so that the goal is reached when **1000 recipients open the email**
+**Step 7. Configure the journey entry and goal**
+- In the icon menu on the right side from the Email section click on Entry (arrow pointing to the right icon), set Repeat to Never and under Schedule section choose the right Time zone and Start
+- In the icon menu on the right side from the Entry section click on Goal (bull's eye icon), select Onboard new people goal from The goal of this journey is option set
+- Choose Email Opened for This goal is met when, under The number of people needed is enter 1000 and select # (Number of customers to meet the goal) instead of the % (Percent of total customers) (this is just an illustrative example for the workshop purposes)
+- Click on Save in the right top corner
 
-**Step 8. Review the journey**
-- Confirm the journey includes:
-  - A **Marketing form submitted** trigger
-  - A condition limited to **ColorCloud Newsletter Subscription Form**
-  - The email **ColorCloud Newsletter Subscription Confirmation with Discount Code**
-  - A goal for onboarding new customers
-  - A goal success condition based on **1000 email opens**
-
-**Step 9. Publish the journey**
-- Select **Go live**
+**Step 8. Publish the journey**
+- Click on **Publish** in the right top corner
 - Wait until the journey is published successfully
 
 **Expected outcome**
 
-You have created and published a trigger-based journey named **ColorCloud Subscription Incentive**. The journey starts when someone submits the ColorCloud newsletter subscription form, sends a confirmation email with a discount code, and tracks progress toward the onboarding goal. The goal is considered achieved when 1000 recipients open the email.
+You have created and published a trigger-based journey named **ColorCloud Subscription Incentive**. The journey starts when someone submits the ColorCloud newsletter subscription form (and verified their email address via Double opt-in email), sends a confirmation email with a discount code, and tracks progress toward the onboarding goal. The goal is considered achieved when 1000 recipients open the email.
 
 
 # Lab Summary
@@ -136,7 +123,7 @@ In this lab, you created the first live interaction in Maya’s ColorCloud journ
 Consider where this journey fits in Maya Novak’s experience:
   - Maya discovers ColorCloud online
   - She subscribes to receive a discount code via **ColorCloud Newsletter Subscription** Form
-  - She receives the **ColorCloud Newsletter Subscription Confirmation with Discount Code** confirmation email and discount code via **ColorCloud Subscription Incentive** Journey
+  - She receives the **ColorCloud Newsletter Subscription Confirmation with Discount Code** confirmation email and discount code via **ColorCloud Subscription Incentive** journey
   - This becomes the starting point for her first purchase journey
 
 You are now ready to continue with the next step of Maya’s experience in [Lab 3: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03.md).
