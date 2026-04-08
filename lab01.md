@@ -101,6 +101,8 @@ In this exercise, you will access the Customer Insights - Data environment conne
 - Navigate to Customers
 - Confirm that you can see unified customer profile records (cards)
 
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/overview) to learn more about [Data sources](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-sources), [Tables](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/tables), [Unification](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification) and [Customer profiles](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/customer-profiles)
+
 **Expected outcome**
 
 You have successfully accessed Customer Insights - Data and verified that:
