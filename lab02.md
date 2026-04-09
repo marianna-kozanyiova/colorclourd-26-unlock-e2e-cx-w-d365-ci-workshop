@@ -25,7 +25,7 @@ In this exercise, you will create a new marketing form based on the preconfigure
 - In the Form Templates pop up window, under Custom templates, click on **ColorCloud Form Template** and click on Select in the right bottom corner
 
 **Step 3. Enter form details**
-- Name the form **ColorCloud Newsletter Subscription**
+- Use your user ID as a prefix when naming the form, **{{Your user ID}} ColorCloud Newsletter Subscription**, so if your user is colorcloud**01**@andrasfordos.onmicrosoft.com, then you name your form **01** ColorCloud Newsletter Subscription (this is crucial for being able to identify records you've created within the environment since there are several users working in the same environment)
 - Review the initial structure that was inherited from the template
 
 **Step 4. Review the form fields and elements**
@@ -48,7 +48,7 @@ In this exercise, you will create a new marketing form based on the preconfigure
 
 **Expected outcome**
 
-You have created and published a form named **ColorCloud Newsletter Subscription** based on the ColorCloud Form Template. The form is ready to be used in a trigger-based journey.
+You have created and published a form named **{{Your user ID}} ColorCloud Newsletter Subscription** based on the ColorCloud Form Template. The form is ready to be used in a trigger-based journey.
 
 
 # Exercise 2: Build the subscription confirmation email
@@ -63,7 +63,7 @@ In this exercise, you will create the first marketing email in the ColorCloud sc
 - In the Email Templates pop up window, under Custom templates, click on **ColorCloud Email Template** and click on Select in the right bottom corner
 
 **Step 3. Enter email details**
-- Name the email **ColorCloud Newsletter Subscription Confirmation with Discount Code**
+- Use your user ID as a prefix when naming the email, **{{Your user ID}} ColorCloud Newsletter Subscription Confirmation with Discount Code**, so if your user is colorcloud**01**@andrasfordos.onmicrosoft.com, then you name your email **01** ColorCloud Newsletter Subscription Confirmation with Discount Code Name
 
 **Step 4. Verify the email details**
 - Confirm that the Brand profile in the right top corner is set to ColorCloud
@@ -78,7 +78,7 @@ In this exercise, you will create the first marketing email in the ColorCloud sc
 
 **Expected outcome**
 
-You have created an email named **ColorCloud Newsletter Subscription Confirmation with Discount Code** and made it ready to send. The email is ready to be used in a real-time journey.
+You have created an email named **{{Your user ID}} ColorCloud Newsletter Subscription Confirmation with Discount Code** and made it ready to send. The email is ready to be used in a real-time journey.
 
 
 # Exercise 3: Build the trigger-based subscription incentive journey
@@ -91,17 +91,17 @@ In this exercise, you will create a trigger-based journey that starts when the n
 **Step 2. Create a new trigger-based journey**
 - In the top command bar, select **+ New journey**
 - In the Create new journey pop up window click on Skip and create from blank in the right bottom corner
-- Name the journey **ColorCloud Subscription Incentive**
+- Use your user ID as a prefix when naming the journey, **{{Your user ID}} ColorCloud Subscription Incentive**, so if your user is colorcloud**01**@andrasfordos.onmicrosoft.com, then you name your journey **01** ColorCloud Subscription Incentive
 - Choose **Trigger-based**
 - Choose Marketing Form Submitted trigger by starting to type in the Choose a trigger field
-- Choose **ColorCloud Newsletter Subscription** form under Choose a form - leave empty for all forms
+- Choose **{{Your user ID}} ColorCloud Newsletter Subscription** form under Choose a form - leave empty for all forms
 - Click on Create in the right bottom corner
 
 Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-trigger-based-journey) to learn more about Trigger-based journeys and Triggers
 
 **Step 6. Add the email**
 - In the journey canvas, add an **Email** tile after the Trigger Marketing Form Submitted by clicking on the plus sign Add an action and choosing Email (Send an email) in the pop up window
-- In the Email section on the right, choose **ColorCloud Newsletter Subscription Confirmation with Discount Code** under Select email
+- In the Email section on the right, choose **{{Your user ID}} ColorCloud Newsletter Subscription Confirmation with Discount Code** under Select email
 - Click on Save in the right top corner
 
 **Step 7. Configure the journey entry and goal**
@@ -116,7 +116,7 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 
 **Expected outcome**
 
-You have created and published a trigger-based journey named **ColorCloud Subscription Incentive**. The journey starts when someone submits the ColorCloud newsletter subscription form (and verified their email address via Double opt-in email), sends a confirmation email with a discount code, and tracks progress toward the onboarding goal. The goal is considered achieved when 1000 recipients open the email.
+You have created and published a trigger-based journey named **{{Your user ID}} ColorCloud Subscription Incentive**. The journey starts when someone submits the ColorCloud newsletter subscription form (and verified their email address via Double opt-in email), sends a confirmation email with a discount code, and tracks progress toward the onboarding goal. The goal is considered achieved when 1000 recipients open the email.
 
 
 # Lab Summary
@@ -124,8 +124,8 @@ In this lab, you created the first live interaction in Maya’s ColorCloud journ
 
 Consider where this journey fits in Maya Novak’s experience:
   - Maya discovers ColorCloud online
-  - She subscribes to receive a discount code via **ColorCloud Newsletter Subscription** Form
-  - She receives the **ColorCloud Newsletter Subscription Confirmation with Discount Code** confirmation email and discount code via **ColorCloud Subscription Incentive** journey
+  - She subscribes to receive a discount code via **{{Your user ID}} ColorCloud Newsletter Subscription** Form
+  - She receives the **{{Your user ID}} ColorCloud Newsletter Subscription Confirmation with Discount Code** confirmation email and discount code via **{{Your user ID}} ColorCloud Subscription Incentive** journey
   - This becomes the starting point for her first purchase journey
 
 You are now ready to continue with the next step of Maya’s experience in [Lab 3: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03.md).
