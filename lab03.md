@@ -2,77 +2,69 @@
 
 # Lab Overview
 ## Introduction
-In this lab, you will continue Maya Novak’s ColorCloud experience after her first purchase. You will begin in Dynamics 365 Customer Insights - Data (CI-D), where you will create two segments that identify customers whose ColorCloud Aura product has been shipped and customers who already use the ColorCloud mobile app. You will then switch to Dynamics 365 Customer Insights - Journeys (CI-J), where you will prepare the required email and text message assets and build a segment-based journey for post-purchase onboarding and upsell.
+In this lab, you will continue Maya Novak’s ColorCloud experience after her first purchase. You will begin in CI-D, where you will create two segments that identify customers whose ColorCloud Aura product has been shipped and customers who already use the ColorCloud mobile app. You will then switch to CI-J, where you will prepare the required email and text message assets and build a segment-based journey for post-purchase onboarding and upsell.
 
-This journey is designed to support customers after purchase in a more personalized way. Customers whose product has been shipped will first receive an onboarding email which will include an inline condition for Download app section to be dsiplayed if the customer is not an app user yet. The journey will test two subject line variants of this email through an A/B test. It will then branch based on whether the customer clicked the **Download the app** link in the onboarding email or not. Customers who clicked the link will continue into channel optimization for accessory upsell, while customers who did not click the link will be branched out further based being app user or not to receive relevant text message reminder.
+This journey is designed to support customers after purchase in a more personalized way. Customers whose product has been shipped will first receive an onboarding email which will include an inline condition for Download app section to be dsiplayed if the customer is not an app user yet. The journey will test two subject line variants of this email through an A/B test. It will then branch based on whether the customer clicked the **Download the app** link in the onboarding email or not. Customers who clicked the link will continue into channel optimization for accessory upsell, while customers who did not click the link will be branched out further based on being an app user or not to receive relevant text message reminder.
 
 ## Objectives
 By the end of this lab, you will be able to:
-- Create CI-D segments for shipped ColorCloud Aura customers and mobile app users
-- Update and publish an onboarding email in CI-J
-- Create a new onboarding text message in CI-J
-- Verify preconfigured email and text message assets that will be reused in the journey
-- Build a segment-based journey with an A/B test
-- Add branching logic based on a link click
-- Use channel optimization and text messaging within the same journey
+- Create CI-D segments for CI-J journeys
+- Update an email with personalization and inline conditions
+- Create a text message
+- Build a segment-based cross-channel journey with an A/B test, branching logic and channel optimization
 
 
-# Exercise 1: Build onboarding segments in Customer Insights - Data
-In this exercise, you will work in Customer Insights - Data to create the audience segments needed for the post-purchase onboarding and upsell journey.
+# Exercise 1: Build the CI-D segments
+In this exercise, you will work in CI-D to create the customer segments needed for the post-purchase onboarding and upsell journey.
 
 **Step 1. Open Customer Insights - Data**
-- Open the Customer Insights - Data environment you verified in Lab 1
-- In the left navigation, go to **Segments**
+- Open the CI-D environment you verified in Lab 1
+- In the left navigation, go to Insights > **Segments**
 
-**Step 2. Create the ProductShippedAura segment**
-- Select **+ New segment**
-- Create a new segment named **ProductShippedAura**
-- Enter a description that clearly explains the purpose of the segment, for example:
-  - **Customers whose ColorCloud Aura product has been shipped and who should enter the onboarding journey**
-- Add the following tags:
-  - **Aura**
-  - **Onboarding**
-
-**Step 3. Define the ProductShippedAura logic**
-- Build the segment so it identifies customers associated with shipped ColorCloud Aura products
-- Use the available customer, transaction, order, shipment, or product-related data in your CI-D environment to isolate customers whose purchased product is **ColorCloud Aura** and whose order or shipment status indicates that the product has been shipped
-- Review the segment logic and confirm that it represents the intended post-purchase onboarding audience
-
-**Step 4. Save and refresh the ProductShippedAura segment**
-- Select **Save**
-- Run or refresh the segment so it starts processing
-- Wait until the segment reaches a successful status
-
-**Expected outcome**
-
-You have created a CI-D segment named **ProductShippedAura** with a description and the tags **Aura** and **Onboarding**. The segment identifies customers whose ColorCloud Aura product has been shipped.
-
-
-**Step 5. Create the AllAppUsers segment**
-- Still in **Segments**, select **+ New segment**
-- Create a new segment named **AllAppUsers**
-- Enter a description that clearly explains the purpose of the segment, for example:
-  - **Customers who already use the ColorCloud mobile app**
+**Step 2. Create the AllAppUsers segment**
+- At the top command bar, click on **+ New** > Build your own
+- Click on Edit details next to Untitled segment
+- Use your user ID as a prefix when naming the form, **{{Your user ID}}AllAppUsers**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your form **01**AllAppUsers
+- Enter a description that clearly explains the purpose of the segment, for example: Customers who are using ColorCloud app
 - Add the following tag:
-  - **App**
+  - App
+- Click on Done in the right bottom corner
+- In the right navigation, Attributes tab, expand Telemetry : IotHUB section, select username which will be added to the segment logic builder canvas, change the is logical operator to is not and the equal to logical operator to empty
+- At the top of the logic Rule 1 block click on Set relationship path and choose IotHUB_Telemetry > ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer path, click on Done
+- At the bottom right corner click on Save, then at the bottom left corner click on Run
 
-**Step 6. Define the AllAppUsers logic**
-- Build the segment so it identifies customers who are already app users
-- Use the available app, registration, telemetry, or product activation data in your CI-D environment to isolate customers who have already used or registered in the ColorCloud app
-- Review the segment logic and confirm that it represents the intended app-user audience
+**Step 3. Create the ProductShippedAura segment**
+- Back in the Segments overview, at the top command bar, click on **+ New** > Build your own
+- Click on Edit details next to Untitled segment
+- Use your user ID as a prefix when naming the form, **{{Your user ID}}ProductShippedAura**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your form **01**ProductShippedAura
+- Enter a description that clearly explains the purpose of the segment, for example: Customers whose ColorCloud Aura product has been shipped in the past 30 days
+- Add the following tags:
+  - Aura
+  - Onboarding
+- Click on Done in the right bottom corner
+- In the right navigation, Attributes tab, expand Product : ERP section, select category which will be added to the segment logic builder canvas, enter Device after equal to and check Ignore case (Hint: you can always check Data > Tables in case you are unsure about which attributes are available from which data sources)
+- In the right navigation, Attributes tab, expand Product : ERP section, select name > Add item to > Existing rule > Rule 1 which will be added to the segment logic builder canvas, change the is logical operator to contains, enter Aura after contains and check Ignore case
+- In the right navigation, Attributes tab, expand Transactionas : eCommerce section, select Status > Add item to > Existing rule > Rule 1 which will be added to the segment logic builder canvas, enter Shipped after equal to and check Ignore case
+- In the right navigation, Attributes tab, expand Transactionas : eCommerce section, select ShippedDate > Add item to > Existing rule > Rule 1 which will be added to the segment logic builder canvas, change the specific date logical operator to within last, enter 30 after within last
+- At the top of the logic Rule 1 block click on Set relationship path and choose ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer path, click on Done
+- At the bottom right corner click on Save, then at the bottom left corner click on Run
 
-**Step 7. Save and refresh the AllAppUsers segment**
-- Select **Save**
-- Run or refresh the segment so it starts processing
-- Wait until the segment reaches a successful status
+**Step 4. Verify the Status of AllAppUsers and ProductShippedAura segments**
+- Back in the Segments overview, make sure that both of your segments have Status Queued or Refreshing or Successful; if successful, verify that you see number of Members for each segment (when you click on a segment you will be able to see Segment members preview at the bottom showing you a preview of Customer profiles that fulfill the segment conditions and are therefore, included)
+
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/segment-builder-aspects) to learn more about Segments in CI-D
+
+**Step 5. Check CI-D segments availability in CI-J**
+- Open the CI-J environment you verified in Lab 1 and used in Lab 2
+- In the CI-J app, under Real-time journeys area, Audience section in the left side navigation, click on Segments and verify that you see your Segments under the All Segments view where the Source is Customer Insights - Data
 
 **Expected outcome**
 
-You have created a CI-D segment named **AllAppUsers** with a description and the tag **App**. The segment identifies customers who already use the ColorCloud mobile app.
+You have created CI-D segments named **{{Your user ID}}ProductShippedAura** of customers whose ColorCloud Aura product has been shipped and **{{Your user ID}}AllAppUsers** of customers who already use the ColorCloud app as well as verified that the segments are available in CI-J.
 
 
-# Exercise 2: Update the onboarding email in Customer Insights - Journeys
-In this exercise, you will switch to Customer Insights - Journeys and update the main onboarding email that will be used in the journey A/B test.
+# Exercise 2: Finalize the CI-J Email and Text messages
+In this exercise, you will continue in CI-J to finalize the email and text messages for the onboarding & upsell journey.
 
 **Step 1. Go to Emails**
 - In Customer Insights - Journeys, make sure you are in the Real-time journeys area
