@@ -155,14 +155,20 @@ In this exercise, you will return to the Customer Insights - Journeys app and ve
 
 Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings) to learn more about Compliance profiles and consent management in CI-J
 
-**Step 8. Verify Audience data**
+**Step 8. Verify Audience configuration**
+- Staying in Customer engagement section and click on Audience configuration (defines which email address and phone number from the recipient Contact or Customer profile record is the communication sent to)
+- Verify that for Data source contact, Contact point type Email, Recipient field is set to emailaddress1
+- Verify that for Data source msdynci_customerprofile, Contact point type Email, Recipient field ise set to msdynci_emailaddress1
+- Verify that for Data source msdynci_customerprofile, Contact point type Text Message, Recipient field ise set to msdynci_mobilephone
+
+**Step 9. Verify Audience data**
 - Navigate to Real-time journeys area, Audience section in the left side menu and click on Contacts
 - Change the My Active Contacts view to All Contacts
 - Verify that Contact records are available, these are also the records ingested into yoru CI-D environment via Dataverse connection
 - In the Audience section in the left side menu click on Consent center
 - Verify that Contact Point Consent records are available with different channels (Text Message and Email), Purposes (Commercial and Legitimate interest) and Consent statuses (Opted In and Opted out), these records are checked by the system prior to send out communication (Email or Text message) with specific Purpose to the recipients
 
-**Step 9. Verify Assets & Templates**
+**Step 10. Verify Assets & Templates**
 - Still in the Real-time journeys area, go to Assets section in the left side menu and click on Library
 - Verify that there is 1 font and 2 logo files available
 - Still in the Assets section, click on Content blocks
@@ -181,6 +187,7 @@ You have successfully verified that all required Customer Insights - Journeys co
 - Form settings
 - SMS provider
 - Compliance profiles
+- Audience configuration
 - Audience data and consent records
 - Marketing assets (files, content blocks, templates)
 
