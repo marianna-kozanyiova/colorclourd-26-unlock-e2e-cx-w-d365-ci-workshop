@@ -31,7 +31,7 @@ In this exercise, you will work in CI-D to create the customer segments needed f
 - Click on Done in the right bottom corner
 - In the right navigation, Attributes tab, expand Telemetry : IotHUB section, select username which will be added to the segment logic builder canvas, change the is logical operator to is not and the equal to logical operator to empty
 - At the top of the logic Rule 1 block click on Set relationship path and choose IotHUB_Telemetry > ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer path, click on Done
-- At the bottom right corner click on Save, then at the bottom left corner click on Run (in case you get a warning about Segment table being Inactive, activate / run anyway)
+- At the bottom right corner click on Save, then at the bottom left corner click on Run (in case you get a warning about Segment table being Inactive, click on Continue running)
 
 **Step 3. Create the ProductShippedAura segment**
 - Back in the Segments overview, at the top command bar, click on **+ New** > Build your own
