@@ -2,7 +2,7 @@
 
 # Lab Overview
 ## Introduction
-In this lab, you will work in Dynamics 365 Customer Insights - Journeys (CI-J) to build the first step in Maya Novak’s experience with ColorCloud. You will create a marketing form from the preconfigured ColorCloud Form Template, build a confirmation email from the ColorCloud Email Template, and then orchestrate a trigger-based journey that starts when the marketing form is submitted.
+In this lab, you will work in CI-J to build the first step in Maya Novak’s experience with ColorCloud. You will create a marketing form from the preconfigured ColorCloud Form Template, build a confirmation email from the ColorCloud Email Template, and then orchestrate a trigger-based journey that starts when the marketing form is submitted.
 
 This journey represents the moment when a prospective customer subscribes to the ColorCloud newsletter to receive a discount code for their first purchase. The goal of the journey is to onboard new customers and measure early engagement with the subscription confirmation email.
 
@@ -17,7 +17,7 @@ By the end of this lab, you will be able to:
 In this exercise, you will create a new marketing form based on the preconfigured ColorCloud Form Template. This form will be used to capture newsletter subscription requests from prospective customers who want to receive a discount code.
 
 **Step 1. Go to Forms**
-- In Customer Insights - Journeys, make sure you are in the Real-time journeys area
+- In CI-J, make sure you are in the Real-time journeys area
 - In the left navigation, go to Channels > Forms
 
 **Step 2. Create a new form from template**
@@ -120,7 +120,7 @@ You have created and published a trigger-based journey named **{{Your user ID}} 
 
 
 # Lab Summary
-In this lab, you created the first live interaction in Maya’s ColorCloud journey. You built a subscription form, created a confirmation email with a discount code, and connected both assets through a trigger-based real-time journey in Customer Insights - Journeys.
+In this lab, you created the first live interaction in Maya’s ColorCloud journey. You built a subscription form, created a confirmation email with a discount code, and connected both assets through a trigger-based real-time journey in CI-J.
 
 Consider where this journey fits in Maya Novak’s experience:
   - Maya discovers ColorCloud online
