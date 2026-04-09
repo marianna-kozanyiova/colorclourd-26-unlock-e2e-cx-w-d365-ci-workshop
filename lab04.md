@@ -65,7 +65,7 @@ In this exercise, you will work in CI-J to update the text message that will be 
 - In CI-J, make sure you are in the Real-time journeys area
 - In the left navigation, go to **Channels > Text messages**
 - Open the ColorCloud Aura CES that is a Draft state, click on drop-down next to Save in the right top corner and select Save as
-- Add your user ID prefix to the Name and delete Copy from the end of the name, naming the text message {{Your user ID}} ColorCloud Aura CES, then click on Save in the right top corner
+- Add your user ID prefix to the Name and delete Copy from the end of the name, naming the text message **{{Your user ID}} ColorCloud Aura CES**, then click on Save in the right top corner
 - In the Message window place your cursor after Share it here: text and click on the Customer Voice icon at the bottom of the Message field > select ColorCloud Aura CES > Save
 - Verify that the Compliance profile has been set to ColorCloud Legitimate interest and Purpose to Legitimate interest (referencing back to Lab 1, some local legislations allow asking for a feedback based on legitimate interest legal basis where customers don't have to be opted in to receive the message, but have to have the opportunity to opt out from that line of communication)
 - In the right top corner click on Save, once saved, click on Ready to send
