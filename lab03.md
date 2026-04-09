@@ -31,7 +31,7 @@ In this exercise, you will work in CI-D to create the customer segments needed f
 - Click on Done in the right bottom corner
 - In the right navigation, Attributes tab, expand Telemetry : IotHUB section, select username which will be added to the segment logic builder canvas, change the is logical operator to is not and the equal to logical operator to empty
 - At the top of the logic Rule 1 block click on Set relationship path and choose IotHUB_Telemetry > ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer path, click on Done
-- At the bottom right corner click on Save, then at the bottom left corner click on Run
+- At the bottom right corner click on Save, then at the bottom left corner click on Run (in case you get a warning about Segment table being Inactive, activate / run anyway)
 
 **Step 3. Create the ProductShippedAura segment**
 - Back in the Segments overview, at the top command bar, click on **+ New** > Build your own
@@ -85,7 +85,7 @@ In this exercise, you will continue in CI-J to finalize the email and text messa
 - In CI-J, make sure you are in the Real-time journeys area
 - In the left navigation, go to **Channels > Text messages**
 - In the top command bar click on **+ New**
-- Name the Text message **{{Your user ID}}** ColorCloud Aura On Its Way using your user ID prefix same as for the form, emails, journeys and segments elements in the previous labs, exercises and steps
+- Name the Text message **{{Your user ID}} ColorCloud Aura On Its Way** using your user ID prefix same as for the form, emails, journeys and segments elements in the previous labs, exercises and steps
 - Choose +15074835080 as Text message sender
 - Enter Hi , your ColorCloud Aura 🌈 is on its way 🚚! 📲 Download the app to get started: https://colorcloud.rocks/ Unsubscribe: under Message, then place your cursor right before the comma > Personalization icon > + New dynamic text > Choose an attribute > Audience > CustomerProfile > firstname > Save, {{firstname}} should be added right before the comma, then place your cursor after Unsubscribe:  > Personalization icon > + New dynamic text > Choose an attribute > Compliance > Preference center > Save, {{Preferencecenter}} should be added after Unsubscribe
 - Choose ColorCloud Commercial DOI Compliance profile and Commercial Purpose
@@ -103,29 +103,23 @@ You have finalized **{{Your user ID}} ColorCloud Aura On Its Way Version A** ema
 # Exercise 3: Build the segment-based post-purchase onboarding and upsell journey
 In this exercise, you will create the main segment-based journey that orchestrates onboarding and upsell after Maya’s purchase.
 
-**Step 1. Go to Journeys**
-- In Customer Insights - Journeys, stay in the Real-time journeys area
+**Step 1. Create a new segment-based journey**
+- In CI-J, stay in the Real-time journeys area
 - In the left navigation, go to **Journeys**
+- In the top command bar select **+ New journey**, in pop up window click on Skip and create from blank in the right bottom corner
+- Name the Journey **{{Your user ID}} ColorCloud Aura Onboarding & Accessory Upsell** using your user ID prefix same as for the rets of the elements you were creating
+- Choose Segment-based, choose **{{Your user ID}}ProductShippedAura** under Select segments, choose A one-time journey where newly added audience members can start any time under Select the frequency, set the right Time zone and Start, then click on Create in the right bottom corner
 
-**Step 2. Create a new segment-based journey**
-- Select **+ New journey**
-- Choose to create the journey from blank
-- Select **Segment-based** as the journey type
-- Name the journey **ColorCloud Post-Purchase Onboarding & Upsell Journey**
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-segment-based-journey?source=recommendations) to learn more about Segment-based journeys
 
-**Step 3. Select the entry audience**
-- For the journey audience, select the CI-D segment **ProductShippedAura**
-- Review the audience configuration and confirm that the journey targets customers whose ColorCloud Aura product has been shipped
+**Step 2. Add A/B test for onboarding email**
+- In the journey canvas, click on plus sign, under AI powered actions click on A/B test (Text messages or channels against each other), Version A should be Email and Version B should be Email, click on Create test
+- Set up the A/B test under the A/B test section on the right side
+    - Under Versions, select **{{Your user ID}} ColorCloud Aura On Its Way Version A** for Version A and **{{Your user ID}} ColorCloud Aura On Its Way Version B** for Version B (if you get thrown out of the A/B test section, you can always go back by click on the A/B test tile in the journey canvas and you can also choose the emails by clickong on the respective email tiles in the journey canvas)
+    - Under Test completion, Winning metric select Open rate
+    - Keep the rest of the settings as is, if you want to learn more about A/B test, you can check the [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-ab-tests-in-marketing-journeys) as there are some recommendations on the audience size in order for the test to run smoothly
 
-**Step 4. Add the A/B test for the onboarding email**
-- In the journey canvas, add an **A/B test** step after the audience entry
-- Configure the A/B test to compare two email subject line variants using the two onboarding emails:
-  - **ColorCloud Aura On Its Way Version A**
-  - **ColorCloud Aura On Its Way Version B**
-- Configure the split and winner settings according to the workshop guidance or default settings available in the environment
-- Confirm that the A/B test is intended to evaluate subject line personalization performance
-
-**Step 5. Add branching based on the “Download the app” link click**
+**Step 3. Add branching based on the “Download the app” link click**
 - After the onboarding email path, add a condition or branch based on customer interaction
 - Configure the condition so the journey checks whether the recipient clicked the **Download the app** link in the onboarding email
 - Create two branches:
