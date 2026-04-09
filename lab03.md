@@ -115,52 +115,43 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 **Step 2. Add A/B test for onboarding email**
 - In the journey canvas, click on plus sign, under AI powered actions click on A/B test (Text messages or channels against each other), Version A should be Email and Version B should be Email, click on Create test
 - Set up the A/B test under the A/B test section on the right side
-    - Under Versions, select **{{Your user ID}} ColorCloud Aura On Its Way Version A** for Version A and **{{Your user ID}} ColorCloud Aura On Its Way Version B** for Version B (if you get thrown out of the A/B test section, you can always go back by click on the A/B test tile in the journey canvas and you can also choose the emails by clickong on the respective email tiles in the journey canvas)
+    - Under Versions, select **{{Your user ID}} ColorCloud Aura On Its Way Version A** for Version A and ColorCloud Aura On Its Way Version B for Version B (if you get thrown out of the A/B test section, you can always go back by click on the A/B test tile in the journey canvas and you can also choose the emails by clickong on the respective email tiles in the journey canvas)
     - Under Test completion, Winning metric select Open rate
     - Keep the rest of the settings as is, if you want to learn more about A/B test, you can check the [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-ab-tests-in-marketing-journeys) as there are some recommendations on the audience size in order for the test to run smoothly
 
 **Step 3. Add branching based on the “Download the app” link click**
-- After the onboarding email path, add a condition or branch based on customer interaction
-- Configure the condition so the journey checks whether the recipient clicked the **Download the app** link in the onboarding email
-- Create two branches:
-  - **Clicked**
-  - **Did not click**
+- After the A/B test path, click on the plus sign Add an action in the journey canvas, under Conditions, add Wait for trigger (Response to an audience action or update)
+- Set up the branch under the If/then branch section on the right side
+    - Select Previous message gets an interaction for Choose a branch condition type
+    - Under both Versions A and B, Select trigger Email Link Clicked and choose download-colorcloud-app-for-iosor-android link
+    - Under Time limit set 7 days
 
-**Step 6. Configure the clicked branch with channel optimization**
-- On the **Clicked** branch, add a **Channel optimization** step
-- Configure the step according to the options available in your environment so the journey can continue through the optimized channel path for engaged recipients
-- Review the setup and confirm this branch is intended for customers who showed interest in app onboarding
+**Step 6. Set up Email Link Clicked No path of the journey**
+- After the If/then branch, click on the plus sign Add an action on the No path, under Conditions, add Attribute branch (Branch based on specific value)
+- Enter AllAppUsers as Dsiplay name
+- Under Branches click on Branch 1 If Add conditions > Marke condition on segment membership > Is in segment > **{{Your user ID}}AllAppUsers**
+- In the journey canvas under Branch 1, click on the plus sign Add an action, under Messages, add Text message (Send a text message (SMS)), choose ColorCloud Aura On Its Way App Users text message (this message only informs the customers who are already using the app that the product was shipped)
+- In the journey canvas under Other, click on the plus sign Add an action, under Messages, add Text message (Send a text message (SMS)), choose **{{Your user ID}} ColorCloud Aura On Its Way** text message (this message informs the customers who are not app users yet that the product was shipped and prompts them to download the app)
 
-**Step 7. Configure the non-clicked branch with a text message**
-- On the **Did not click** branch, add a **Text message** step
-- Select **ColorCloud Aura On Its Way**
-- Confirm that this branch provides a follow-up reminder for customers who did not engage with the app download call to action in the email
+**Step 7. Set up Email Link Clicked Yes path of the journey incl. AI channel optimization**
+- After the If/then branch, click on the plus sign Add an action on the Yes path, under AI powered actions, add Channel optimization (Use AI to select the best channel for each person)
+- Choose Email and Text message, click on Optimize
+- Under the Channel optimization section on the right side, set up Journey goal > select Send a general notification under The goal of this journey is > select A person clicked on at least one link under This goal is met when > under The number of people needed is enter 1000 and select # (Number of customers to meet the goal) instead of the % (Percent of total customers)
+- In the journey canvas click on the Channel optimization tile, scroll down to Default channel and select Email
+- In the journey canvas click on the Email tile under Channel optimization and choose ColorCloud Aura Accessories email
+- In the journey canvas click on the Text message tile under Channel optimization and choose ColorCloud Aura Accessories text message
 
-**Step 8. Add the upsell follow-up assets**
-- Continue the journey design using the preconfigured upsell assets where appropriate
-- Use **ColorCloud Aura Accessories** email and/or **ColorCloud Aura Accessories** text message according to the workshop design so the journey supports a relevant accessory upsell after onboarding
-- Review the overall flow and confirm it combines onboarding and upsell touchpoints in a single post-purchase experience
-
-**Step 9. Review the journey logic**
-- Confirm that the journey includes:
-  - Entry audience based on **ProductShippedAura**
-  - An A/B test using **ColorCloud Aura On Its Way Version A** and **ColorCloud Aura On Its Way Version B**
-  - A branch based on whether the **Download the app** link was clicked
-  - A **Channel optimization** path for recipients who clicked
-  - A **ColorCloud Aura On Its Way** text message for recipients who did not click
-  - The reuse of prebuilt accessory upsell content
-
-**Step 10. Publish the journey**
-- Select **Go live** or **Publish**
-- Wait until the journey is live
+**Step 8. Save & publish the journey**
+- In the right top corner click on Save, once saved, click on Publish
+- Wait until the journey is Live
 
 **Expected outcome**
 
-You have created and published **ColorCloud Post-Purchase Onboarding & Upsell Journey**. The journey starts from the **ProductShippedAura** segment, tests two onboarding email variants, branches on the **Download the app** link click, uses channel optimization for engaged customers, sends a text message reminder to non-clickers, and supports follow-up accessory upsell communication.
+You have created and published **{{Your user ID}} ColorCloud Aura Onboarding & Accessory Upsell**. The journey starts from the **{{Your user ID}}ProductShippedAura** segment, tests two onboarding email variants, branches on the **Download the app** link click, uses channel optimization for engaged customers to drive accessory upsell and sends a text message reminder to non-clickers depending on their **{{Your user ID}}AllAppUsers** segment membership.
 
 
 # Lab Summary
-In this lab, you extended Maya Novak’s ColorCloud journey beyond the first purchase. You created two CI-D segments to identify shipped-product customers and app users, updated the onboarding email with personalization and conditional content, prepared SMS assets, and built a segment-based real-time journey in CI-J.
+In this lab, you extended Maya Novak’s ColorCloud journey beyond the first purchase. You created two CI-D segments to identify shipped-product customers and app users, updated the onboarding email with personalization and conditional content, prepared email and SMS assets, and built a segment-based journey in CI-J.
 
 Consider where this journey fits in Maya Novak’s experience:
 - Maya has already subscribed and completed her first purchase
@@ -170,4 +161,4 @@ Consider where this journey fits in Maya Novak’s experience:
 - Her next step depends on whether she clicked the **Download the app** link
 - She can then continue into a more optimized onboarding and upsell experience across email and SMS
 
-You are now ready to continue with the next step of Maya’s experience in **Lab 4: Build Segment-based First Use Feedback Journey**.
+You are now ready to continue with the next step of Maya’s experience in [Lab 4: Build Segment-based First Use Feedback Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab04.md).
