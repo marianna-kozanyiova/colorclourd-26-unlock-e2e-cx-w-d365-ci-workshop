@@ -78,19 +78,22 @@ In this exercise, you will continue in CI-J to finalize the email and text messa
 - In the right top corner click on Save, once saved, click on Ready to send and make sure that your email is moved to Live state
 
 **Step 2. Verify rest of the Emails**
-- Go back to **Channels > Emails**
+- Go back to **Channels > Emails**, open the ColorCloud Aura On Its Way Version B email and check that the Subject is not personalized, this is the Version B of the email you just created, but without personalization
+- Go back to **Channels > Emails**, open the ColorCloud Aura Accessories, this email will be sent to customers who clicked the Download app link from **{{Your user ID}} ColorCloud Aura On Its Way Version A** email you created if the systems sees that the customer is interacting the most with email which will be determined in the journey via Email channel optimization
 
 **Step 3. Create ColorCloud Aura On Its Way Text message**
-- Expand the email header
-- Update the subject so it includes first name personalization
-- Use the personalization panel to insert **First Name** from the contact record into the subject line
-- Ensure the subject remains appropriate for a post-purchase onboarding email
+- In CI-J, make sure you are in the Real-time journeys area
+- In the left navigation, go to **Channels > Text messages**
+- In the top command bar click on **+ New**
+- Name the Text message **{{Your user ID}}** ColorCloud Aura On Its Way using your user ID prefix same as for the form, emails, journeys and segments elements in the previous labs, exercises and steps
+- Choose +15074835080 as Text message sender
+- Enter Hi , your ColorCloud Aura 🌈 is on its way 🚚! 📲 Download the app to get started: https://colorcloud.rocks/ Unsubscribe: under Message, then place your cursor right before the comma > Personalization icon > + New dynamic text > Choose an attribute > Audience > CustomerProfile > firstname > Save, {{firstname}} should be added right before the comma, then place your cursor after Unsubscribe:  > Personalization icon > + New dynamic text > Choose an attribute > Compliance > Preference center > Save, {{Preferencecenter}} should be added after Unsubscribe
+- Choose ColorCloud Commercial DOI Compliance profile and Commercial Purpose
+- In the right top corner click on Save, once saved, click on Ready to send
 
 **Step 4. Verify rest of the Text messages**
-- In the email body, locate the text element that includes the **Get set up in minutes** content
-- Add an inline condition to this text element
-- Configure the condition so the content can be shown or adjusted based on whether the recipient is already an app user or not, using the audiences available to you in the environment
-- Review the logic and confirm the conditional content supports the onboarding scenario
+- Go back to **Channels > Text message**, open the ColorCloud Aura On Its Way App Users text message, this is the text message that will be sent to customers who are already users of the app
+- Go back to **Channels > Text message**, open the ColorCloud Aura Accessories text message, this is the text message that will be sent to customers who are not app users yet and have clicked the Download the app link in the **{{Your user ID}} ColorCloud Aura On Its Way Version A** email
 
 **Expected outcome**
 
