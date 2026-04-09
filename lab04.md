@@ -23,6 +23,8 @@ In this exercise, you will sign in to Customer Voice and review the survey proje
 - Under My projects you should see project with name ColorClous Aura CES (Customer Effort Score), open the project
 - Confirm that the project contains ColorCloud Aura CES survey with 3 questions
 
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-voice/about) to learn more about Customer Voice
+
 **Expected outcome**
 
 You have successfully signed in to Customer Voice and reviewed the preconfigured survey project and survey that will be used for the first use feedback journey.
