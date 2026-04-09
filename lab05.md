@@ -80,7 +80,7 @@ In this exercise, you will combine the four measures into a CI-D segment that id
 - In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}TotalRevenue** > Add item to Existing rule > Rule 1, change logical operator specific number to greather than and enter 500 afterwards
 - At the bottom right corner click on Save, then at the bottom left corner click on Run
 
-**Step 6. Verify the segment**
+**Step 3. Verify the segment**
 - Back in the Segments overview, verify that **{{Your user ID}}HighValueEarlyAdopters** has Status Queued, Refreshing, or Successful
 
 **Expected outcome**
