@@ -24,7 +24,7 @@ In this exercise, you will work in CI-D to create the customer segments needed f
 **Step 2. Create the AllAppUsers segment**
 - At the top command bar, click on **+ New** > Build your own
 - Click on Edit details next to Untitled segment
-- Use your user ID as a prefix when naming the form, **{{Your user ID}}AllAppUsers**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your segment **01**AllAppUsers
+- Use your user ID as a prefix when naming the segment, **{{Your user ID}}AllAppUsers**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your segment **01**AllAppUsers
 - Enter a description that clearly explains the purpose of the segment, for example: Customers who are using ColorCloud app
 - Add the following tag:
   - App
@@ -36,7 +36,7 @@ In this exercise, you will work in CI-D to create the customer segments needed f
 **Step 3. Create the ProductShippedAura segment**
 - Back in the Segments overview, at the top command bar, click on **+ New** > Build your own
 - Click on Edit details next to Untitled segment
-- Use your user ID as a prefix when naming the form, **{{Your user ID}}ProductShippedAura**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your segment **01**ProductShippedAura
+- Use your user ID as a prefix when naming the segment, **{{Your user ID}}ProductShippedAura**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your segment **01**ProductShippedAura
 - Enter a description that clearly explains the purpose of the segment, for example: Customers whose ColorCloud Aura product has been shipped in the past 30 days
 - Add the following tags:
   - Aura
