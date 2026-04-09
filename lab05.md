@@ -74,41 +74,27 @@ In this exercise, you will combine the four measures into a CI-D segment that id
 **Step 2. Create HighValueEarlyAdopters segment**
 - At the top command bar, click on **+ New** > Build your own
 - Click on Edit details next to Untitled segment and name it **{{Your user ID}}HighValueEarlyAdopters**, add Description (example: Customers with strong early adoption and engagement based on orders, registrations, usage, and revenue) and Tags (examples: Adoption, Engagement, High Value), then click on Done in the right bottom corner
-- In the Add to Rule 1 section on the right side
-
-**Step 3. Add measure-based conditions**
-- In the right navigation, switch to the **Measures** tab
-- Add **OrderCount** to the segment logic canvas and set the condition to identify customers with at least one order
-- Add **RegistrationCount** to the same rule and set the condition to identify customers with at least one product registration
-- Add **TotalUsageHours** to the same rule and set the condition to identify customers with meaningful product usage, for example greater than or equal to 100
-- Add **TotalRevenue** to the same rule and set the condition to identify customers with strong revenue contribution, for example greater than or equal to 500
-
-**Step 4. Review the segment logic**
-- Confirm that the logic is built with **AND** conditions so that customers must satisfy all four measure thresholds
-- Review the segment definition to make sure it reflects the intended high-value early adopter audience
-
-**Step 5. Save and run the segment**
-- Click **Save**
-- Then click **Run**
-- Wait until the segment starts processing
+- In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}OrderCount**, change logical operator specific number to greather than or equal to and enter 1 afterwards
+- In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}RegistrationCount** > Add item to Existing rule > Rule 1, change logical operator specific number to greather than or equal to and enter 1 afterwards
+- In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}TotalUsageHours** > Add item to Existing rule > Rule 1, change logical operator specific number to greather than and enter 100 afterwards
+- In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}TotalRevenue** > Add item to Existing rule > Rule 1, change logical operator specific number to greather than and enter 500 afterwards
+- At the bottom right corner click on Save, then at the bottom left corner click on Run
 
 **Step 6. Verify the segment**
-- Back in the Segments overview, verify that **HighValueEarlyAdopters** has Status Queued, Refreshing, or Successful
-- If successful, confirm that you can see Members for the segment
-- Optionally open the segment and review the Segment members preview at the bottom
+- Back in the Segments overview, verify that **{{Your user ID}}HighValueEarlyAdopters** has Status Queued, Refreshing, or Successful
 
 **Expected outcome**
 
-You have created a CI-D segment named **HighValueEarlyAdopters** that uses **OrderCount**, **RegistrationCount**, **TotalUsageHours**, and **TotalRevenue** to identify customers who show strong early product adoption and engagement.
+You have created a CI-D segment named **{{Your user ID}}HighValueEarlyAdopters** that uses **{{Your user ID}}OrderCount**, **{{Your user ID}}RegistrationCount**, **{{Your user ID}}TotalUsageHours**, and **{{Your user ID}}TotalRevenue** to identify customers who show strong early product adoption and engagement.
 
 
 # Lab Summary
 In this lab, you used CI-D to move from journey orchestration into customer measurement and analysis. You created four measures to quantify orders, product registrations, usage, and revenue, and then combined them into a segment that identifies high-value early adopters.
 
-Consider where this lab fits in Maya Novak’s experience:
-- Maya has already subscribed, purchased, onboarded, activated her product, and shared feedback
-- CI-D can now measure whether she behaves like a strong early adopter
-- The **OrderCount**, **RegistrationCount**, **TotalUsageHours**, and **TotalRevenue** measures help quantify that behavior
-- The **HighValueEarlyAdopters** segment can now be used for further analysis, activation, or future journeys
+Consider where this lab fits in the ColorCloud scenario:
+- ColorCloud wants to understand which customers are moving beyond purchase into successful product adoption and meaningful engagement
+- The **{{Your user ID}}OrderCount**, **{{Your user ID}}RegistrationCount**, **{{Your user ID}}TotalUsageHours**, and **{{Your user ID}}TotalRevenue** measures help quantify customer value, activation, and usage behavior
+- The **{{Your user ID}}HighValueEarlyAdopters** segment helps identify customers who already demonstrate strong early success with ColorCloud products
+- This audience can now be used for further analysis and future actions such as loyalty, upsell, premium experiences, or customer advocacy
 
 In case you still have time left for another hands-on lab, you can continue to [Lab 6 - Optional: AI-Powered Customer Insights](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06-optional.md).
