@@ -12,7 +12,7 @@ By the end of this lab, you will be able to:
 
 
 # Exercise 1: Sign in to Customer Insights - Journeys
-In this exercise, you will sign in to your assigned Dynamics 365 Customer Insights - Journeys environment by using the details provided on your access card. It is recommended that you use a separate browser profile for the workshop.
+In this exercise, you will sign in to your assigned CI-J environment by using the details provided on your access card. It is recommended that you use a separate browser profile for the workshop.
 
 **Step 1. Locate your access card**
 - Find the access card assigned to you for the workshop. Confirm that it includes the following details:
@@ -45,7 +45,7 @@ In this exercise, you will sign in to your assigned Dynamics 365 Customer Insigh
 
 **Expected outcome**
 
-You are signed in to your assigned Customer Insights - Journeys environment and ready to continue with the next exercise.
+You are signed in to your assigned CI-J environment and ready to continue with the next exercise.
 
 **Tips**
 - Use only the browser profile created for the workshop.
@@ -54,7 +54,7 @@ You are signed in to your assigned Customer Insights - Journeys environment and 
 
 
 # Exercise 2: Verify Preconfigured CI-D Components
-In this exercise, you will access the Customer Insights - Data environment connected to your Customer Insights - Journeys app and verify that the required data and configuration are available for the workshop.
+In this exercise, you will access the CI-D environment connected to your CI-J app and verify that the required data and configuration are available for the workshop.
 
 **Step 1. Open Settings in Customer Insights - Journeys**
 - In the Customer Insights - Journeys app, navigate to the left bottom corner and click on Real-time journeys
@@ -65,7 +65,7 @@ In this exercise, you will access the Customer Insights - Data environment conne
 - Select Customer Insights connector
 
 **Step 3. Copy the Customer Insights - Data URL**
-- In the connector details, locate the Customer Insights - Data environment URL
+- In the connector details, locate the CI-D environment URL
 - Copy the URL to your clipboard
 
 **Step 4. Open Customer Insights - Data in a new tab**
@@ -74,10 +74,10 @@ In this exercise, you will access the Customer Insights - Data environment conne
 - Press Enter
 
 **Step 5. Verify the environment loads successfully**
-- Wait for the Customer Insights - Data home (welcome) page to load
+- Wait for the CI-D home (welcome) page to load
 
 **Step 6. Confirm the number of customers**
-- In the top-right corner of the page, verify that you see XXX number of customers
+- In the top-right corner of the page, verify that you see 800 number of customers
 
 **Step 7. Verify data sources**
 - Navigate to Data > Data sources
@@ -105,7 +105,7 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 
 **Expected outcome**
 
-You have successfully accessed Customer Insights - Data and verified that:
+You have successfully accessed CI-D and verified that:
 - The environment contains approximately 500 customers
 - All required data sources and tables are available
 - Unified customer profiles have been created
@@ -113,10 +113,10 @@ You are now ready to use this data in the upcoming labs.
 
 
 # Exercise 3: Verify Preconfigured CI-J Components
-In this exercise, you will return to the Customer Insights - Journeys app and verify that key components required for the workshop are already configured.
+In this exercise, you will return to the CI-J app and verify that key components required for the workshop are already configured.
 
 **Step 1. Go back to Customer Insights - Journeys**
-- Go back to the browser tab where you have Customer Insights - Journeys app open in the Settings area
+- Go back to the browser tab where you have CI-J app open in the Settings area
 
 **Step 2. Verify Feature switches**
 - In the left side menu navigate to Overview section and click on Featurew switches
@@ -180,7 +180,7 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 
 **Expected outcome**
 
-You have successfully verified that all required Customer Insights - Journeys components are preconfigured, including:
+You have successfully verified that all required CI-J components are preconfigured, including:
 - Feature switches (Copilot, Customer Voice integration)
 - Email domain configuration
 - Brand profile
