@@ -24,7 +24,7 @@ In this exercise, you will work in CI-D to create the customer segments needed f
 **Step 2. Create the AllAppUsers segment**
 - At the top command bar, click on **+ New** > Build your own
 - Click on Edit details next to Untitled segment
-- Use your user ID as a prefix when naming the form, **{{Your user ID}}AllAppUsers**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your form **01**AllAppUsers
+- Use your user ID as a prefix when naming the form, **{{Your user ID}}AllAppUsers**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your segment **01**AllAppUsers
 - Enter a description that clearly explains the purpose of the segment, for example: Customers who are using ColorCloud app
 - Add the following tag:
   - App
@@ -36,7 +36,7 @@ In this exercise, you will work in CI-D to create the customer segments needed f
 **Step 3. Create the ProductShippedAura segment**
 - Back in the Segments overview, at the top command bar, click on **+ New** > Build your own
 - Click on Edit details next to Untitled segment
-- Use your user ID as a prefix when naming the form, **{{Your user ID}}ProductShippedAura**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your form **01**ProductShippedAura
+- Use your user ID as a prefix when naming the form, **{{Your user ID}}ProductShippedAura**, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your segment **01**ProductShippedAura
 - Enter a description that clearly explains the purpose of the segment, for example: Customers whose ColorCloud Aura product has been shipped in the past 30 days
 - Add the following tags:
   - Aura
@@ -66,83 +66,38 @@ You have created CI-D segments named **{{Your user ID}}ProductShippedAura** of c
 # Exercise 2: Finalize the CI-J Email and Text messages
 In this exercise, you will continue in CI-J to finalize the email and text messages for the onboarding & upsell journey.
 
-**Step 1. Go to Emails**
-- In Customer Insights - Journeys, make sure you are in the Real-time journeys area
-- In the left navigation, go to **Assets > Emails**
+**Step 1. Finalize ColorCloud Aura On Its Way Version A Email**
+- In CI-J, make sure you are in the Real-time journeys area
+- In the left navigation, go to **Channels > Emails**
+- Open the ColorCloud Aura On Its Way Version A that is a Draft state, click on drop-down next to Save in the right top corner and select Save as
+- In the Quick Create: Email drawer in the right side add your user ID prefix to the Name and delete Copy from the end of the name, so if your user is colorcloud01@andrasfordos.onmicrosoft.com, then you name your email **01** ColorCloud Aura On Its Way Version A, click on Save and Close in the right bottom corner
+- Go back to **Channels > Emails** and open the email **{{Your user ID}}** ColorCloud Aura On Its Way Version A you just created
+- Click on the drop-down arrows in the email header next to From: and Subject:, place your cursor in the Subject field right before the word your and click on personalization (person with lighting bolt icon) in the right side of the Subject field > + New dynamic text > Choose an attribute > Audience > CustomerProfile > firstname > Save, {{firstname}} should be added right before the word your (this value will be replaced with actual First name value from Customer profile that will be receiving this email)
+- In the body of the email, select Get set up in minutes Text, in the icon menu on the right side click on Personalize (person with lighting bolt icon), expand Inline conditions > + Add condition > define Display name as NotAppUser > Update condition to be Make condition on segment membership > Change Is in segment to Is not in segment > Look for your **{{Your user ID}}AllAppUsers** CI-D segment > Save & copy
+- Optional: You can check the email elements in the same way you've done in Lab 2, checking the Brand profile, Personalize (should be set to CustomerProfile this time since we are targeting CI-D segment with Customer profile members), Settings (Compliance check where Purpose is Commercial) and Footer content block (should include Unsubscribe since Purpose of the email is Commercial)
+- In the right top corner click on Save, once saved, click on Ready to send and make sure that your email is moved to Live state
 
-**Step 2. Open ColorCloud Aura On Its Way Version A**
-- Locate and open the email named **ColorCloud Aura On Its Way Version A**
-- Confirm that the email is based on the ColorCloud branded template structure
+**Step 2. Verify rest of the Emails**
+- Go back to **Channels > Emails**
 
-**Step 3. Add first name personalization to the subject line**
+**Step 3. Create ColorCloud Aura On Its Way Text message**
 - Expand the email header
 - Update the subject so it includes first name personalization
 - Use the personalization panel to insert **First Name** from the contact record into the subject line
 - Ensure the subject remains appropriate for a post-purchase onboarding email
 
-**Step 4. Add an inline condition to the “Get set up in minutes” text element**
+**Step 4. Verify rest of the Text messages**
 - In the email body, locate the text element that includes the **Get set up in minutes** content
 - Add an inline condition to this text element
 - Configure the condition so the content can be shown or adjusted based on whether the recipient is already an app user or not, using the audiences available to you in the environment
 - Review the logic and confirm the conditional content supports the onboarding scenario
 
-**Step 5. Save and publish the email**
-- Select **Save**
-- Run **Check content** if required
-- Resolve any issues that prevent publishing
-- Select **Ready to send**
-- Wait until the email is live
-
 **Expected outcome**
 
-You have updated and published **ColorCloud Aura On Its Way Version A**. The email now includes first name personalization in the subject line and conditional onboarding content in the body.
+You have finalized **{{Your user ID}} ColorCloud Aura On Its Way Version A** email and verified the rest of the emails to be used in the onboarding & upsell journey. You have created **{{Your user ID}} ColorCloud Aura On Its Way** text message and verified rest of the emails to be used in the onboarding & upsell journey.
 
 
-# Exercise 3: Verify the remaining email assets
-In this exercise, you will confirm that the additional email assets needed for the journey are already available and live.
-
-**Step 1. Verify ColorCloud Aura On Its Way Version B**
-- In **Assets > Emails**, locate **ColorCloud Aura On Its Way Version B**
-- Open or preview the record if needed
-- Confirm that the email status is live or ready to send
-
-**Step 2. Verify ColorCloud Aura Accessories**
-- In **Assets > Emails**, locate **ColorCloud Aura Accessories**
-- Open or preview the record if needed
-- Confirm that the email status is live or ready to send
-
-**Expected outcome**
-
-You have confirmed that **ColorCloud Aura On Its Way Version B** and **ColorCloud Aura Accessories** are already available as live email assets for reuse in the journey.
-
-
-# Exercise 4: Create and verify text messages
-In this exercise, you will prepare the SMS assets needed for the journey.
-
-**Step 1. Go to Text messages**
-- In Customer Insights - Journeys, stay in the Real-time journeys area
-- In the left navigation, go to **Channels > Text messages**
-
-**Step 2. Create ColorCloud Aura On Its Way text message**
-- Select **+ New**
-- Create a new text message named **ColorCloud Aura On Its Way**
-- Use the configured ColorCloud SMS provider
-- Add message copy that supports the onboarding scenario, for example by reminding the customer to get started with ColorCloud Aura and download or use the app
-- Include any required compliance and personalization settings appropriate for the scenario
-- Save the text message
-- Publish or make the text message live so it can be used in the journey
-
-**Step 3. Verify ColorCloud Aura Accessories text message**
-- In the list of text messages, locate **ColorCloud Aura Accessories**
-- Open or preview the record if needed
-- Confirm that the text message status is live and ready for use
-
-**Expected outcome**
-
-You have created and published **ColorCloud Aura On Its Way** and confirmed that **ColorCloud Aura Accessories** is already live.
-
-
-# Exercise 5: Build the segment-based post-purchase onboarding and upsell journey
+# Exercise 3: Build the segment-based post-purchase onboarding and upsell journey
 In this exercise, you will create the main segment-based journey that orchestrates onboarding and upsell after Maya’s purchase.
 
 **Step 1. Go to Journeys**
