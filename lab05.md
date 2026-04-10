@@ -62,7 +62,7 @@ In this exercise, you will create 4 measures that will help you quantify custome
 - Next to Measure type toggle from Attribute to Table
 - Click Edit details next to Untitled measure and name it **`{{Your user ID}}RegistrationRate`**, add a description, for example Calculates product registration rate using registration and order counts, and a tag, for example `Adoption`, then click Done in the bottom-right corner
 - Select First under Function type
-- Under Measure expression click + Add attribute > under Add attribute on the right side click on Measures tab (right next to Attributes tab), expand `{{Your user ID}}RegistrationCount : CustomerInsights` > select `Calculation 1` > Add
+- Under Measure expression click + Add attribute > under Add attribute on the right side click on Measures tab (right next to Attributes tab; you might need to wait until the OrderCount and RegistrationCount measures are successfully created), expand `{{Your user ID}}RegistrationCount : CustomerInsights` > select `Calculation 1` > Add
 - Under Measure expression clik /
 - Under Measure expression click + Add attribute > under Add attribute on the right side click on Measures tab (right next to Attributes tab), expand `{{Your user ID}}OrderCount : CustomerInsights` > select `Calculation 1` > Add (you will get a warning that the attributes used in calculation(s) are from different tables, that is expected)
 - Click Save and close in the bottom-right corner
