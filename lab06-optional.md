@@ -1,8 +1,8 @@
 # Lab 6: Optional - Explore AI-Powered Customer Insights
 
-[Reading time: 5 min]
+[Reading time: X min]
 
-[Lab time: 20–30 min]
+[Lab time: XX min]
 
 - [Lab Overview](#lab-overview)
 - [Exercise 1: Ask Copilot questions about your customer data in CI-D](#exercise-1-ask-copilot-questions-about-your-customer-data-in-ci-d)
@@ -14,27 +14,20 @@
 ## Introduction
 In this optional lab, you will explore how AI can help ColorCloud move faster from customer insight to customer action. In Lab 5, you created measures and a segment that identify customers showing strong commercial value and product adoption. In this lab, you will build on that work by using Copilot in both `CI-D` and `CI-J`.
 
-You will begin in `CI-D`, where you will use Copilot to ask natural-language questions about your unified customer data and identify an audience that ColorCloud could act on next. You will then move to `CI-J`, where you will use Copilot to improve an existing ColorCloud email for that audience. Finally, you will optionally use Journey Copilot to draft a simple follow-up journey based on the same audience and message.
+You will begin in `CI-D`, where you will use Copilot to ask natural-language questions about your unified customer data and identify an audience that ColorCloud could act on next. You will then move to `CI-J`, where you will use Copilot to improve an existing ColorCloud email for that audience. Finally, you will use Journey Copilot to draft a simple follow-up journey based on the same audience and message.
 
 This lab is designed to show how AI can support both sides of the customer experience process:
 - understanding customers and finding opportunities in `CI-D`
 - accelerating content and journey design in `CI-J`
 
-Microsoft documents **Dialog with data** as a Copilot capability in Customer Insights - Data for asking natural-language questions over customer data, and **Content ideas** as a Copilot capability in Customer Insights - Journeys for generating email content from key points and tone guidance. Microsoft also documents **Journey Copilot** as a preview capability for creating journeys from conversational prompts, with current availability limited to the United States and English. ([learn.microsoft.com](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/dialog-with-data))
-
 ## Objectives
 By the end of this lab, you will be able to:
 - use Copilot in `CI-D` to ask questions about unified customer data
-- identify one actionable insight for the ColorCloud scenario
-- use Copilot in `CI-J` to improve existing email content
-- optionally use Copilot in `CI-J` to draft a simple follow-up journey
+- use Copilot in `CI-J` to improve existing email content and draft a simple follow-up journey
 
-> **Note:** Copilot capabilities and availability may vary by environment, geography, language, permissions, and feature status. Microsoft currently documents **Dialog with data** and **Journey Copilot** as preview experiences, and notes availability limitations for some Copilot features. Complete the exercises that are available in your environment. ([learn.microsoft.com](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/dialog-with-data))
 
 # Exercise 1: Ask Copilot questions about your customer data in CI-D
 In this exercise, you will use Copilot in `CI-D` to ask questions about the customer data and measures you created in earlier labs. The goal is to uncover one insight that could justify a follow-up marketing action for ColorCloud.
-
-Microsoft documents that **Dialog with data** lets users ask natural-language questions about imported and unified customer data in Customer Insights - Data. The experience is accessed from **Insights > Discovery** and is designed to help users generate insights from customer profiles and activities. ([learn.microsoft.com](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/dialog-with-data))
 
 **Step 1. Open the Discovery experience**
 - Open the `CI-D` environment you used in previous labs
@@ -66,12 +59,12 @@ Example:
 - Update the **ColorCloud Aura Accessories** email so it better fits high-value adopters
 - Create a simple follow-up journey for the **`{{Your user ID}}HighValueAdopters`** segment using that updated email
 
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/dialog-with-data) to learn more about dialog with data
+
 **Expected outcome**
 
 You used Copilot in `CI-D` to ask questions about unified customer data and identified one insight and next best action for the **`{{Your user ID}}HighValueAdopters`** audience.
 
-**Microsoft documentation**
-- [Have a dialog with data using Copilot in Customer Insights - Data](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/dialog-with-data)
 
 # Exercise 2: Use Copilot to improve a ColorCloud email in CI-J
 In this exercise, you will use the insight from Exercise 1 to improve an existing ColorCloud email with Copilot in `CI-J`.
