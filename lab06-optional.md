@@ -1,4 +1,4 @@
-# Lab 6: Optional - Explore AI-Powered Customer Insights
+# Lab 6 - Optional: Explore AI-Powered Customer Insights
 
 [Reading time: X min]
 
