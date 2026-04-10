@@ -1,0 +1,31 @@
+product_id,name,category,base_price,product_url,description
+CC-AURA-001,Aura,Device,199.00,https://www.google.com/aura,The original ColorCloud wearable with ambient light display.
+CC-AURA-002,Aura Smart Dock,Accessory,79.00,https://www.google.com/aura-smart-dock,Charge and showcase your Aura with this smart dock.
+CC-AURA-003,Aura Travel Case,Accessory,39.00,https://www.google.com/aura-travel-case,Slim hard-shell case for safe Aura travel.
+CC-AURA-004,Aura Comfort Clip,Accessory,24.00,https://www.google.com/aura-comfort-clip,Ergonomic clip for comfortable all-day Aura wearing.
+CC-AURA-005,Aura Ambient Light Kit,Accessory,59.00,https://www.google.com/aura-ambient-light-kit,Expand your Aura ambiance with this color lighting kit.
+CC-PRISM-001,Prism One,Device,229.00,https://www.google.com/prism-one,Next-gen wearable with vivid multi-spectrum color projection.
+CC-PRISM-002,Prism Pro,Device,319.00,https://www.google.com/prism-pro,Professional-grade Prism device built for power users.
+CC-PRISM-003,Prism Smart Dock,Accessory,84.00,https://www.google.com/prism-smart-dock,Elegant charging dock designed for the Prism lineup.
+CC-PRISM-004,Prism Travel Bundle,Accessory,109.00,https://www.google.com/prism-travel-bundle,All-in-one travel kit bundled for Prism owners.
+CC-PRISM-005,Prism Color Shell Set,Accessory,49.00,https://www.google.com/prism-color-shell-set,Five vibrant swappable color shells for your Prism.
+CC-PRISM-006,Prism Desk Stand,Accessory,36.00,https://www.google.com/prism-desk-stand,Minimalist desk stand to proudly display your Prism.
+CC-CHROMA-001,Chroma Mini,Device,149.00,https://www.google.com/chroma-mini,Compact device with vivid color output and light weight.
+CC-CHROMA-002,Chroma Studio,Device,349.00,https://www.google.com/chroma-studio,Premium studio device for immersive color experiences.
+CC-CHROMA-003,Chroma Wireless Pad,Accessory,69.00,https://www.google.com/chroma-wireless-pad,Fast wireless charging pad for all Chroma devices.
+CC-CHROMA-004,Chroma Neon Strap,Accessory,21.00,https://www.google.com/chroma-neon-strap,Bold neon strap to personalize your Chroma device.
+CC-CHROMA-005,Chroma Cyan Strap,Accessory,21.00,https://www.google.com/chroma-cyan-strap,Cool cyan strap for a fresh Chroma look.
+CC-CHROMA-006,Chroma USB-C Cable Pack,Accessory,16.00,https://www.google.com/chroma-usb-c-cable-pack,Durable USB-C cable pack for reliable Chroma charging.
+CC-NOVA-001,Nova Pulse,Device,239.00,https://www.google.com/nova-pulse,Rhythm-driven wearable with real-time pulse color sync.
+CC-NOVA-002,Nova Wave,Device,259.00,https://www.google.com/nova-wave,Fluid wave animations in a sleek wearable form factor.
+CC-NOVA-003,Nova Sunset Case,Accessory,44.00,https://www.google.com/nova-sunset-case,Warm sunset-toned protective case for Nova devices.
+CC-NOVA-004,Nova Glacier Case,Accessory,44.00,https://www.google.com/nova-glacier-case,Cool glacier-blue case with premium protective finish.
+CC-NOVA-005,Nova Forest Case,Accessory,44.00,https://www.google.com/nova-forest-case,Nature-inspired forest green protective case for Nova.
+CC-NOVA-006,Nova Party Light Ring,Accessory,89.00,https://www.google.com/nova-party-light-ring,Snap-on light ring for vibrant Nova party ambiance.
+CC-LUMA-001,Luma Core,Device,189.00,https://www.google.com/luma-core,Entry-level Luma device with essential color features.
+CC-LUMA-002,Luma Air,Device,279.00,https://www.google.com/luma-air,Ultra-light Luma device for effortless all-day wear.
+CC-LUMA-003,Luma Spectrum Band,Accessory,29.00,https://www.google.com/luma-spectrum-band,Wide-spectrum color band compatible with all Luma devices.
+CC-LUMA-004,Luma Magenta Strap,Accessory,19.00,https://www.google.com/luma-magenta-strap,Vivid magenta strap to brighten your Luma device.
+CC-LUMA-005,Luma Indigo Strap,Accessory,19.00,https://www.google.com/luma-indigo-strap,Deep indigo strap for a sophisticated Luma look.
+CC-LUMA-006,Luma Color Shell Red,Accessory,26.00,https://www.google.com/luma-color-shell-red,Bold red shell to easily customize your Luma device.
+CC-LUMA-007,Luma Color Shell Blue,Accessory,26.00,https://www.google.com/luma-color-shell-blue,Classic blue shell to refresh your Luma device.

@@ -1,0 +1,501 @@
+contactid,firstname,lastname,emailaddress1,mobilephone,Do not allow Emails (donotemail),Do not allow Bulk Emails (donotbulkemail),Do not track (msgdpr_donottrack),Do not allow Phone Calls (donotphone)
+d49697de-523b-4969-8045-421a123bf653,Noah,Becker,ccciw.noah.becker@gmail.com,+4900000000041,Allow,Allow,Allow,Allow
+4f3b853c-9a91-413e-8ace-4344c55da2b0,Marie,Kaiser,ccciw.marie.kaiser@gmail.com,+4900000000146,Allow,Allow,Allow,Allow
+2b4e96bb-c0d2-4a46-b0c9-f8a703d1277d,Lena,Muller,ccciw.lena.muller@outlook.com,+4900000000191,Allow,Allow,Allow,Do Not Allow
+937fede6-e94b-45a1-87a4-0f5b2dd69a3b,Sarah,Schmitz,ccciw.sarah.schmitz@gmx.de,+4900000000066,Do Not Allow,Allow,Allow,Allow
+2d7b2ffe-b933-4799-9e36-6a92e769f260,Verena,Mayr,ccciw.verena.mayr@gmail.com,+4300000000405,Allow,Allow,Allow,Allow
+818ca720-0a0f-4bb6-a226-7572b991860c,Noa,deBoer,ccciw.noa.deboer@gmx.de,+3100000000472,Allow,Allow,Do Not Allow,Allow
+d75f32e8-4a01-43c4-a1ce-017c6366e302,Verena,Moser,ccciw.verena.moser@outlook.com,+4300000000417,Allow,Allow,Allow,Allow
+ea531023-2f8d-46eb-b4d7-8d96140f414c,Philipp,Lange,ccciw.philipp.lange@gmx.de,+4900000000323,Allow,Allow,Allow,Allow
+cfed0865-2ed8-4723-86d4-ef833190fc1d,Marco,Sutter,ccciw.marco.sutter@gmail.com,+4100000000426,Allow,Do Not Allow,Allow,Allow
+c5e0576f-e5aa-445c-95fe-179d62287aa5,Nora,Brunner,ccciw.nora.brunner@gmx.de,+4100000000446,Allow,Allow,Allow,Do Not Allow
+3d815bad-9e08-4360-8c31-7ac4290eaa58,Finn,Kaiser,ccciw.finn.kaiser@gmail.com,+4900000000032,Allow,Allow,Allow,Allow
+6d3294e3-6432-4962-a59e-4ab808667ce5,Tim,Lang,ccciw.tim.lang@outlook.com,+4900000000030,Allow,Allow,Allow,Allow
+a15c8587-a3e3-4f56-9592-5a1c22a3be0f,Isla,Jones,ccciw.isla.jones@web.de,+4400000000499,Allow,Do Not Allow,Allow,Do Not Allow
+9adce003-c687-4e7f-93f6-d906da8d09ab,Lena,Becker,ccciw.lena.becker@gmail.com,+4900000000344,Do Not Allow,Allow,Allow,Do Not Allow
+f772e7dd-6633-4962-8a8f-e7ac543f780b,Adrian,Stalder,ccciw.adrian.stalder@gmx.de,+4100000000432,Do Not Allow,Allow,Allow,Allow
+15bac0c7-e8eb-4a49-98a6-f94a6281d2db,Bram,deJong,ccciw.bram.dejong@gmx.de,+3100000000467,Allow,Allow,Allow,Allow
+2a4cd1d3-1717-4ddd-9150-cb6452804d78,Pablo,Martin,ccciw.pablo.martin@outlook.com,+3400000000460,Allow,Allow,Allow,Allow
+aa76d1f3-49cb-4bd7-9e8b-d722ebec6484,Tobias,Meier,ccciw.tobias.meier@yahoo.com,+4900000000273,Allow,Allow,Allow,Allow
+b69fb900-6ea3-4c40-8005-971ccb7f6abb,Max,Lehmann,ccciw.max.lehmann@gmx.de,+4900000000359,Allow,Do Not Allow,Allow,Allow
+7f30e2cd-bbeb-4cab-9f5c-a88fff259e29,Lukas,Kaiser,ccciw.lukas.kaiser@outlook.com,+4900000000055,Allow,Allow,Allow,Allow
+57aa3d0c-c837-4999-b404-127bf7b8ec6d,Niklas,Huber,ccciw.niklas.huber@web.de,+4900000000127,Allow,Allow,Allow,Allow
+d73f5ca8-54d8-4c38-8456-d7693550f566,Finn,Vogel,ccciw.finn.vogel@web.de,+4900000000167,Allow,Allow,Allow,Allow
+b7c2556d-2b74-4219-8c95-53ba03aaf903,Mia,Klein,ccciw.mia.klein@web.de,+4900000000063,Allow,Allow,Do Not Allow,Allow
+79750e5e-0333-4b75-9846-e1652f0a6605,Mia,Meyer,ccciw.mia.meyer@t-online.de,+4900000000003,Allow,Allow,Do Not Allow,Allow
+60e28f48-ed6a-4059-b9c8-fcb6ffeee3d8,Lukas,Winter,ccciw.lukas.winter@gmail.com,+4900000000132,Allow,Allow,Allow,Allow
+77543f76-3c71-4ea1-b392-a9940018d487,Leon,Meyer,ccciw.leon.meyer@yahoo.com,+4900000000038,Allow,Allow,Allow,Allow
+35751687-e0cf-4371-911d-2d6aae624aba,Sarah,Moller,ccciw.sarah.moller@gmail.com,+4900000000192,Allow,Allow,Allow,Allow
+a95cacea-8756-4c08-8a1e-69da6bf8ef5a,Felix,Klein,ccciw.felix.klein@gmx.de,+4900000000116,Allow,Allow,Do Not Allow,Allow
+26f3af34-b009-41da-ab5b-54867dcab953,Niklas,Werner,ccciw.niklas.werner@web.de,+4900000000053,Allow,Allow,Allow,Allow
+23c0fb42-7cd7-4feb-8692-de4d6d8f8774,Sarah,Lange,ccciw.sarah.lange@yahoo.com,+4900000000320,Allow,Allow,Allow,Allow
+5c8f123a-5174-4986-bf95-b314018cbe3f,Melina,Schwarz,ccciw.melina.schwarz@outlook.com,+4900000000274,Allow,Do Not Allow,Allow,Allow
+31e967c9-0213-4a36-b053-8f812c63adfc,Jana,Braun,ccciw.jana.braun@web.de,+4900000000353,Allow,Allow,Allow,Allow
+96e640b2-197c-429b-b422-f0ce6f30fc4c,Sophie,Moller,ccciw.sophie.moller@outlook.com,+4900000000115,Allow,Allow,Allow,Allow
+74152b05-42e3-47cc-9428-2b5d7dc056e2,Anna,Schmidt,ccciw.anna.schmidt@gmx.de,+4900000000024,Allow,Allow,Allow,Allow
+94975f79-0f17-441b-b5ce-3c4e71464f02,David,Lehmann,ccciw.david.lehmann@web.de,+4900000000220,Allow,Allow,Allow,Allow
+54dadb74-cff1-425e-a402-19d01fc2e6d8,Emma,Lang,ccciw.emma.lang@t-online.de,+4900000000213,Allow,Allow,Allow,Allow
+79439eb0-5c98-47e1-a83f-47d98d0083a8,Melina,Kruger,ccciw.melina.kruger@gmx.de,+4900000000087,Allow,Allow,Allow,Allow
+28fc62fb-7481-4df0-9ebe-5e2a72b8ef5d,Luca,Widmer,ccciw.luca.widmer@web.de,+4100000000445,Allow,Allow,Allow,Do Not Allow
+8d1ff1b5-e011-4069-bbe0-b49b669fc275,Sara,Meier,ccciw.sara.meier@gmx.de,+4100000000437,Allow,Do Not Allow,Allow,Allow
+15f7eca3-80d3-4952-80a6-ca9fed90911a,Tim,Neumann,ccciw.tim.neumann@outlook.com,+4900000000268,Allow,Allow,Allow,Allow
+fdbe6b13-c4e4-4544-b1b8-b9114d994bad,Grace,Taylor,ccciw.grace.taylor@t-online.de,+4400000000490,Allow,Do Not Allow,Allow,Allow
+9a7adfa2-e68e-45c0-bf1f-511fe15fec78,Clara,Schneider,ccciw.clara.schneider@gmail.com,+4900000000077,Allow,Allow,Allow,Allow
+8d3c25c5-6a9b-42ab-b0d7-1c2fe43cbeba,Tim,Winter,ccciw.tim.winter@gmail.com,+4900000000271,Allow,Allow,Allow,Allow
+bfa9591d-f553-4f27-b441-15ca84ff6a3a,Nadine,Moser,ccciw.nadine.moser@gmail.com,+4300000000402,Allow,Allow,Allow,Allow
+e767b177-61bf-4b9f-af65-cd4042b9ea37,Lukas,Lange,ccciw.lukas.lange@gmx.de,+4900000000044,Allow,Allow,Allow,Allow
+032ab991-c778-4d39-8202-9891e82c3045,Sarah,Hoffmann,ccciw.sarah.hoffmann@gmail.com,+4900000000145,Allow,Allow,Allow,Allow
+65e39168-414a-4a3d-9744-418997705e4c,Max,Hartmann,ccciw.max.hartmann@gmail.com,+4900000000022,Allow,Allow,Allow,Do Not Allow
+f13d1a3b-d667-4902-981d-cc3dae2c46e5,Lotte,deBoer,ccciw.lotte.deboer@gmx.de,+3100000000466,Allow,Allow,Allow,Allow
+0cf89983-0392-48bd-bac9-ceba82c04101,David,Kruger,ccciw.david.kruger@gmx.de,+4900000000143,Allow,Allow,Allow,Allow
+bd6a9a15-dbd1-499e-a96f-4e4fb6424984,Philipp,Weber,ccciw.philipp.weber@web.de,+4900000000205,Allow,Allow,Allow,Allow
+9a2b8d5b-b33c-441c-a151-48bb4d43ac8c,Ben,Werner,ccciw.ben.werner@gmx.de,+4900000000355,Do Not Allow,Allow,Allow,Allow
+5dcb083f-f245-448a-9ad4-1657968ac8f6,Sarah,Schmidt,ccciw.sarah.schmidt@web.de,+4900000000370,Allow,Do Not Allow,Allow,Do Not Allow
+d09dc0a3-a733-4243-a9c7-fca5ac736aa8,Kathrin,Schroder,ccciw.kathrin.schroder@gmail.com,+4900000000042,Do Not Allow,Allow,Allow,Allow
+bba2df0c-7c53-43ea-bdc4-71cb5f9d4c4a,Anna,Meier,ccciw.anna.meier@gmx.de,+4900000000386,Allow,Allow,Allow,Allow
+9d79e477-04ef-434d-beef-05c1342697cb,Chloe,Moreau,ccciw.chloe.moreau@gmx.de,+3300000000476,Allow,Allow,Allow,Allow
+0d4038a4-1727-4bf2-8d09-b7f81b43c164,Ben,Engel,ccciw.ben.engel@gmail.com,+4900000000172,Allow,Allow,Allow,Allow
+ce174e1f-6b0e-4200-913b-f17ebdfdd1ab,Lukas,Fischer,ccciw.lukas.fischer@t-online.de,+4900000000304,Allow,Allow,Allow,Allow
+9c60081d-af6f-4f3e-89ca-a6a5402c7ccd,Marlene,Hartmann,ccciw.marlene.hartmann@gmail.com,+4900000000384,Allow,Do Not Allow,Allow,Allow
+77508108-cdc8-426d-93df-75846683555a,Verena,Hofer,ccciw.verena.hofer@t-online.de,+4300000000421,Allow,Allow,Allow,Allow
+f7be7285-8925-402b-afa6-b8609d3db73e,Sarah,Braun,ccciw.sarah.braun@outlook.com,+4900000000084,Allow,Allow,Allow,Allow
+c6988fcb-ec35-4ab4-9901-5c5e4371fadf,Bram,Bakker,ccciw.bram.bakker@t-online.de,+3100000000468,Allow,Allow,Allow,Allow
+b2ade61c-f5ac-411e-9cdb-0fddd6856323,Sebastian,Kaiser,ccciw.sebastian.kaiser@web.de,+4900000000385,Do Not Allow,Do Not Allow,Allow,Allow
+468bfeda-734d-425b-b3c3-d8b3ae3b525d,Niklas,Schroder,ccciw.niklas.schroder@gmx.de,+4900000000210,Allow,Allow,Allow,Allow
+4d4398cc-63be-4f7e-9aae-c1dbca3a720b,Marie,Huber,ccciw.marie.huber@web.de,+4900000000106,Do Not Allow,Allow,Allow,Allow
+05b00742-0501-47db-8398-cff4c7321bc7,Lea,Braun,ccciw.lea.braun@gmail.com,+4900000000368,Allow,Allow,Allow,Allow
+c1b5a28f-a0ad-4f97-bbd4-a583bbfc6a29,Ben,Kruger,ccciw.ben.kruger@outlook.com,+4900000000283,Allow,Do Not Allow,Allow,Allow
+24db776f-4104-48eb-9640-ef6d2225cd42,Max,Krause,ccciw.max.krause@outlook.com,+4900000000159,Allow,Allow,Allow,Allow
+7f8a7d4a-b5eb-4122-9a61-92fe12c1defd,Laura,Becker,ccciw.laura.becker@gmail.com,+4900000000168,Do Not Allow,Allow,Allow,Allow
+25f8665e-dc7a-4c7a-89e5-d3547237ae1c,Jana,Winter,ccciw.jana.winter@gmx.de,+4900000000152,Allow,Allow,Allow,Allow
+123d5179-9272-42e0-85a7-97a4549cac53,Sebastian,Lehmann,ccciw.sebastian.lehmann@gmail.com,+4900000000107,Allow,Do Not Allow,Allow,Allow
+4aa700d3-5b12-49b9-a198-741a437cd946,Sarah,Franke,ccciw.sarah.franke@t-online.de,+4900000000082,Allow,Allow,Allow,Allow
+93cdebc5-ef18-4d46-aa8f-75fc311de80a,Sophie,Braun,ccciw.sophie.braun@gmx.de,+4900000000027,Allow,Allow,Allow,Do Not Allow
+59729b25-750e-4852-8c29-a6ff488f9022,Jan,Kaiser,ccciw.jan.kaiser@web.de,+4900000000170,Allow,Allow,Allow,Allow
+f3781258-21b5-431c-8e8e-fcec83cb9971,Noah,Kuhn,ccciw.noah.kuhn@web.de,+4900000000256,Do Not Allow,Allow,Allow,Do Not Allow
+e209ad9c-a3f5-4e23-9e35-b72f18d29ef1,Jana,Koch,ccciw.jana.koch@gmx.de,+4900000000020,Allow,Allow,Allow,Allow
+ac1bf70f-f3ed-4fa6-97a8-4fb6099d2acb,Jonas,Schmitz,ccciw.jonas.schmitz@gmail.com,+4900000000114,Allow,Allow,Allow,Allow
+b1c560e3-ca34-4443-b8f0-7f1853e5dae0,Jonas,Winter,ccciw.jonas.winter@t-online.de,+4900000000305,Allow,Allow,Allow,Allow
+ade710b4-ab97-4086-89cd-1c9b65c2f999,Lena,Kaiser,ccciw.lena.kaiser@web.de,+4900000000148,Allow,Allow,Allow,Allow
+1315fa9b-c805-4e98-924e-b40a13dca3bf,Simon,Mayr,ccciw.simon.mayr@yahoo.com,+4300000000425,Do Not Allow,Allow,Allow,Allow
+3bf1178c-81dd-463e-8a4e-111c29b4759a,Sara,Zurbuchen,ccciw.sara.zurbuchen@gmx.de,+4100000000441,Allow,Allow,Allow,Allow
+61299626-b8cb-4c6e-8509-de10915a8088,Hannah,Schroder,ccciw.hannah.schroder@outlook.com,+4900000000265,Allow,Allow,Do Not Allow,Allow
+d41e30d1-52bb-45d3-9579-e6a17b0f39fd,Jules,Petit,ccciw.jules.petit@web.de,+3300000000478,Allow,Allow,Allow,Allow
+d4117d90-7a0c-4ad4-a51f-ac95339fa024,Marie,Schwarz,ccciw.marie.schwarz@web.de,+4900000000343,Allow,Allow,Allow,Allow
+938b1273-1a83-451a-b0f6-a618fc412361,Elena,Martinez,ccciw.elena.martinez@yahoo.com,+3400000000462,Allow,Allow,Allow,Allow
+94eb3a43-411f-40fe-9c42-69bdb3c2030b,Marie,Franke,ccciw.marie.franke@gmx.de,+4900000000108,Allow,Do Not Allow,Allow,Allow
+01281c6f-07f8-4239-8899-e9afe6615468,Emma,Meyer,ccciw.emma.meyer@gmail.com,+4900000000302,Allow,Allow,Allow,Allow
+ae432459-88c8-4f29-bb46-3ff5d2802662,Kathrin,Kuhn,ccciw.kathrin.kuhn@web.de,+4900000000316,Allow,Allow,Allow,Allow
+dfffc565-39fa-4c2e-957a-29170cf5ea26,Philipp,Schwarz,ccciw.philipp.schwarz@gmail.com,+4900000000079,Allow,Allow,Allow,Allow
+a4decd13-9e62-48c3-b434-40819a5e12a3,Lisa,Wagner,ccciw.lisa.wagner@web.de,+4900000000361,Do Not Allow,Allow,Allow,Allow
+beb82b2d-72b9-431f-a966-8a353dfa8d94,Erik,Braun,ccciw.erik.braun@gmx.de,+4900000000351,Allow,Allow,Do Not Allow,Allow
+9e4cf7db-377f-4958-8029-a4af77b85ffe,Sophie,Richter,ccciw.sophie.richter@gmail.com,+4900000000135,Allow,Allow,Allow,Do Not Allow
+3f69955e-c3d8-4ba3-97fd-34974c3d8b83,David,Weber,ccciw.david.weber@outlook.com,+4900000000073,Allow,Allow,Do Not Allow,Allow
+62388f29-addd-4a8e-898e-0fbc9b8d7d9e,Max,Schmidt,ccciw.max.schmidt@outlook.com,+4900000000181,Allow,Allow,Allow,Allow
+b6fbaa18-e076-4985-84d8-64fba9a5408e,Jana,Weber,ccciw.jana.weber@yahoo.com,+4900000000186,Allow,Allow,Allow,Allow
+c62cec1d-caf4-4a54-b9d5-15ba547bd229,Marie,Klein,ccciw.marie.klein@web.de,+4900000000113,Allow,Allow,Allow,Allow
+ebebbf82-c8d9-4c1d-80c1-6686fe474fbc,Sebastian,Neumann,ccciw.sebastian.neumann@gmail.com,+4900000000058,Allow,Allow,Allow,Allow
+a0f9fc9a-8a0d-4211-b43d-d048d12663b5,Felix,Becker,ccciw.felix.becker@web.de,+4900000000054,Allow,Allow,Allow,Allow
+92cffd7b-7942-4a5e-b2e0-4ebbc73eb1fd,Niklas,Kuhn,ccciw.niklas.kuhn@gmail.com,+4900000000258,Allow,Do Not Allow,Allow,Do Not Allow
+45742901-83d8-4c36-a557-b9427ec9223a,Mia,Schmitz,ccciw.mia.schmitz@outlook.com,+4900000000338,Allow,Allow,Allow,Allow
+d4200016-9503-4188-b865-a08b38a9c9b5,Felix,Lorenz,ccciw.felix.lorenz@gmail.com,+4900000000240,Allow,Allow,Allow,Allow
+a16950b2-c8b1-48cd-a49b-8fca33bf9c5e,Julia,Werner,ccciw.julia.werner@gmx.de,+4900000000329,Allow,Allow,Allow,Allow
+1016f9d3-9d3f-404b-9a9d-2bb075120aeb,Leon,Weber,ccciw.leon.weber@outlook.com,+4900000000382,Allow,Allow,Allow,Allow
+35da215a-7581-433c-ac85-577cedc53ba7,David,Koch,ccciw.david.koch@gmail.com,+4900000000092,Allow,Allow,Allow,Allow
+bba9b532-d5f7-4fd9-aabd-6ed86977819f,Jana,Wolf,ccciw.jana.wolf@gmail.com,+4900000000071,Allow,Allow,Allow,Allow
+313bfb67-ca7f-4e53-8434-ba8af28af805,Laura,Huber,ccciw.laura.huber@web.de,+4900000000381,Allow,Allow,Allow,Allow
+10cf424f-3cd6-4dbb-ae9d-65d30bc308ac,David,Huber,ccciw.david.huber@t-online.de,+4900000000257,Allow,Allow,Do Not Allow,Allow
+7fc07c62-5d33-4e70-9955-96fa6c5677b9,Paul,Kaiser,ccciw.paul.kaiser@t-online.de,+4900000000078,Allow,Allow,Allow,Allow
+bbe86398-f87e-4ae6-92d1-7bc116631ea2,Kathrin,Engel,ccciw.kathrin.engel@gmx.de,+4900000000142,Allow,Allow,Allow,Do Not Allow
+872b59bf-5755-44ef-a31e-e6cc2a79dce1,Jana,Schwarz,ccciw.jana.schwarz@yahoo.com,+4900000000259,Do Not Allow,Allow,Allow,Allow
+da5ee5ea-8de7-4de7-88ba-e098cf4d6180,Verena,Auer,ccciw.verena.auer@gmail.com,+4300000000416,Do Not Allow,Allow,Allow,Allow
+f1c3df8b-4564-40b7-a907-21a1aae4b83c,Lena,Schroder,ccciw.lena.schroder@gmail.com,+4900000000101,Allow,Allow,Allow,Do Not Allow
+0bf75c4c-28ac-43ed-9a82-46a78b4c326a,Max,Engel,ccciw.max.engel@t-online.de,+4900000000178,Allow,Allow,Allow,Allow
+9ac95e85-448e-479d-9dcc-d6f9dd8c7b3b,Jonas,Lehmann,ccciw.jonas.lehmann@gmx.de,+4900000000017,Allow,Allow,Allow,Allow
+f4dbd4a4-283f-49f3-a3e4-3643ab446b8a,Tobias,Neumann,ccciw.tobias.neumann@gmail.com,+4900000000330,Allow,Allow,Allow,Do Not Allow
+f693e981-dbf5-4491-b150-337390d36747,Finn,Klein,ccciw.finn.klein@yahoo.com,+4900000000187,Do Not Allow,Allow,Allow,Do Not Allow
+4ba656ba-903d-48a5-80b0-fc55a87e5517,Tobias,Bauer,ccciw.tobias.bauer@outlook.com,+4300000000407,Allow,Allow,Allow,Allow
+c076ebfe-ee94-4900-b4c2-5aa236992298,Mia,Kruger,ccciw.mia.kruger@gmail.com,+4900000000228,Allow,Allow,Allow,Allow
+99ade242-bf91-4ab0-8db2-d97370186f6a,Kathrin,Koch,ccciw.kathrin.koch@gmx.de,+4900000000176,Allow,Allow,Allow,Allow
+8f892fbf-93ae-41af-87e7-89013465ee15,Marlene,Muller,ccciw.marlene.muller@gmx.de,+4900000000028,Allow,Allow,Allow,Allow
+dc54344d-f65f-48e9-b313-00b54324108f,Elena,Keller,ccciw.elena.keller@gmx.de,+4100000000449,Allow,Allow,Allow,Allow
+95b73999-8508-4b18-b875-87979dfea401,Melina,Schroder,ccciw.melina.schroder@gmail.com,+4900000000312,Allow,Allow,Allow,Allow
+ef2561cc-583b-40e6-9b11-e53fa6720d2a,Paul,Neumann,ccciw.paul.neumann@gmail.com,+4900000000025,Allow,Allow,Allow,Allow
+1a4e22c8-8cb6-403b-b561-6447a9defbb3,Sebastian,Werner,ccciw.sebastian.werner@web.de,+4900000000123,Allow,Allow,Allow,Allow
+c5f784b3-6a7b-40b3-aa51-ff65f4c9a0dc,Lina,Keller,ccciw.lina.keller@web.de,+4100000000443,Allow,Allow,Allow,Allow
+1dfd8b00-54c8-455a-973d-aaeee245d364,Max,Klein,ccciw.max.klein@t-online.de,+4900000000189,Allow,Allow,Allow,Allow
+00787a59-4d9b-49e8-9151-3d74e820d622,Mara,Luthi,ccciw.mara.luthi@gmx.de,+4100000000430,Allow,Allow,Allow,Allow
+5b38fd8a-3eff-4c96-9eed-c8c05a96c24b,Laura,Lang,ccciw.laura.lang@yahoo.com,+4900000000182,Allow,Allow,Allow,Do Not Allow
+97bc7ac7-7104-4b46-a3fc-1725feba37f4,Felix,Engel,ccciw.felix.engel@web.de,+4900000000013,Allow,Allow,Allow,Do Not Allow
+a3216024-98cd-466a-8f51-711de0c5ca11,Jan,Becker,ccciw.jan.becker@web.de,+4900000000090,Allow,Allow,Allow,Allow
+be9a3805-d05f-4042-a292-7d99879b0e07,Kathrin,Werner,ccciw.kathrin.werner@t-online.de,+4900000000332,Allow,Allow,Allow,Allow
+b0aebec0-ad6d-43e8-a2d1-c8157ab51863,Leon,Klein,ccciw.leon.klein@outlook.com,+4900000000002,Allow,Allow,Allow,Allow
+88833b63-972a-4335-b294-88593e200fc3,Moritz,Lorenz,ccciw.moritz.lorenz@outlook.com,+4900000000099,Allow,Allow,Allow,Allow
+a1a79444-92e0-4da6-b04a-9d3f34e8abe7,Manon,Laurent,ccciw.manon.laurent@web.de,+3300000000483,Allow,Do Not Allow,Allow,Allow
+8a6f1d2d-609a-4bb6-b00b-7eb2ab4c7afe,Lisa,Muller,ccciw.lisa.muller@gmail.com,+4900000000136,Allow,Allow,Allow,Allow
+5a36fb1f-e727-4f96-aabb-43ddc0e25dab,Emma,Krause,ccciw.emma.krause@web.de,+4900000000124,Allow,Allow,Allow,Allow
+0f5acc62-a35c-4f68-84f1-b30b3d49d07a,Emily,Smith,ccciw.emily.smith@outlook.com,+4400000000497,Allow,Do Not Allow,Allow,Allow
+38aa6cdf-eb5b-4756-8f2e-d064fb2d3345,Felix,Schneider,ccciw.felix.schneider@gmx.de,+4900000000184,Allow,Allow,Do Not Allow,Allow
+24982487-e064-4c2d-a0e6-c3aad5d1dc13,Lukas,Braun,ccciw.lukas.braun@yahoo.com,+4900000000394,Allow,Allow,Allow,Do Not Allow
+91ffea1e-33a4-46b1-8c9e-bdc30f03fb95,Philipp,Huber,ccciw.philipp.huber@outlook.com,+4900000000253,Allow,Do Not Allow,Allow,Do Not Allow
+adefb63a-86f9-4bc0-905c-e9419e65b019,Carlos,Rodriguez,ccciw.carlos.rodriguez@gmx.de,+3400000000453,Allow,Allow,Allow,Allow
+be23d431-cd9a-4daf-be7e-4b1084d182b8,Lena,Weber,ccciw.lena.weber@web.de,+4900000000012,Allow,Allow,Allow,Allow
+5a81bdb0-f46c-4caf-a047-e6797de1420d,Anna,Lehmann,ccciw.anna.lehmann@gmx.de,+4900000000241,Allow,Allow,Allow,Allow
+6e96641a-51f1-4d93-aea6-003bbbe3bd8d,Julia,Moller,ccciw.julia.moller@outlook.com,+4900000000129,Allow,Allow,Allow,Allow
+224950b5-5a00-4e8b-86e2-79059d464773,Niklas,Peters,ccciw.niklas.peters@yahoo.com,+4900000000237,Do Not Allow,Allow,Allow,Allow
+65202f73-936b-4af1-9e57-c688091c7eac,Tim,Braun,ccciw.tim.braun@gmail.com,+4900000000281,Allow,Allow,Allow,Allow
+7e0aeec5-9117-4fd8-8139-f55241b4c417,Philipp,Kaiser,ccciw.philipp.kaiser@web.de,+4900000000311,Allow,Allow,Do Not Allow,Allow
+f3e3b52d-1a86-481b-87f8-6b8d90dbaab8,Sophie,Schroder,ccciw.sophie.schroder@web.de,+4900000000064,Do Not Allow,Allow,Allow,Allow
+eb037e35-fc8b-4c16-83fd-5b4fb32d0cae,Marie,Engel,ccciw.marie.engel@gmx.de,+4900000000180,Allow,Do Not Allow,Allow,Allow
+683d251a-afa3-4125-942f-2feb9e6eaea1,Melina,Werner,ccciw.melina.werner@outlook.com,+4900000000061,Allow,Allow,Allow,Do Not Allow
+968198ac-f5e5-4f3c-b795-8b4bcb43a846,Clara,Lorenz,ccciw.clara.lorenz@web.de,+4900000000023,Allow,Allow,Allow,Allow
+e4161728-4a56-4caa-b377-f457a1182ecd,Clara,Meier,ccciw.clara.meier@gmail.com,+4900000000397,Allow,Allow,Allow,Allow
+ad48f228-14af-491f-995a-5d52bdba1333,David,Richter,ccciw.david.richter@t-online.de,+4900000000060,Allow,Allow,Allow,Allow
+d4f2c7dd-7cd7-4122-8084-55b8ce11619f,Nina,Keller,ccciw.nina.keller@gmail.com,+4100000000442,Do Not Allow,Allow,Allow,Allow
+06a9ab5e-9742-4178-bcd5-5c9842b08278,Niklas,Becker,ccciw.niklas.becker@web.de,+4900000000299,Allow,Do Not Allow,Allow,Allow
+afdca601-a824-41dc-9572-0bf43debdf50,Niklas,Koch,ccciw.niklas.koch@gmail.com,+4900000000366,Allow,Allow,Allow,Allow
+2b3518de-880b-4ad9-90f1-797c1a69e997,Katharina,Gruber,ccciw.katharina.gruber@t-online.de,+4300000000414,Allow,Allow,Allow,Allow
+0f82ad45-2e11-4403-a897-dcb1117a4af6,Lena,Franke,ccciw.lena.franke@gmx.de,+4900000000280,Allow,Allow,Allow,Allow
+be06cfbd-93d5-4cd3-82ac-2af7085ae0fa,Sanne,Visser,ccciw.sanne.visser@web.de,+3100000000465,Allow,Allow,Allow,Allow
+492ae9dd-6640-4b2a-b6f0-0f1ad34e3b46,Philipp,Winter,ccciw.philipp.winter@gmx.de,+4900000000048,Allow,Allow,Allow,Do Not Allow
+ece656b7-8356-4b7d-9e01-52107f23725d,Melina,Kaiser,ccciw.melina.kaiser@web.de,+4900000000358,Allow,Allow,Allow,Allow
+351510c9-dd54-4412-bfd1-ae6df5e445b4,Lukas,Peters,ccciw.lukas.peters@outlook.com,+4900000000308,Do Not Allow,Allow,Allow,Allow
+3d189805-badc-4ec4-aba5-7652a15a2f97,Anna,Huber,ccciw.anna.huber@gmx.de,+4900000000340,Allow,Allow,Allow,Do Not Allow
+b469f4ae-ce7c-4566-9fae-bdb99de1cd59,Clara,Lange,ccciw.clara.lange@gmail.com,+4900000000390,Allow,Allow,Allow,Do Not Allow
+30c46323-e1e9-43a2-8c0b-a2b4e431971d,Erik,Kaiser,ccciw.erik.kaiser@web.de,+4900000000104,Do Not Allow,Allow,Allow,Allow
+6c706b5b-6968-47c8-9139-80a1ddf307ae,Lena,Lorenz,ccciw.lena.lorenz@gmx.de,+4900000000154,Allow,Do Not Allow,Allow,Allow
+c574f1c0-1007-4381-9ff9-2c877b4a537f,Melina,Franke,ccciw.melina.franke@outlook.com,+4900000000134,Allow,Allow,Allow,Allow
+f8c17871-df8f-48c2-a253-af73b3b20049,Julia,Schmidt,ccciw.julia.schmidt@yahoo.com,+4900000000235,Allow,Allow,Allow,Allow
+1498145f-36f6-41b5-b998-8091fd349c69,Amelia,Thomas,ccciw.amelia.thomas@yahoo.com,+4400000000491,Allow,Allow,Allow,Do Not Allow
+622141f4-d2a6-4899-b921-63e568e7dbdd,Tim,Meyer,ccciw.tim.meyer@gmail.com,+4900000000160,Allow,Allow,Allow,Allow
+e8c446ff-ccdb-4d77-b2f0-4fbf2f0bb9b2,Tobias,Koch,ccciw.tobias.koch@gmail.com,+4900000000215,Do Not Allow,Allow,Allow,Allow
+a9219674-65fb-459e-8693-6f3e206b67c2,Leon,Schmidt,ccciw.leon.schmidt@gmail.com,+4900000000261,Allow,Allow,Allow,Do Not Allow
+f7d90bfa-4e4c-4541-88bb-4a61095f0ec7,Jonas,Wolf,ccciw.jonas.wolf@t-online.de,+4900000000059,Allow,Allow,Allow,Allow
+05f9443c-d8dd-47c7-a93e-990fc99b9c3f,Noa,Jansen,ccciw.noa.jansen@outlook.com,+3100000000471,Allow,Allow,Allow,Allow
+3df42207-af3d-4a31-b668-866ba2599915,Ben,Winter,ccciw.ben.winter@web.de,+4900000000324,Allow,Allow,Allow,Do Not Allow
+06fea73c-65a2-43af-b91a-b9a54136890e,Julia,Huber,ccciw.julia.huber@outlook.com,+4900000000321,Allow,Allow,Allow,Allow
+909d606a-3282-47f6-a229-81cb477f4418,Lukas,Hartmann,ccciw.lukas.hartmann@gmail.com,+4900000000150,Allow,Allow,Allow,Allow
+bfe99398-935e-4378-b3a0-c3624f8cb44c,Tobias,Weber,ccciw.tobias.weber@gmail.com,+4900000000033,Allow,Allow,Do Not Allow,Allow
+f4852916-34e3-44f6-abc3-9f32b80a1b59,Melina,Krause,ccciw.melina.krause@outlook.com,+4900000000383,Allow,Allow,Allow,Allow
+2d438ae7-3c09-4c7e-8773-7396f98bee19,Javier,Rodriguez,ccciw.javier.rodriguez@gmail.com,+3400000000451,Allow,Allow,Allow,Allow
+affe2159-0631-4a5f-9084-c628b99c7dae,Lukas,Moller,ccciw.lukas.moller@yahoo.com,+4900000000229,Allow,Allow,Do Not Allow,Allow
+7ca32cc2-4a9d-4e13-895b-816941178f4a,Grace,Smith,ccciw.grace.smith@outlook.com,+4400000000489,Allow,Allow,Allow,Allow
+399f9f49-ce3f-40af-a339-3f7dfc1c72cb,Finn,Koch,ccciw.finn.koch@outlook.com,+4900000000067,Allow,Allow,Do Not Allow,Allow
+8302dcd0-a00d-4536-aab8-3e6bda355a8b,Lea,Wagner,ccciw.lea.wagner@gmail.com,+4900000000089,Allow,Allow,Allow,Allow
+b3e8cc3b-0525-4d86-84c0-1417ac043505,Noah,Franke,ccciw.noah.franke@outlook.com,+4900000000335,Allow,Allow,Allow,Allow
+ade55870-6dae-4cba-86a7-5c52b143cb22,Philipp,Kuhn,ccciw.philipp.kuhn@gmx.de,+4900000000088,Allow,Do Not Allow,Allow,Allow
+1259b527-31be-4b48-b9c3-2741e5d4370f,Laura,Krause,ccciw.laura.krause@web.de,+4900000000046,Allow,Allow,Allow,Allow
+144739e2-b367-400b-8eb1-2d4494658ec3,Philipp,Krause,ccciw.philipp.krause@web.de,+4900000000392,Allow,Allow,Allow,Allow
+97f39994-e4b1-4d1e-a883-322755dd176e,Pascal,Brunner,ccciw.pascal.brunner@web.de,+4100000000448,Allow,Allow,Allow,Allow
+032c1106-15d1-44c6-acc3-bb167865620a,David,Krause,ccciw.david.krause@gmail.com,+4900000000109,Allow,Allow,Allow,Allow
+0328e075-e090-4319-8d55-9d5d7272fe16,Sebastian,Hoffmann,ccciw.sebastian.hoffmann@gmx.de,+4900000000156,Allow,Allow,Allow,Allow
+9d3f6db2-4456-4ccd-83ab-b3a60e6a833a,Finn,Winter,ccciw.finn.winter@outlook.com,+4900000000369,Do Not Allow,Allow,Allow,Allow
+d385f8f2-eb5a-4f89-9500-fcc24b24caa5,Theresa,Pichler,ccciw.theresa.pichler@gmail.com,+4300000000412,Allow,Allow,Allow,Allow
+69e1d033-1eae-49b5-b980-a0b249537985,Diego,Ruiz,ccciw.diego.ruiz@outlook.com,+3400000000461,Allow,Allow,Allow,Allow
+b35b6e62-ea5d-43d8-a4b6-5bd3705cf9b4,Marie,Koch,ccciw.marie.koch@web.de,+4900000000270,Allow,Allow,Allow,Allow
+d767a777-cbcc-45f2-bcc3-55cdbca3fd2b,Kathrin,Meyer,ccciw.kathrin.meyer@gmail.com,+4900000000196,Allow,Allow,Allow,Allow
+c4d95d54-f7f3-4877-bd21-429a007b1554,Finn,Schneider,ccciw.finn.schneider@gmail.com,+4900000000354,Allow,Allow,Allow,Allow
+182a6262-65e4-4dfd-9e2d-f9162f9ccc03,Jan,Franke,ccciw.jan.franke@gmail.com,+4900000000325,Allow,Allow,Allow,Allow
+8fdff8f2-4266-4dc1-91fb-3e15f4b470a3,Pascal,Stalder,ccciw.pascal.stalder@gmx.de,+4100000000435,Allow,Allow,Allow,Allow
+7133c7f1-410b-4c0f-ac23-22a3b7ea0460,Marco,Bachmann,ccciw.marco.bachmann@web.de,+4100000000436,Allow,Allow,Allow,Allow
+f2070879-2511-4cad-a48e-4ee109c3c1cc,David,Werner,ccciw.david.werner@web.de,+4900000000375,Allow,Allow,Allow,Allow
+534315bf-3084-4608-9fa4-feae7d2b0fab,Melina,Muller,ccciw.melina.muller@gmail.com,+4900000000365,Allow,Allow,Allow,Allow
+5b025130-2d31-41b7-a587-d6e293043d83,Tobias,Wolf,ccciw.tobias.wolf@web.de,+4900000000100,Allow,Allow,Allow,Allow
+d70bc2a0-7378-481d-b6b6-0cf738a0efb6,Erik,Schmitz,ccciw.erik.schmitz@outlook.com,+4900000000277,Allow,Allow,Allow,Allow
+299eb9f8-33f9-434e-9afc-fc7c19329948,Anna,Franke,ccciw.anna.franke@outlook.com,+4900000000198,Allow,Allow,Allow,Allow
+f3e7d635-1f63-434d-b252-969d00051bda,Nina,Werner,ccciw.nina.werner@gmx.de,+4900000000233,Allow,Allow,Allow,Allow
+4365d93a-ade7-4596-a5ac-bbbc6295717c,Niklas,Lehmann,ccciw.niklas.lehmann@web.de,+4900000000085,Allow,Allow,Allow,Allow
+3aa765b4-d438-4ad2-9bb4-5a8490bba986,Marie,Lehmann,ccciw.marie.lehmann@gmail.com,+4900000000350,Allow,Do Not Allow,Allow,Allow
+d5abf985-0cce-4d22-bc03-64eaecf94743,Nina,Ammann,ccciw.nina.ammann@gmail.com,+4100000000438,Do Not Allow,Allow,Allow,Do Not Allow
+f41d41c4-87f2-441d-a6e3-6d40d7e653bb,Leon,Huber,ccciw.leon.huber@t-online.de,+4900000000301,Allow,Allow,Allow,Allow
+938b3d6a-e27e-456d-b74b-b0dc83866d5a,Nora,Bieri,ccciw.nora.bieri@gmx.de,+4100000000439,Allow,Allow,Allow,Allow
+409e49d2-188d-435a-a551-e5c63e9b0023,Julia,Klein,ccciw.julia.klein@gmx.de,+4900000000037,Allow,Allow,Allow,Allow
+a98338ca-cfc6-4614-8012-df122dce853b,Grace,Wilson,ccciw.grace.wilson@t-online.de,+4400000000500,Allow,Allow,Allow,Allow
+9581b60b-f868-4ec6-ac08-82054ba641bd,Kathrin,Hoffmann,ccciw.kathrin.hoffmann@gmail.com,+4900000000204,Allow,Allow,Allow,Allow
+6de9a34f-8bce-47e8-ac38-39b24e9cb53c,Moritz,Wolf,ccciw.moritz.wolf@gmx.de,+4900000000357,Allow,Allow,Allow,Allow
+2a2545e3-28fb-430b-b25c-3a17c8e81fcf,Nina,Zurbuchen,ccciw.nina.zurbuchen@gmail.com,+4100000000429,Allow,Allow,Allow,Allow
+dc5be2fa-6f98-4c85-b796-c655c980b42f,Philipp,Becker,ccciw.philipp.becker@gmail.com,+4900000000110,Allow,Allow,Allow,Allow
+a465d63c-9420-41df-8a1a-a0ea8ec09c13,Felix,Meyer,ccciw.felix.meyer@gmail.com,+4900000000225,Allow,Allow,Allow,Allow
+cb9eecaf-e655-423f-a13d-0f2879cf32b0,Sophie,Schwarz,ccciw.sophie.schwarz@gmail.com,+4900000000272,Allow,Allow,Allow,Allow
+028849fd-6d33-49d2-9636-2cba0504cd2f,Marie,Werner,ccciw.marie.werner@gmail.com,+4900000000298,Allow,Allow,Allow,Allow
+429d776f-2b95-4b56-9e04-7787dd364086,Felix,Schmitz,ccciw.felix.schmitz@gmail.com,+4900000000095,Allow,Allow,Allow,Allow
+3ae01a80-4216-454f-b005-ccb6d3997d5a,Jonas,Vogel,ccciw.jonas.vogel@yahoo.com,+4900000000185,Allow,Allow,Allow,Allow
+45b88654-b880-4276-9ba4-92de5c507cb0,Lena,Krause,ccciw.lena.krause@web.de,+4900000000266,Allow,Allow,Allow,Allow
+0b8eaf9c-804d-4dbd-a0df-ab452b56813c,Jan,Braun,ccciw.jan.braun@gmail.com,+4900000000083,Allow,Allow,Allow,Allow
+91e9fd3b-53f9-457c-8b79-bfc6a39ce9db,Verena,Wagner,ccciw.verena.wagner@gmail.com,+4300000000404,Allow,Allow,Allow,Allow
+89cbf93a-78cd-444d-94f9-9ce0355e5097,Hannah,Moser,ccciw.hannah.moser@web.de,+4300000000401,Allow,Allow,Allow,Allow
+40bc34ce-d04f-443e-918c-ca4632dfe2e3,Kathrin,Becker,ccciw.kathrin.becker@t-online.de,+4900000000293,Allow,Allow,Allow,Allow
+6b922dcb-6cd3-4906-8b30-d612a2dad452,Anna,Braun,ccciw.anna.braun@outlook.com,+4900000000175,Do Not Allow,Allow,Allow,Allow
+787ad4bd-6af5-4603-9e99-246e0d4e2452,Lucia,Martin,ccciw.lucia.martin@outlook.com,+3400000000454,Allow,Allow,Allow,Do Not Allow
+4b73f7d4-fa4e-4472-bca3-8b500fb4824b,Felix,Winter,ccciw.felix.winter@gmail.com,+4900000000103,Allow,Allow,Allow,Allow
+0fd3a162-df5a-4ce7-a625-8bffd0b49046,Sebastian,Lang,ccciw.sebastian.lang@gmx.de,+4900000000207,Allow,Allow,Allow,Allow
+8cf1950f-64b0-410d-a02a-820b0a8e3977,Marlene,Huber,ccciw.marlene.huber@web.de,+4900000000223,Allow,Allow,Allow,Allow
+7f0a13da-e65e-41e7-a869-2a8982b951cf,Lea,Moller,ccciw.lea.moller@gmail.com,+4900000000034,Allow,Allow,Allow,Allow
+c161228a-5adb-421a-977f-4d86fef27e36,Mia,Schneider,ccciw.mia.schneider@web.de,+4900000000179,Allow,Allow,Allow,Allow
+fba7b11e-f357-4f61-8727-372c77dac8b2,Sebastian,Peters,ccciw.sebastian.peters@web.de,+4900000000334,Allow,Allow,Allow,Allow
+8bfa1ec7-8d98-4786-8036-421dc47ff724,Noah,Meyer,ccciw.noah.meyer@outlook.com,+4900000000008,Allow,Allow,Allow,Allow
+ad6f489c-1d8b-4574-b08b-1b3a133ebd4c,Max,Schmitz,ccciw.max.schmitz@yahoo.com,+4900000000050,Allow,Allow,Allow,Allow
+a93a85b6-168c-457e-83b3-a67192adced6,Oliver,Roberts,ccciw.oliver.roberts@gmail.com,+4400000000493,Allow,Allow,Allow,Allow
+8cd440b3-7e2d-4ee7-80f3-c89e9c99591b,Jana,Schneider,ccciw.jana.schneider@t-online.de,+4900000000315,Allow,Allow,Allow,Allow
+a23d66ae-988e-46cb-8bf6-a80c9241c133,Felix,Moller,ccciw.felix.moller@outlook.com,+4900000000096,Allow,Allow,Allow,Allow
+e9e9e375-b787-42ea-8e9a-093a50c9cb5d,Sarah,Werner,ccciw.sarah.werner@web.de,+4900000000282,Do Not Allow,Allow,Allow,Allow
+d3aea09a-1e7d-422a-996b-d70dbd36d689,Sophie,Krause,ccciw.sophie.krause@outlook.com,+4900000000200,Allow,Allow,Allow,Allow
+fd879c6f-a37a-4f48-9710-ec17439de229,Moritz,Vogel,ccciw.moritz.vogel@gmail.com,+4900000000326,Allow,Allow,Allow,Allow
+beb252fa-c683-486e-a95f-8cf577e75567,Lisa,Lange,ccciw.lisa.lange@gmx.de,+4900000000098,Allow,Allow,Allow,Allow
+04a7f40e-322c-47d0-9b3a-b15f5c924a50,Marie,Moller,ccciw.marie.moller@gmx.de,+4900000000371,Allow,Allow,Allow,Do Not Allow
+f60fdbf3-2981-4410-a1f3-2969471fb576,Nina,Lange,ccciw.nina.lange@yahoo.com,+4900000000345,Allow,Allow,Allow,Allow
+0e2e9687-9048-452e-b302-b741ab894b0e,Lina,Widmer,ccciw.lina.widmer@gmx.de,+4100000000433,Allow,Allow,Allow,Allow
+55e0820f-2b04-4077-950b-c7e8d4888a72,Mara,Ammann,ccciw.mara.ammann@gmx.de,+4100000000431,Allow,Allow,Allow,Allow
+776af2be-d456-4c26-9df2-b5e22f693c12,Moritz,Neumann,ccciw.moritz.neumann@web.de,+4900000000011,Allow,Allow,Allow,Allow
+9825c6a3-2b7d-441c-a6e0-bd12cfe35782,Noa,Bos,ccciw.noa.bos@yahoo.com,+3100000000473,Allow,Allow,Allow,Allow
+6a1e813d-3f9f-463c-b250-d8fd990cce86,Jan,Lehmann,ccciw.jan.lehmann@gmail.com,+4900000000399,Allow,Allow,Allow,Allow
+74417354-db67-49fa-bb97-d19af5307639,Kathrin,Klein,ccciw.kathrin.klein@gmx.de,+4900000000336,Allow,Allow,Allow,Allow
+bcb4a6e5-e207-4b6c-a69d-fce32d977e42,Felix,Kaiser,ccciw.felix.kaiser@web.de,+4900000000275,Allow,Allow,Allow,Allow
+b914aadf-d8a1-4811-9e08-abf0972be91d,Jesse,Visser,ccciw.jesse.visser@gmx.de,+3100000000469,Allow,Allow,Allow,Allow
+f98f4f53-8007-4c22-8808-79db909dcdc3,Emily,Thomas,ccciw.emily.thomas@web.de,+4400000000494,Allow,Allow,Allow,Allow
+90753b11-add7-41f7-9acd-49c38bccb81e,Luca,Frei,ccciw.luca.frei@web.de,+4100000000447,Allow,Allow,Allow,Allow
+80e34e4e-3ae6-47ed-b5be-af0ff06544c3,Erik,Engel,ccciw.erik.engel@yahoo.com,+4900000000356,Allow,Allow,Allow,Allow
+012ef03d-26f8-40ae-8d74-44225b01ee08,Lea,Winter,ccciw.lea.winter@yahoo.com,+4900000000396,Allow,Allow,Allow,Allow
+1788913b-e875-4ec6-ba52-1d5d3ccc3fd1,Ben,Braun,ccciw.ben.braun@outlook.com,+4900000000171,Do Not Allow,Allow,Allow,Allow
+04c0dfc5-3d11-40f5-9351-0c5f832a2f74,Sarah,Robert,ccciw.sarah.robert@web.de,+3300000000482,Allow,Do Not Allow,Allow,Allow
+e4039f1f-8624-4d6d-9900-a982dcf63548,Anna,Kuhn,ccciw.anna.kuhn@gmx.de,+4900000000173,Allow,Allow,Allow,Allow
+3105c5fe-8b5a-45a4-8bc0-b2ffde29ec99,Tim,Klein,ccciw.tim.klein@gmx.de,+4900000000300,Allow,Allow,Allow,Do Not Allow
+3bd6463f-cc8b-4142-8315-da969895a8c3,Laura,Werner,ccciw.laura.werner@gmail.com,+4900000000327,Allow,Allow,Allow,Do Not Allow
+43a5fb0f-3725-44b2-9fcb-f80699d61f1a,Erik,Werner,ccciw.erik.werner@yahoo.com,+4900000000166,Do Not Allow,Allow,Allow,Allow
+fe62068a-9df2-4a75-8bf0-b67d550fe728,Felix,Schmidt,ccciw.felix.schmidt@web.de,+4900000000398,Allow,Allow,Allow,Allow
+d44c3e82-29da-4896-b3ff-3edca9273906,Erik,Lang,ccciw.erik.lang@outlook.com,+4900000000243,Allow,Allow,Allow,Allow
+a190f801-f57a-4b01-9ad4-7282d3eb314d,Camille,Robert,ccciw.camille.robert@gmail.com,+3300000000487,Allow,Allow,Allow,Do Not Allow
+94afc65f-86a9-4ad8-a344-7fa535c88b41,Hannah,Pichler,ccciw.hannah.pichler@t-online.de,+4300000000409,Allow,Allow,Allow,Allow
+fdda33f1-ef3f-4ff2-94ae-3148e8ab72ba,Lea,Schroder,ccciw.lea.schroder@outlook.com,+4900000000158,Allow,Allow,Allow,Allow
+45d795be-a9b0-4ffe-874a-6eb5a03ec651,Nina,Richter,ccciw.nina.richter@gmail.com,+4900000000045,Allow,Allow,Allow,Allow
+dbce2c2d-3bdc-409b-8936-b12fafb75492,Sarah,Lehmann,ccciw.sarah.lehmann@web.de,+4900000000140,Allow,Allow,Allow,Allow
+a3a6943e-7fd9-4698-a07d-c8170d470274,Jules,Richard,ccciw.jules.richard@yahoo.com,+3300000000477,Allow,Allow,Allow,Allow
+fd937511-b696-431d-822e-d8e0c76cdb94,Niklas,Weber,ccciw.niklas.weber@gmx.de,+4900000000244,Allow,Allow,Allow,Allow
+179cf42c-bbb6-4c7a-a84b-1f062f99bbb5,Kathrin,Muller,ccciw.kathrin.muller@outlook.com,+4900000000284,Allow,Allow,Allow,Allow
+6b78a4aa-66fb-445a-b6d4-15e4223ba07a,Erik,Kuhn,ccciw.erik.kuhn@yahoo.com,+4900000000021,Do Not Allow,Allow,Allow,Allow
+b22388a2-b0b7-4da3-9c44-f680d9335dbd,Finn,Schwarz,ccciw.finn.schwarz@gmx.de,+4900000000043,Allow,Allow,Do Not Allow,Allow
+ab628e72-2beb-499b-82c2-36bd19ab233d,Jack,Williams,ccciw.jack.williams@outlook.com,+4400000000488,Allow,Do Not Allow,Allow,Allow
+75b91385-02c8-4a41-89c0-04cb6db389b3,Elena,Martin,ccciw.elena.martin@gmx.de,+3400000000457,Allow,Do Not Allow,Allow,Allow
+3645e9fb-6bb3-4f65-a896-6539276fe772,Lea,Huber,ccciw.lea.huber@yahoo.com,+4900000000131,Allow,Allow,Allow,Allow
+2607a71a-41a9-46f3-ae47-56b05bdc9a69,Anna,Schwarz,ccciw.anna.schwarz@outlook.com,+4900000000380,Allow,Allow,Allow,Allow
+47e181d6-1667-4797-983e-c5cc56f8fce8,Nadine,Eder,ccciw.nadine.eder@gmail.com,+4300000000424,Allow,Allow,Allow,Allow
+7303be23-d90b-4a48-901b-9d0ed4a6065b,Kathrin,Winter,ccciw.kathrin.winter@outlook.com,+4900000000349,Allow,Allow,Allow,Allow
+b9491285-7671-4619-aa0a-30e574a0a391,Noah,Vogel,ccciw.noah.vogel@outlook.com,+4900000000245,Allow,Allow,Allow,Allow
+4000c6ed-b561-4b8c-acb4-39bed35cfdfa,Ben,Weber,ccciw.ben.weber@t-online.de,+4900000000004,Allow,Allow,Allow,Allow
+110136e7-7664-43a5-80fa-6a450db3c952,Leon,Engel,ccciw.leon.engel@yahoo.com,+4900000000075,Allow,Do Not Allow,Allow,Allow
+0cb36717-f703-4bbc-9183-f68be1002689,Kathrin,Wagner,ccciw.kathrin.wagner@web.de,+4900000000208,Allow,Allow,Allow,Allow
+b6ba2a01-1ffb-4bae-8ed5-2223b22822f8,Noah,Wolf,ccciw.noah.wolf@gmail.com,+4900000000267,Allow,Allow,Do Not Allow,Allow
+654ab951-809a-467d-8dfc-69e0a73c1981,Laura,Hoffmann,ccciw.laura.hoffmann@web.de,+4900000000262,Allow,Allow,Allow,Allow
+6ba5b8bf-b599-471d-8847-f81babe2396a,Hannah,Wolf,ccciw.hannah.wolf@gmx.de,+4900000000157,Allow,Allow,Allow,Allow
+0fa987ee-b929-40d1-be25-1671812e8330,Jana,Lange,ccciw.jana.lange@web.de,+4900000000040,Allow,Allow,Allow,Allow
+ac707743-9cd4-44ae-bae4-f68f61d9b8eb,Niklas,Lang,ccciw.niklas.lang@t-online.de,+4900000000197,Allow,Do Not Allow,Allow,Allow
+04e3a7be-6817-43de-a90e-6e5d69085053,Julia,Krause,ccciw.julia.krause@yahoo.com,+4900000000164,Allow,Allow,Allow,Allow
+76e1e19a-d006-4b6a-b89a-3a42d03c00f4,Lea,Lorenz,ccciw.lea.lorenz@gmail.com,+4900000000388,Allow,Allow,Allow,Do Not Allow
+fe392414-954e-426a-97f4-13c66063c050,George,Davies,ccciw.george.davies@web.de,+4400000000496,Allow,Do Not Allow,Allow,Do Not Allow
+442bc417-b8dc-450b-8201-457066b677b5,Sophie,Lehmann,ccciw.sophie.lehmann@gmail.com,+4900000000400,Allow,Allow,Allow,Allow
+a1d371aa-7219-4f67-a4b8-db86c13f776f,Lukas,Huber,ccciw.lukas.huber@outlook.com,+4900000000035,Allow,Allow,Allow,Allow
+06084d1d-b61d-490e-8fe3-80d04658bc36,Ben,Lange,ccciw.ben.lange@gmail.com,+4900000000018,Allow,Allow,Allow,Allow
+265b8427-93b4-47c3-b559-8df339ce5ecc,Sophie,Fischer,ccciw.sophie.fischer@t-online.de,+4900000000227,Allow,Allow,Allow,Allow
+34c67ebc-9161-4fb6-b4e4-35f5b1d7c610,Laura,Schmidt,ccciw.laura.schmidt@yahoo.com,+4900000000255,Do Not Allow,Allow,Allow,Allow
+c8b00618-9dae-4112-aa32-68f4520b1bdf,Jonas,Kaiser,ccciw.jonas.kaiser@t-online.de,+4900000000112,Allow,Allow,Allow,Allow
+fe3f7b00-3789-4d7c-9c2a-0e9ccf913a05,Jan,Klein,ccciw.jan.klein@outlook.com,+4900000000362,Do Not Allow,Allow,Allow,Allow
+c9f2afd0-d35f-4814-8a9b-748b1d065b32,Erik,Wagner,ccciw.erik.wagner@gmail.com,+4900000000086,Do Not Allow,Allow,Allow,Do Not Allow
+411308bd-2f52-4dae-8104-138c78ad7011,Moritz,Fischer,ccciw.moritz.fischer@web.de,+4900000000269,Allow,Allow,Allow,Allow
+c2c7248d-b5cf-44d6-aabd-4f81f883a8c6,Tobias,Moser,ccciw.tobias.moser@yahoo.com,+4300000000422,Allow,Allow,Allow,Allow
+88bb5c56-f7b0-4174-b5f9-5d8b4cadeaf0,Jan,Weber,ccciw.jan.weber@gmail.com,+4900000000360,Do Not Allow,Allow,Allow,Do Not Allow
+868c14ba-e2b3-45f5-b30b-1c796e3b2468,Julia,Lehmann,ccciw.julia.lehmann@web.de,+4900000000212,Allow,Allow,Allow,Allow
+4cab1e7a-e2f5-43f4-b963-f305e2372a92,Noah,Taylor,ccciw.noah.taylor@gmx.de,+4400000000495,Allow,Allow,Allow,Allow
+02a334cb-a7ec-468c-ab10-e0ad5ab4c288,Silvan,Stalder,ccciw.silvan.stalder@web.de,+4100000000427,Allow,Allow,Allow,Do Not Allow
+59d6e44b-e432-47fa-8e4e-7765281b0d23,Erik,Schneider,ccciw.erik.schneider@outlook.com,+4900000000151,Allow,Allow,Allow,Allow
+70fa4ad4-6d17-46be-8e09-35e70e6a9a41,Pablo,Rodriguez,ccciw.pablo.rodriguez@t-online.de,+3400000000455,Allow,Allow,Allow,Allow
+3c823279-704c-41f9-adfb-d8c4bac440ca,Lena,Vogel,ccciw.lena.vogel@gmx.de,+4900000000125,Allow,Allow,Allow,Allow
+8fbad94f-7aec-4994-a394-c3028ae6dd1f,Sebastian,Muller,ccciw.sebastian.muller@gmail.com,+4900000000070,Allow,Allow,Allow,Allow
+d2025b4f-c745-4f85-afe3-1fa9bb010be5,Sebastian,Lange,ccciw.sebastian.lange@t-online.de,+4900000000377,Do Not Allow,Allow,Allow,Allow
+3e1f67d8-98d7-43a1-8110-3f9b632f9aa6,Theresa,Auer,ccciw.theresa.auer@t-online.de,+4300000000411,Allow,Allow,Allow,Allow
+bedb3ddb-b32f-4b0e-ac4e-7b10b5564e41,Max,Neumann,ccciw.max.neumann@gmx.de,+4900000000122,Allow,Allow,Allow,Allow
+a267289d-cd68-4f13-840e-d16fedd3ef2f,Emma,Neumann,ccciw.emma.neumann@t-online.de,+4900000000373,Allow,Allow,Allow,Allow
+961ace65-7784-43b6-86f8-a51ee6532220,Laura,Schmitz,ccciw.laura.schmitz@outlook.com,+4900000000001,Allow,Allow,Allow,Allow
+4dad2313-bfe5-4d63-b05f-de4098a668f2,Hannah,Vogel,ccciw.hannah.vogel@gmail.com,+4900000000247,Do Not Allow,Allow,Allow,Allow
+20ccc06a-9c3f-423a-af85-6b3006ccd366,Max,Vogel,ccciw.max.vogel@outlook.com,+4900000000372,Allow,Allow,Allow,Do Not Allow
+6be19862-ce91-4ef2-a7bf-e31e5f0a16c0,Lukas,Wolf,ccciw.lukas.wolf@t-online.de,+4900000000130,Allow,Allow,Allow,Do Not Allow
+69f6e6fe-3332-4349-8a7e-08956a12c405,Louis,Thomas,ccciw.louis.thomas@gmail.com,+3300000000475,Allow,Allow,Allow,Allow
+4e9e8f7e-ce4b-45b5-b65f-e4ca9a6d8388,Paul,Schneider,ccciw.paul.schneider@gmail.com,+4900000000222,Allow,Allow,Allow,Allow
+7934650a-94d6-45b6-a83c-445a71cc117c,Max,Kuhn,ccciw.max.kuhn@yahoo.com,+4900000000174,Allow,Allow,Allow,Allow
+912f17a6-e34f-45b3-aebf-4cfd27c5b83f,David,Kuhn,ccciw.david.kuhn@yahoo.com,+4900000000239,Allow,Allow,Allow,Allow
+f71ed649-024d-45b1-b3ca-3ab825e42a2d,Emma,Hartmann,ccciw.emma.hartmann@outlook.com,+4900000000387,Allow,Allow,Allow,Allow
+93def4cf-2bf9-4d0a-a64d-7c465020f710,Lena,Hoffmann,ccciw.lena.hoffmann@web.de,+4900000000016,Do Not Allow,Allow,Allow,Allow
+349ae83a-70a9-4210-b3bc-91b357168509,Lisa,Schneider,ccciw.lisa.schneider@outlook.com,+4900000000169,Allow,Allow,Allow,Allow
+322947da-73d0-4f2d-8694-a84aa09034b1,Sophie,Huber,ccciw.sophie.huber@t-online.de,+4900000000395,Allow,Do Not Allow,Allow,Allow
+567712f9-8bd2-46a7-9628-01f1a1bdd269,Lea,Durand,ccciw.lea.durand@outlook.com,+3300000000479,Allow,Allow,Allow,Do Not Allow
+8e533192-62a5-45b8-9dcb-322c4527fd5a,Niklas,Neumann,ccciw.niklas.neumann@web.de,+4900000000126,Allow,Allow,Do Not Allow,Allow
+9a09339f-888d-4ae4-a646-bce22f301319,Clara,Becker,ccciw.clara.becker@gmx.de,+4900000000014,Do Not Allow,Allow,Allow,Allow
+480a1351-d400-4c76-ab2d-ed01e68c943e,Julia,Muller,ccciw.julia.muller@gmail.com,+4900000000341,Allow,Allow,Allow,Do Not Allow
+66fb2a52-a032-412f-87f9-fc8469b53cb7,Kathrin,Wolf,ccciw.kathrin.wolf@gmail.com,+4900000000231,Allow,Allow,Allow,Do Not Allow
+b5a9a439-fe10-485b-a45c-34885e70c586,Jana,Meier,ccciw.jana.meier@outlook.com,+4900000000190,Allow,Allow,Allow,Do Not Allow
+0eb65965-b6c1-44ec-b8e8-7a5b68405062,Marie,Weber,ccciw.marie.weber@outlook.com,+4900000000285,Allow,Allow,Allow,Allow
+01f43c39-ed99-4fcf-99fc-725eb4d58f68,Ben,Kuhn,ccciw.ben.kuhn@outlook.com,+4900000000322,Do Not Allow,Allow,Allow,Do Not Allow
+8d0a946d-c21b-4bc5-9440-cb2f5f77a007,Lukas,Schmitz,ccciw.lukas.schmitz@web.de,+4900000000052,Allow,Allow,Allow,Do Not Allow
+d12a9f46-787f-439c-ad69-d5aa1ee3d0c9,Niklas,Winter,ccciw.niklas.winter@web.de,+4900000000252,Allow,Allow,Allow,Do Not Allow
+bbbef9d5-8496-49e2-83f0-dbcb372d40e7,Julia,Schmitz,ccciw.julia.schmitz@yahoo.com,+4900000000263,Allow,Do Not Allow,Allow,Do Not Allow
+351770e7-be19-403c-ae46-f1ff622f32bf,Lisa,Franke,ccciw.lisa.franke@gmx.de,+4900000000289,Allow,Allow,Allow,Allow
+8db88013-9bcf-489e-8a7e-bb2082799938,Marie,Kruger,ccciw.marie.kruger@outlook.com,+4900000000010,Do Not Allow,Allow,Allow,Allow
+4e44bad6-0118-414b-b719-3359e33f4ee3,Clara,Hartmann,ccciw.clara.hartmann@yahoo.com,+4900000000219,Allow,Allow,Allow,Allow
+c7a057b0-e7f6-49ab-9b51-6f3d2b66d479,Lukas,Weber,ccciw.lukas.weber@web.de,+4900000000254,Allow,Allow,Allow,Allow
+62a89e27-8fe7-4777-b5b3-291180ccade4,Hannah,Lehmann,ccciw.hannah.lehmann@t-online.de,+4900000000352,Allow,Do Not Allow,Allow,Allow
+782041b3-e8ba-4279-82f0-a532f0ea9773,Max,Winter,ccciw.max.winter@outlook.com,+4900000000307,Allow,Allow,Allow,Allow
+3b404bef-baba-49b9-afa3-872102c67b74,Melina,Hartmann,ccciw.melina.hartmann@outlook.com,+4900000000039,Allow,Do Not Allow,Allow,Allow
+199ed79a-c489-4e2e-a237-1304ad5ceadd,Mia,Kuhn,ccciw.mia.kuhn@web.de,+4900000000278,Allow,Allow,Allow,Allow
+da4db557-69be-48d0-b4bb-2b6c06308c62,Niklas,Lorenz,ccciw.niklas.lorenz@yahoo.com,+4900000000049,Do Not Allow,Allow,Allow,Allow
+3d9f063b-6fbe-4b87-a2a3-ddf54eccb555,Jonas,Schneider,ccciw.jonas.schneider@outlook.com,+4900000000310,Allow,Allow,Allow,Allow
+06e7115a-fab3-426d-95d0-54684e1c38b4,Laura,Richter,ccciw.laura.richter@gmail.com,+4900000000328,Allow,Allow,Allow,Allow
+1a4c35e2-d7ec-4c4b-8000-83a3b6307eb3,Lea,Becker,ccciw.lea.becker@gmail.com,+4900000000029,Allow,Allow,Allow,Allow
+e3a7091f-c22b-4c1e-a434-5573796a724c,Emily,Roberts,ccciw.emily.roberts@outlook.com,+4400000000492,Allow,Allow,Allow,Allow
+ed28e36c-4a8b-4259-84f6-18404a2b1098,Lena,Lehmann,ccciw.lena.lehmann@gmail.com,+4900000000203,Do Not Allow,Do Not Allow,Allow,Allow
+acca43db-5376-433b-aabe-a6fb4ee1433c,Mia,Vogel,ccciw.mia.vogel@outlook.com,+4900000000036,Allow,Allow,Allow,Allow
+3483a433-9f0a-494b-8f2a-afee33a25edd,Simon,Bauer,ccciw.simon.bauer@gmx.de,+4300000000413,Do Not Allow,Do Not Allow,Allow,Allow
+2557df3c-72f2-4d30-8cb8-f97327c20f3d,Anna,Meyer,ccciw.anna.meyer@web.de,+4900000000346,Allow,Allow,Allow,Allow
+bd10ed11-865c-4be2-9fca-0ac71d4f888d,Emma,Kaiser,ccciw.emma.kaiser@gmx.de,+4900000000183,Allow,Allow,Allow,Allow
+9b2a0176-2c98-4aca-81a3-fe5c275c9a40,Moritz,Kruger,ccciw.moritz.kruger@web.de,+4900000000363,Do Not Allow,Allow,Allow,Allow
+966c0eeb-a6be-4347-9284-516b00c08d8b,Philipp,Schroder,ccciw.philipp.schroder@t-online.de,+4900000000288,Allow,Allow,Allow,Allow
+c338f2dc-9bec-4e36-89cc-09095181aa46,Jonas,Neumann,ccciw.jonas.neumann@outlook.com,+4900000000015,Allow,Do Not Allow,Allow,Allow
+0f9ca2ba-758b-4db3-873c-48eb73276c75,Elena,Perez,ccciw.elena.perez@web.de,+3400000000459,Allow,Allow,Allow,Allow
+f104664a-6f7a-42ba-933a-9d031cb33ae1,Noah,Meier,ccciw.noah.meier@gmx.de,+4900000000374,Allow,Allow,Allow,Allow
+2fb11271-9a94-4853-a4bb-a22cb732e4b4,Sem,Visser,ccciw.sem.visser@web.de,+3100000000464,Allow,Allow,Allow,Do Not Allow
+4f6ee642-c8e7-4ff3-b2a8-7d170a89e029,Theresa,Fuchs,ccciw.theresa.fuchs@gmail.com,+4300000000410,Allow,Allow,Allow,Allow
+9b7875b9-dd06-41d1-b048-012b6060f403,Clara,Wolf,ccciw.clara.wolf@gmail.com,+4900000000195,Do Not Allow,Allow,Do Not Allow,Allow
+6669f723-2fee-4ed6-97c0-b97a0f29d751,Marie,Schmitz,ccciw.marie.schmitz@web.de,+4900000000188,Allow,Allow,Allow,Do Not Allow
+548d21db-1a96-427e-9a87-50e857338abf,Philipp,Hoffmann,ccciw.philipp.hoffmann@web.de,+4900000000376,Allow,Do Not Allow,Allow,Allow
+540292cd-e8c6-43c0-820a-2e21db41a9d1,Leon,Lorenz,ccciw.leon.lorenz@web.de,+4900000000141,Allow,Allow,Allow,Allow
+c925ff02-3cb9-4227-bf40-d9aebeb785c7,Noah,Wagner,ccciw.noah.wagner@gmail.com,+4900000000069,Allow,Allow,Allow,Allow
+9e1bb41f-c9ba-45eb-89af-021f2c50ae99,Jana,Huber,ccciw.jana.huber@outlook.com,+4900000000137,Allow,Allow,Allow,Allow
+2d6ce953-c0cf-4f70-b9f3-8d6644e9a192,Nina,Wolf,ccciw.nina.wolf@gmail.com,+4900000000202,Do Not Allow,Do Not Allow,Allow,Allow
+46a544a4-0210-43a7-a507-b224004d5e36,Jakob,Fuchs,ccciw.jakob.fuchs@outlook.com,+4300000000419,Allow,Do Not Allow,Allow,Do Not Allow
+83a6a6bd-d84c-475f-b637-acfe0be3aa31,Lena,Kruger,ccciw.lena.kruger@yahoo.com,+4900000000292,Allow,Allow,Allow,Do Not Allow
+0a5aa1f0-2249-4adb-af5e-9e60c105d400,Sophie,Kuhn,ccciw.sophie.kuhn@gmx.de,+4900000000250,Allow,Allow,Allow,Allow
+3296cc34-8ab9-4886-b2be-ecccd11f2d7c,Clara,Vogel,ccciw.clara.vogel@outlook.com,+4900000000226,Allow,Allow,Do Not Allow,Allow
+ef4884a3-556e-4c4a-8271-0f96f8d2162d,Lisa,Hoffmann,ccciw.lisa.hoffmann@gmail.com,+4900000000218,Allow,Allow,Allow,Allow
+2032821c-2839-479d-bdd3-f96d40f1777a,Paul,Meier,ccciw.paul.meier@yahoo.com,+4900000000217,Do Not Allow,Allow,Allow,Allow
+962e1f00-a8cf-403d-927a-ca157644dfc2,Lucia,Ruiz,ccciw.lucia.ruiz@outlook.com,+3400000000458,Allow,Do Not Allow,Allow,Allow
+c504dbeb-9154-4c65-938e-bddd90ec550d,Lea,Weber,ccciw.lea.weber@web.de,+4900000000026,Allow,Do Not Allow,Allow,Allow
+34a94404-7add-404f-a548-4e8544304748,Tim,Fischer,ccciw.tim.fischer@web.de,+4900000000319,Allow,Allow,Do Not Allow,Allow
+9ec867e2-878e-4220-a334-5953a26e255b,David,Moller,ccciw.david.moller@gmail.com,+4900000000248,Allow,Allow,Allow,Allow
+865ba411-b588-469d-a876-ab3b82fadb81,Hugo,Bernard,ccciw.hugo.bernard@gmail.com,+3300000000485,Allow,Allow,Allow,Allow
+2e961ec9-2e10-4e80-8535-9f30cdda855e,Jana,Kruger,ccciw.jana.kruger@web.de,+4900000000062,Allow,Allow,Allow,Allow
+43f6776a-3090-4154-987b-f01e2bed60a9,Noah,Hartmann,ccciw.noah.hartmann@web.de,+4900000000246,Allow,Allow,Allow,Do Not Allow
+0b2bf9e4-1f72-4455-ba77-7df54dc796d3,Lisa,Schmitz,ccciw.lisa.schmitz@web.de,+4900000000177,Allow,Allow,Allow,Allow
+d8ab35b3-5c3a-405f-876b-2bc7c76d5b94,Daan,Mulder,ccciw.daan.mulder@web.de,+3100000000470,Allow,Allow,Allow,Allow
+143bb858-c442-4c80-95b1-510a96971370,Noah,Richter,ccciw.noah.richter@web.de,+4900000000120,Allow,Allow,Allow,Allow
+570734e7-10b9-4eb7-bd64-c555df3d0929,Lisa,Hartmann,ccciw.lisa.hartmann@outlook.com,+4900000000333,Allow,Allow,Allow,Allow
+be176b5b-108f-44df-ba86-674c2c688de4,Leon,Lehmann,ccciw.leon.lehmann@t-online.de,+4900000000286,Allow,Allow,Allow,Allow
+54d140bb-e727-43f2-b43e-01af7440f130,Clara,Koch,ccciw.clara.koch@gmail.com,+4900000000236,Allow,Allow,Allow,Allow
+406d82b4-eb00-437f-a828-afe885a006b3,Mara,Frei,ccciw.mara.frei@outlook.com,+4100000000428,Allow,Allow,Allow,Allow
+9b616ce4-02b2-468c-8d7d-4cd00c927be2,Marlene,Lehmann,ccciw.marlene.lehmann@gmx.de,+4900000000097,Allow,Allow,Allow,Do Not Allow
+205a6758-7422-4ef4-b125-9762e628713c,Marie,Wagner,ccciw.marie.wagner@gmx.de,+4900000000393,Allow,Do Not Allow,Allow,Allow
+88fd0e3c-a241-41d6-88a3-f563fd6150ac,Pablo,Ruiz,ccciw.pablo.ruiz@web.de,+3400000000452,Allow,Do Not Allow,Allow,Do Not Allow
+cce306a7-5f7c-4536-a937-dd39ac42d718,Sarah,Fischer,ccciw.sarah.fischer@gmail.com,+4900000000074,Allow,Allow,Allow,Allow
+38367df8-dc61-453c-87ec-553d55ae4020,Fleur,Bakker,ccciw.fleur.bakker@gmx.de,+3100000000474,Allow,Allow,Allow,Allow
+8615b67d-79e9-42c0-8b71-c8d0e5ef21fe,Jonas,Klein,ccciw.jonas.klein@yahoo.com,+4900000000057,Allow,Allow,Allow,Allow
+b46e061c-3242-4501-96b3-fd2151d51ede,Finn,Richter,ccciw.finn.richter@gmail.com,+4900000000242,Do Not Allow,Allow,Allow,Do Not Allow
+7e305640-8a60-4029-bd02-e9c75a2e2ea3,Sarah,Muller,ccciw.sarah.muller@web.de,+4900000000367,Allow,Allow,Allow,Do Not Allow
+18a44241-d448-4534-bcf2-d5181ba38ae8,Jana,Krause,ccciw.jana.krause@web.de,+4900000000347,Allow,Allow,Allow,Allow
+a8fa6555-3ffa-4037-ac51-5aa0f0ee8b70,Max,Kruger,ccciw.max.kruger@gmail.com,+4900000000006,Allow,Allow,Allow,Allow
+60348c2c-6a67-4500-9fcf-91229820a64c,David,Muller,ccciw.david.muller@outlook.com,+4900000000391,Do Not Allow,Allow,Allow,Allow
+b941e467-4549-4b42-b08f-5b4c0c3e62a3,Tobias,Richter,ccciw.tobias.richter@web.de,+4900000000230,Allow,Allow,Allow,Allow
+e10989b4-3225-4f71-a065-63f2397192a5,Emma,Winter,ccciw.emma.winter@gmx.de,+4900000000295,Do Not Allow,Do Not Allow,Allow,Allow
+216061c6-4b42-437f-b6bc-e4c5771e1fd8,Grace,Davies,ccciw.grace.davies@gmail.com,+4400000000498,Do Not Allow,Allow,Allow,Allow
+6272b1a9-a3fc-4f71-bf5e-569bba37eea8,Philipp,Peters,ccciw.philipp.peters@gmail.com,+4900000000224,Allow,Allow,Allow,Allow
+3b948802-26e5-45ac-bffa-af2c8afdbeb2,Sarah,Weber,ccciw.sarah.weber@outlook.com,+4900000000009,Allow,Allow,Allow,Do Not Allow
+17de8665-7091-47c9-a37a-7bbe85cb0377,Anna,Schmitz,ccciw.anna.schmitz@web.de,+4900000000201,Allow,Allow,Allow,Allow
+b326db3b-b676-441e-8883-c24ed31e0dfa,Philipp,Richter,ccciw.philipp.richter@t-online.de,+4900000000214,Allow,Do Not Allow,Allow,Allow
+0e710c5b-758c-4b07-9ff5-44a28dd4200b,Felix,Lange,ccciw.felix.lange@web.de,+4900000000056,Allow,Allow,Allow,Allow
+de183d85-e895-4983-b145-7ba8299d0853,Noa,deVries,ccciw.noa.devries@t-online.de,+3100000000463,Allow,Allow,Allow,Do Not Allow
+2ed069f0-d66c-4d5a-9505-d5825119050c,Ben,Neumann,ccciw.ben.neumann@gmail.com,+4900000000081,Allow,Allow,Allow,Allow
+541b694d-7aa7-4646-850c-5a77799de902,Marlene,Lange,ccciw.marlene.lange@gmail.com,+4900000000139,Allow,Allow,Allow,Allow
+2ad762dc-f16a-4aa2-a7ef-4375dec75c19,Sarah,Laurent,ccciw.sarah.laurent@web.de,+3300000000481,Allow,Allow,Allow,Allow
+49662296-2be0-47b3-bd41-6c09e3bc7b36,Nina,Peters,ccciw.nina.peters@web.de,+4900000000251,Allow,Allow,Allow,Allow
+2dd86e54-c0c3-4cdd-9000-f41105538a6f,Ben,Vogel,ccciw.ben.vogel@web.de,+4900000000294,Allow,Allow,Allow,Allow
+06398d21-87a6-4dd5-a3b5-55bc4bfa08ce,Jana,Muller,ccciw.jana.muller@web.de,+4900000000165,Allow,Allow,Allow,Allow
+1fe67e87-a5a6-45b1-a0c1-1da883c618c1,Sebastian,Franke,ccciw.sebastian.franke@gmx.de,+4900000000111,Allow,Allow,Allow,Allow
+fc318af0-36ba-4eba-bf42-696593e59d6f,Nina,Brunner,ccciw.nina.brunner@gmail.com,+4100000000450,Allow,Allow,Allow,Allow
+c6ea09b9-8b49-403c-bc07-36d09f92b5ee,Erik,Moller,ccciw.erik.moller@gmx.de,+4900000000193,Allow,Allow,Allow,Allow
+78f60660-bf3b-4d04-959b-fa3a3d00613c,Katharina,Eder,ccciw.katharina.eder@web.de,+4300000000408,Allow,Allow,Allow,Allow
+4fbc4d9a-5b71-41a4-8b9b-c0802f1a2183,Laura,Engel,ccciw.laura.engel@outlook.com,+4900000000331,Allow,Allow,Allow,Allow
+e40d0060-3c95-4d19-b3f1-205bd6bc5550,Finn,Schroder,ccciw.finn.schroder@web.de,+4900000000128,Allow,Allow,Allow,Allow
+32d11a52-fd64-424d-ac2d-40e41bee43ef,Lucas,Petit,ccciw.lucas.petit@outlook.com,+3300000000480,Do Not Allow,Allow,Allow,Allow
+8422939f-388c-4fe7-a45b-59cf4c9dfb3b,Jan,Bachmann,ccciw.jan.bachmann@gmail.com,+4100000000440,Allow,Allow,Allow,Allow
+464fb061-d272-4116-b9f9-36a75103ad00,Erik,Schwarz,ccciw.erik.schwarz@gmail.com,+4900000000264,Allow,Allow,Allow,Allow
+184f052c-e3ae-42ba-878c-83d95bca2d3e,Tobias,Mayr,ccciw.tobias.mayr@gmail.com,+4300000000406,Allow,Do Not Allow,Allow,Do Not Allow
+47c8253a-9342-41c9-b5d5-d60634b5ae7d,Nina,Schroder,ccciw.nina.schroder@outlook.com,+4900000000080,Do Not Allow,Allow,Allow,Allow
+c9a7b8bc-4add-4d54-98dc-1da2b0cb097d,Tobias,Huber,ccciw.tobias.huber@gmail.com,+4300000000423,Allow,Allow,Allow,Allow
+e327b544-ebe4-4815-abf7-2c765844b8cb,Tobias,Franke,ccciw.tobias.franke@gmail.com,+4900000000144,Allow,Allow,Allow,Allow
+0af0ef59-819a-4844-8438-0fbfae409e0e,Sebastian,Moller,ccciw.sebastian.moller@outlook.com,+4900000000389,Allow,Do Not Allow,Allow,Allow
+738693f5-ff99-4005-b72f-475995d44ee6,Felix,Hartmann,ccciw.felix.hartmann@yahoo.com,+4900000000138,Allow,Allow,Allow,Allow
+ccbcc157-272c-4ed8-ad0c-2311af6afd40,Philipp,Schmitz,ccciw.philipp.schmitz@gmx.de,+4900000000102,Allow,Allow,Allow,Allow
+35670f82-1c76-4f46-ba62-526435684f68,Julia,Wagner,ccciw.julia.wagner@web.de,+4900000000105,Do Not Allow,Allow,Allow,Allow
+3ef6a3e5-db6f-42cf-800a-323cc1319bd6,Jan,Widmer,ccciw.jan.widmer@gmx.de,+4100000000434,Allow,Allow,Allow,Allow
+b311a7e5-b4b7-4338-a539-fcd29b80e28b,Erik,Lorenz,ccciw.erik.lorenz@outlook.com,+4900000000161,Allow,Do Not Allow,Allow,Do Not Allow
+0237eab9-3658-4c68-8523-9d00b1ff6328,Nadine,Gruber,ccciw.nadine.gruber@outlook.com,+4300000000415,Allow,Allow,Allow,Do Not Allow
+fab8ee88-cfaf-4a5a-a27d-fb8efafd01f0,Marlene,Klein,ccciw.marlene.klein@web.de,+4900000000276,Allow,Allow,Allow,Allow
+9a8535af-50e7-4f52-8487-e368cb4f2e63,Sophie,Winter,ccciw.sophie.winter@t-online.de,+4900000000133,Allow,Allow,Allow,Allow
+5233f0e0-1c8e-4643-817a-0a20b3dfd10f,Moritz,Schmidt,ccciw.moritz.schmidt@outlook.com,+4900000000221,Allow,Allow,Allow,Do Not Allow
+f3766432-5ef5-4d28-975b-0fb1f1de3a42,Hannah,Leitner,ccciw.hannah.leitner@gmail.com,+4300000000418,Allow,Allow,Allow,Allow
+97227ca8-a7ba-450d-866f-3be647260624,Chloe,Simon,ccciw.chloe.simon@web.de,+3300000000484,Allow,Allow,Allow,Allow
+e5a05cc3-4ff7-40ac-9777-d243b0c67daa,Julia,Braun,ccciw.julia.braun@outlook.com,+4900000000209,Do Not Allow,Allow,Allow,Do Not Allow
+9e7487f5-6644-4d4c-84a5-05c64091654d,Nora,Frei,ccciw.nora.frei@gmail.com,+4100000000444,Allow,Allow,Allow,Do Not Allow
+49bc8c2b-cdd6-4c6d-afb0-33d0126ddab1,Laura,Neumann,ccciw.laura.neumann@t-online.de,+4900000000309,Allow,Allow,Allow,Allow
+2e5b11c3-39b1-41af-8b78-5eea6049bc34,Ben,Franke,ccciw.ben.franke@gmail.com,+4900000000337,Allow,Allow,Allow,Allow
+e60badbb-dc52-48d5-b25c-16e78e8efe30,Tobias,Schneider,ccciw.tobias.schneider@outlook.com,+4900000000149,Allow,Allow,Allow,Allow
+a9dce2f6-543f-4ddf-92de-ac49f48760c8,Leon,Becker,ccciw.leon.becker@gmx.de,+4900000000306,Allow,Allow,Allow,Allow
+165296c0-7f23-4c35-9dce-f024b9fbb8ca,Lena,Neumann,ccciw.lena.neumann@web.de,+4900000000068,Allow,Allow,Allow,Allow
+dab2b0fd-04ee-466a-85f9-a958e72e94d8,Tobias,Hartmann,ccciw.tobias.hartmann@outlook.com,+4900000000378,Allow,Allow,Allow,Allow
+d44bced1-a8b0-4e98-b9e7-ed4d0bdc301f,Clara,Klein,ccciw.clara.klein@t-online.de,+4900000000364,Allow,Allow,Allow,Allow
+b96f0262-5084-4a2a-bf57-1e1a6a5997dd,Paul,Meyer,ccciw.paul.meyer@gmx.de,+4900000000007,Do Not Allow,Allow,Allow,Allow
+6b7085cd-d0a9-426b-ac51-7430ff95df64,Theo,Durand,ccciw.theo.durand@outlook.com,+3300000000486,Do Not Allow,Allow,Allow,Do Not Allow
+09477edd-476b-406e-be38-7096b0e5c187,Sebastian,Meyer,ccciw.sebastian.meyer@outlook.com,+4900000000147,Allow,Allow,Allow,Do Not Allow
+29a4048a-0707-43e4-8e61-ab55fb848740,Marlene,Meier,ccciw.marlene.meier@gmx.de,+4900000000238,Do Not Allow,Allow,Allow,Allow
+88613be3-857f-4ee6-b93d-e7bd7a70bb85,Julia,Lange,ccciw.julia.lange@outlook.com,+4900000000121,Allow,Allow,Allow,Do Not Allow
+da8141f3-426d-4d4a-9e57-8277d85f0f94,Lukas,Muller,ccciw.lukas.muller@web.de,+4900000000249,Do Not Allow,Allow,Allow,Allow
+c534b63f-d19a-4d21-a6ec-1eb5b6b6588a,Finn,Lang,ccciw.finn.lang@gmx.de,+4900000000314,Allow,Allow,Allow,Allow
+accac6cb-8575-4b52-816b-cdf12779a68e,Jonas,Wagner,ccciw.jonas.wagner@gmx.de,+4900000000019,Allow,Do Not Allow,Allow,Allow
+644c65ba-308e-417f-b3a9-6ea428790ab6,Sarah,Wolf,ccciw.sarah.wolf@web.de,+4900000000047,Allow,Allow,Allow,Allow
+853cb131-c78c-4e18-831b-97808c6808dd,Hannah,Lorenz,ccciw.hannah.lorenz@outlook.com,+4900000000313,Allow,Do Not Allow,Allow,Allow
+2d62ba19-7980-41af-b13a-572f4a4aeda3,Tobias,Wagner,ccciw.tobias.wagner@gmx.de,+4900000000234,Allow,Allow,Allow,Do Not Allow
+575d741a-a69f-4799-afad-194a5baac35d,Ben,Schmidt,ccciw.ben.schmidt@gmx.de,+4900000000260,Allow,Allow,Allow,Allow
+8cb25d6d-2406-4902-977b-1aa1ea081218,Moritz,Winter,ccciw.moritz.winter@outlook.com,+4900000000348,Allow,Allow,Allow,Allow
+121669dd-4665-40f9-88b4-92648c27634a,Philipp,Vogel,ccciw.philipp.vogel@web.de,+4900000000296,Allow,Allow,Allow,Allow
+845d0e1a-79dd-416d-a4a0-901334dd8a85,Clara,Hoffmann,ccciw.clara.hoffmann@web.de,+4900000000118,Allow,Allow,Allow,Allow
+f0a9311a-5c3a-42f7-8be6-4ff07696e349,Anna,Kruger,ccciw.anna.kruger@yahoo.com,+4900000000216,Allow,Allow,Allow,Do Not Allow
+45a5d73b-ea8f-4b3d-a194-aa32ae7c9c00,Noah,Lang,ccciw.noah.lang@yahoo.com,+4900000000155,Allow,Allow,Allow,Allow
+2c038d1d-82f6-454e-a9ec-0f103f879811,Jonas,Krause,ccciw.jonas.krause@web.de,+4900000000005,Allow,Allow,Allow,Allow
+5ce6a3eb-65c5-4d39-9f4a-33644a4aba9f,Erik,Hoffmann,ccciw.erik.hoffmann@web.de,+4900000000291,Allow,Allow,Allow,Allow
+a03f963a-9b8c-4eb6-93fd-ed6e84769ca5,Jana,Becker,ccciw.jana.becker@gmail.com,+4900000000279,Allow,Allow,Allow,Allow
+0cad1c22-a5a8-4ea1-8bb9-6e4df4e65439,Paul,Engel,ccciw.paul.engel@gmail.com,+4900000000093,Allow,Allow,Allow,Allow
+6c07a237-b798-49fb-8ce5-0be3c8c80e41,Philipp,Moller,ccciw.philipp.moller@gmail.com,+4900000000162,Allow,Allow,Allow,Do Not Allow
+9211f775-222e-4f3e-832c-a4c198aec8b0,Lena,Hartmann,ccciw.lena.hartmann@yahoo.com,+4900000000211,Allow,Allow,Allow,Allow
+829dc981-8197-4c68-9de3-7090b4b9fc46,Finn,Krause,ccciw.finn.krause@web.de,+4900000000206,Allow,Do Not Allow,Allow,Allow
+4e55b53b-f2dd-43ae-a34a-2fbb97791bf6,Jan,Winter,ccciw.jan.winter@web.de,+4900000000153,Allow,Allow,Allow,Allow
+7dc7dae5-6b76-437c-87f7-164b95d1cbab,Laura,Lange,ccciw.laura.lange@gmail.com,+4900000000297,Allow,Allow,Allow,Allow
+12ef2d7d-39b8-44e5-8d40-54811f0a480b,Nina,Muller,ccciw.nina.muller@gmail.com,+4900000000072,Allow,Allow,Allow,Allow
+a4bc2828-f4d3-4c10-9a4a-caddbc9b55de,Tim,Huber,ccciw.tim.huber@outlook.com,+4900000000199,Allow,Allow,Allow,Allow
+eef4b46d-fcbc-4c28-a197-7562f4c450d2,Jonas,Peters,ccciw.jonas.peters@t-online.de,+4900000000031,Allow,Do Not Allow,Allow,Do Not Allow
+554b0728-c608-4146-a75a-5b017de91b23,Noah,Klein,ccciw.noah.klein@gmail.com,+4900000000051,Allow,Allow,Allow,Allow
+5649b7ac-3114-441c-b1b0-585c2429c735,Max,Wagner,ccciw.max.wagner@gmail.com,+4900000000339,Allow,Allow,Allow,Allow
+b0b57948-727e-4bd2-8d87-98b423ef5d22,Sebastian,Richter,ccciw.sebastian.richter@gmx.de,+4900000000317,Allow,Allow,Allow,Allow
+a47bcd13-f5cf-4840-91dd-69b6111e9779,Niklas,Meier,ccciw.niklas.meier@gmail.com,+4900000000117,Allow,Allow,Allow,Allow
+28f1b60b-68c1-4f40-a2e9-4971e54dc2df,Max,Braun,ccciw.max.braun@web.de,+4900000000318,Allow,Allow,Allow,Allow
+470be4be-60a8-4d24-9a83-189c4d1933e2,Nadine,Pichler,ccciw.nadine.pichler@web.de,+4300000000403,Allow,Allow,Allow,Do Not Allow
+e5ddcdc1-f85c-42e9-ab41-0aee9a7470f7,Sarah,Richter,ccciw.sarah.richter@gmail.com,+4900000000065,Allow,Allow,Allow,Allow
+58f9565a-97d8-4e3c-96fd-819d045a8a69,Sophie,Meier,ccciw.sophie.meier@web.de,+4900000000091,Allow,Allow,Allow,Allow
+e4e959f6-9478-4122-bdbb-fbb117d27bdb,Jonas,Lang,ccciw.jonas.lang@web.de,+4900000000232,Allow,Allow,Allow,Allow
+d64294c1-706e-4c1a-9caf-6a559c6b0699,Javier,Sanchez,ccciw.javier.sanchez@outlook.com,+3400000000456,Allow,Allow,Allow,Allow
+5b40087c-4954-4a02-ab48-f378be8b028d,Max,Schroder,ccciw.max.schroder@outlook.com,+4900000000076,Allow,Allow,Allow,Allow
+54a250c9-455b-4d3d-8bba-f0287c57be76,Jakob,Huber,ccciw.jakob.huber@gmail.com,+4300000000420,Allow,Do Not Allow,Allow,Allow
+b77af6ea-1bed-4d06-b4d9-4c54163485c7,Anna,Lorenz,ccciw.anna.lorenz@gmail.com,+4900000000303,Allow,Allow,Allow,Allow
+05e122b8-8e93-447d-9f1e-02969dc80d26,Erik,Hartmann,ccciw.erik.hartmann@gmail.com,+4900000000287,Allow,Allow,Allow,Allow
+54531034-f212-4404-b916-7376ad54e493,Sarah,Krause,ccciw.sarah.krause@outlook.com,+4900000000379,Allow,Allow,Do Not Allow,Allow
+db6bfff0-62af-4f25-bb91-19a1793d594e,Laura,Wolf,ccciw.laura.wolf@outlook.com,+4900000000119,Allow,Allow,Allow,Allow
+8da3384c-a3c8-4f10-9097-e6aaffef61e9,Sarah,Klein,ccciw.sarah.klein@gmx.de,+4900000000163,Allow,Allow,Allow,Allow
+964d3162-ec6e-4780-a263-e3de8d283a8f,Nina,Koch,ccciw.nina.koch@web.de,+4900000000194,Allow,Allow,Do Not Allow,Do Not Allow
+35fdc289-893c-4a36-a836-14a36e36fc07,Leon,Kruger,ccciw.leon.kruger@web.de,+4900000000094,Allow,Allow,Allow,Allow
+bf246842-9215-483a-9ef6-1708a5115fd8,Sarah,Huber,ccciw.sarah.huber@gmx.de,+4900000000290,Allow,Allow,Allow,Do Not Allow
+d38728ca-ecfa-4e02-9ee5-10de2fff532e,David,Lang,ccciw.david.lang@gmail.com,+4900000000342,Allow,Allow,Allow,Do Not Allow
