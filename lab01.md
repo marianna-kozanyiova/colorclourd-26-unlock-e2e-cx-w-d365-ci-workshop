@@ -216,4 +216,4 @@ You have successfully verified that all required `CI-J` components are preconfig
 - Audience data and consent records
 - Marketing assets (files, content blocks, templates)
 
-You are now ready to start building Maya's customer journey in the next [Lab 2: Build Trigger-based Subscription Incentive Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab02.md).
+You are now ready to start building Maya's customer journey with ColorCloud in the next [Lab 2: Build Trigger-based Subscription Incentive Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab02.md).
