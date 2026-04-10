@@ -14,7 +14,7 @@
 ## Introduction
 In this optional lab, you will explore how AI can help ColorCloud move faster from customer insight to customer action. In Lab 5, you created measures and a segment that identify customers showing strong commercial value and product adoption. In this lab, you will build on that work by using Copilot in both `CI-D` and `CI-J`.
 
-You will begin in `CI-D`, where you will use Copilot to explore the unified Customer table and uncover customer profile patterns that can inform how ColorCloud communicates with valuable customers. You will then move to `CI-J`, where you will use Copilot to refine an existing ColorCloud email based on those insights. Finally, you will use Journey Copilot to draft a simple follow-up journey for the existing `HighValueAdopters` audience using the updated message.
+You will begin in `CI-D`, where you will use Copilot to explore the unified Customer table and uncover customer profile patterns that can inform how ColorCloud communicates with customers. You will then move to `CI-J`, where you will use Copilot to refine an existing ColorCloud email based on those insights. Finally, you will use Journey Copilot to draft a simple follow-up journey for the existing `HighValueAdopters` audience using the updated email.
 
 This lab is designed to show how AI can support both sides of the customer experience process:
 - understanding customers and finding opportunities in `CI-D`
@@ -28,7 +28,7 @@ By the end of this lab, you will be able to:
 
 
 # Exercise 1: Ask Copilot questions about your customer data in CI-D
-In this exercise, you will check AI-generated data prep report and use Copilot in `CI-D` to explore profile patterns in the unified Customer table. The goal is not to analyze the {{Your user ID}}HighValueAdopters segment directly, but to identify broader customer characteristics that can help ColorCloud decide how to position the next accessories message for valuable customers.
+In this exercise, you will check AI-generated data prep report and use Copilot in `CI-D` to explore profile patterns in the unified Customer table. The goal is to identify broader customer characteristics that can help ColorCloud decide how to position the next accessories message for valuable customers.
 
 **Step 1. Check Data prep report**
 - Open the `CI-D` environment you used in previous labs
