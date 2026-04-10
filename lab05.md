@@ -1,4 +1,4 @@
-# Lab 5: Measure Customer Adoption and Engagement
+# Lab 5: Measure Customer Value and Adoption
 
 [Reading time: 5 min]
 
@@ -13,7 +13,7 @@
 ## Introduction
 In this lab, you will close the ColorCloud story by moving from Maya Novak's individual journey to a broader view of customer behavior across the unified customer base. In the previous labs, you designed and activated journeys for subscription, post-purchase onboarding and upsell, and feedback. Now, you will return to `CI-D` to measure how customers are adopting and engaging with ColorCloud products after purchase.
 
-You will begin by creating customer measures in `CI-D`: **`TotalRevenue`**, **`OrderCount`**, **`RegistrationCount`**, **`RegistrationRate`** (**`RegistrationCount`**/**`OrderCount`**). These measures will help you quantify customer value and product activation. You will then use those measures to create a **`HighValueEarlyAdopters`** `CI-D` segment, representing customers who have purchased, registered their product, and generated meaningful revenue.
+You will begin by creating four customer measures in `CI-D`: **`TotalRevenue`**, **`OrderCount`**, **`RegistrationCount`**, **`RegistrationRate`** (**`RegistrationCount`**/**`OrderCount`**). These measures will help you quantify customer value and product activation. You will then use those measures to create a **`HighValueAdopters`** `CI-D` segment, representing customers who have purchased, registered their product, and generated meaningful revenue.
 
 This lab is designed as the bridge from a single customer story to a broader view. The focus now shifts from Maya's individual journey to actionable customer insights across the wider customer base by identifying customers who show strong adoption and commercial value.
 
@@ -79,34 +79,34 @@ You have created 4 `CI-D` measures: **`{{Your user ID}}TotalRevenue`**, **`{{You
 
 
 # Exercise 2: Build the CI-D segment for high value customers
-In this exercise, you will combine the four measures into a `CI-D` segment that identifies customers who are showing strong early adoption and engagement.
+In this exercise, you will combine the four measures into a `CI-D` segment that identifies customers who are showing strong commercial value and adoption.
 
 **Step 1. Go to Segments**
 - In `CI-D`, go to Insights > **Segments**
 
-**Step 2. Create HighValueEarlyAdopters segment**
+**Step 2. Create HighValueAdopters segment**
 - At the top command bar, click **+ New** > Build your own
-- Click Edit details next to Untitled segment and name it **`{{Your user ID}}HighValueEarlyAdopters`**, add a description, for example Customers with strong early adoption and engagement based on orders, registrations, usage, and revenue, and tags, for example `Adoption`, `Engagement`, `High Value`, then click Done in the bottom-right corner
+- Click Edit details next to Untitled segment and name it **`{{Your user ID}}HighValueAdopters`**, add a description, for example Customers showing strong commercial value and adoption based on revenue and registration rate, and tags, for example `Adoption`, `High Value`, then click Done in the bottom-right corner
 - In the Add to Rule 1 section on the right side, expand `Customer_Measure : CustomerInsights` and select **`{{Your user ID}}TotalRevenue`** > Add item to Existing rule > Rule 1, change the specific number operator to `greater than`, and enter `500`
 - In the segment logic builder canvas click on + Add rule under Rule 1, Rule 2 block will be added, then change the Union logical operator between the two rules to Intersect
 - In the Add to Rule 2 section on the right side, expand `{{Your user ID}}RegistrationRate : CustomerInsights` and select **`{{Your user ID}}OrderCount`**, change the specific number operator to `greater than or equal to`, and enter `0.5`
 - In the bottom-right corner click Save, then in the bottom-left corner click Run
 
 **Step 3. Verify the segment**
-- Back in the Segments overview, verify that **`{{Your user ID}}HighValueEarlyAdopters`** has status Queued, Refreshing, or Successful
+- Back in the Segments overview, verify that **`{{Your user ID}}HighValueAdopters`** has status Queued, Refreshing, or Successful
 
 **Expected outcome**
 
-You have created a `CI-D` segment named **`{{Your user ID}}HighValueEarlyAdopters`** that uses **`{{Your user ID}}TotalRevenue`**, **`{{Your user ID}}RegistrationCount`**, **`{{Your user ID}}TotalUsageHours`**, and **`{{Your user ID}}TotalRevenue`** to identify customers who show strong early product adoption and engagement.
+You have created a `CI-D` segment named **`{{Your user ID}}HighValueAdopters`** that uses **`{{Your user ID}}TotalRevenue`** and **`{{Your user ID}}RegistrationRate`** to identify customers who show strong adoption and commercial value.
 
 
 # Lab Summary
-In this lab, you used `CI-D` to move from journey orchestration into customer measurement and analysis. You created four measures to quantify orders, product registrations, usage, and revenue, and then combined them into a segment that identifies high-value early adopters.
+In this lab, you used `CI-D` to move from journey orchestration into customer measurement and analysis. You created four measures to quantify revenue, orders, product registrations, and registration rate, and then combined them into a segment that identifies high-value adopters.
 
 Consider where this lab fits in the ColorCloud scenario:
-- ColorCloud wants to understand which customers are moving beyond purchase into successful product adoption and meaningful engagement
-- The **`{{Your user ID}}OrderCount`**, **`{{Your user ID}}RegistrationCount`**, **`{{Your user ID}}TotalUsageHours`**, and **`{{Your user ID}}TotalRevenue`** measures help quantify customer value, activation, and usage behavior
-- The **`{{Your user ID}}HighValueEarlyAdopters`** segment helps identify customers who already demonstrate strong early success with ColorCloud products
-- This audience can now be used for further analysis and future actions such as loyalty, upsell, premium experiences, or customer advocacy
+- ColorCloud wants to understand which customers are moving beyond purchase into successful product adoption
+- The **`{{Your user ID}}TotalRevenue`**, **`{{Your user ID}}OrderCount`**, **`{{Your user ID}}RegistrationCount`**, and **`{{Your user ID}}RegistrationRate`** measures help quantify customer value and activation
+- The **`{{Your user ID}}HighValueAdopters`** segment helps identify customers who already demonstrate commercial value and active adoption
+- This audience can now be used for further analysis and future actions such as retention, loyalty, advocacy, or upsell strategies
 
 In case you still have time left for another hands-on lab, you can continue to [Lab 6 - Optional: AI-Powered Customer Insights](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06-optional.md).
