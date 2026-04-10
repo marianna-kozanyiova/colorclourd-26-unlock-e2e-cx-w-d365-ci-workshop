@@ -1,18 +1,27 @@
 # Lab 1: Access Environment & Finalize Configuration
 
+[Reading time: 6 min]
+
+[Lab time: XX min]
+
+- [Lab Overview](#lab-overview)
+- [Exercise 1: Sign in to Customer Insights - Journeys](#exercise-1-sign-in-to-customer-insights---journeys)
+- [Exercise 2: Verify Preconfigured CI-D Components](#exercise-2-verify-preconfigured-ci-d-components)
+- [Exercise 3: Verify Preconfigured CI-J Components](#exercise-3-verify-preconfigured-ci-j-components)
+
 # Lab Overview
 ## Introduction
-In this lab, you will get access to the Dynamics 365 Customer Insights environments and review the setup prepared for the workshop. You will validate key configurations across CI-D and CI-J to ensure everything is ready for building end-to-end customer experience for Maya.
+In this lab, you will access the Dynamics 365 Customer Insights environments and review the setup prepared for the workshop. You will verify key configurations across `CI-D` and `CI-J` to make sure everything is ready for building Maya's end-to-end customer experience.
 
 ## Objectives
 By the end of this lab, you will be able to:
-- Access the CI-D and CI-J environments
-- Familiarize yourself with & verify the preconfigured components
+- Access the `CI-D` and `CI-J` environments
+- Familiarize yourself with and verify the preconfigured components
 - Ensure your environment is ready for the upcoming labs
 
 
 # Exercise 1: Sign in to Customer Insights - Journeys
-In this exercise, you will sign in to your assigned CI-J environment by using the details provided on your access card. It is recommended that you use a separate browser profile for the workshop.
+In this exercise, you will sign in to your assigned `CI-J` environment by using the details provided on your access card. It is recommended that you use a separate browser profile for the workshop.
 
 **Step 1. Locate your access card**
 - Find the access card assigned to you for the workshop. Confirm that it includes the following details:
@@ -21,7 +30,7 @@ In this exercise, you will sign in to your assigned CI-J environment by using th
     - Password
 
 **Step 2. Create a new browser profile**
-- Open Microsoft Edge or Google Chrome and create a new browser profile dedicated to the workshop. This helps prevent sign-in issues caused by existing work or personal Microsoft accounts already active in your browser
+- Open Microsoft Edge or Google Chrome and create a new browser profile dedicated to the workshop. This helps prevent sign-in issues caused by existing work or personal Microsoft accounts already active in your browser.
     - In Microsoft Edge, select your profile icon in the top-right corner and choose Set up new personal profile or Add profile
     - In Google Chrome, select your profile icon in the top-right corner and choose Add
 
@@ -38,14 +47,14 @@ In this exercise, you will sign in to your assigned CI-J environment by using th
 - Type the password from your access card, then select Sign in
 
 **Step 7. Wait for the environment to load and choose Customer Insights - Journeys app**
-- After sign-in is complete, wait for the Dynamics 365 environment homepage to open and use the app list to select Customer Insights - Journeys
+- After sign-in is complete, wait for the Dynamics 365 environment home page to open and use the app list to select Customer Insights - Journeys
 
 **Step 8. Confirm successful access**
 - Verify that you can see the Customer Insights - Journeys app and that the environment opens without errors
 
 **Expected outcome**
 
-You are signed in to your assigned CI-J environment and ready to continue with the next exercise.
+You are signed in to your assigned `CI-J` environment and ready to continue with the next exercise.
 
 **Tips**
 - Use only the browser profile created for the workshop.
@@ -54,133 +63,133 @@ You are signed in to your assigned CI-J environment and ready to continue with t
 
 
 # Exercise 2: Verify Preconfigured CI-D Components
-In this exercise, you will access the CI-D environment connected to your CI-J app and verify that the required data and configuration are available for the workshop.
+In this exercise, you will access the `CI-D` environment connected to your `CI-J` app and verify that the required data and configuration are available for the workshop.
 
 **Step 1. Open Settings in Customer Insights - Journeys**
-- In the Customer Insights - Journeys app, navigate to the left bottom corner and click on Real-time journeys
-- Choose Settings area
+- In the Customer Insights - Journeys app, navigate to the bottom-left corner and click Real-time journeys
+- Choose the Settings area
 
 **Step 2. Locate the Customer Insights connector**
-- In the Settings area, scroll down within the menu on the left side to the Data management section
-- Select Customer Insights connector
+- In the Settings area, scroll down in the menu on the left to the Data management section
+- Select `Customer Insights connector`
 
 **Step 3. Copy the Customer Insights - Data URL**
-- In the connector details, locate the CI-D environment URL
+- In the connector details, locate the `CI-D` environment URL
 - Copy the URL to your clipboard
 
 **Step 4. Open Customer Insights - Data in a new tab**
-- Open a new browser tab (in the same workshop browser profile)
+- Open a new browser tab in the same workshop browser profile
 - Paste the copied URL into the address bar
 - Press Enter
 
 **Step 5. Verify the environment loads successfully**
-- Wait for the CI-D home (welcome) page to load
+- Wait for the `CI-D` home page to load
 
 **Step 6. Confirm the number of customers**
-- In the top-right corner of the page, verify that you see 800 number of customers
+- In the top-right corner of the page, verify that you see 800 customers
 
 **Step 7. Verify data sources**
 - Navigate to Data > Data sources
 - Confirm that the following data sources are available:
-    - Dataverse
-    - ECommerce
-    - ERP
-    - IotHub
-    - Warranty
+    - `Dataverse`
+    - `ECommerce`
+    - `ERP`
+    - `IotHub`
+    - `Warranty`
  
 **Step 8. Verify tables**
 - Navigate to Data > Tables
-- Open the following tables one by one and inspect Rows and Columns (what data do you have available):
-    - contact
-    - ProductRegistrations
-    - Products
-    - TelemetrySummary
-    - Transactions
+- Open the following tables one by one and inspect the rows and columns to see what data is available:
+    - `contact`
+    - `ProductRegistrations`
+    - `Products`
+    - `TelemetrySummary`
+    - `Transactions`
  
 **Step 9. Verify unified customer profiles**
 - Navigate to Customers
 - Confirm that you can see unified customer profile records (cards)
 
-Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/overview) to learn more about [Data sources](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-sources), [Tables](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/tables), [Unification](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification) and [Customer profiles](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/customer-profiles)
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/overview) to learn more about [Data sources](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-sources), [Tables](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/tables), [Unification](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification), and [Customer profiles](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/customer-profiles)
 
 **Expected outcome**
 
-You have successfully accessed CI-D and verified that:
-- The environment contains approximately 500 customers
+You have successfully accessed `CI-D` and verified that:
+- The environment contains about 800 customers
 - All required data sources and tables are available
 - Unified customer profiles have been created
 You are now ready to use this data in the upcoming labs.
 
 
 # Exercise 3: Verify Preconfigured CI-J Components
-In this exercise, you will return to the CI-J app and verify that key components required for the workshop are already configured.
+In this exercise, you will return to the `CI-J` app and verify that the key components required for the workshop are already configured.
 
 **Step 1. Go back to Customer Insights - Journeys**
-- Go back to the browser tab where you have CI-J app open in the Settings area
+- Go back to the browser tab where you have the `CI-J` app open in the Settings area
 
 **Step 2. Verify Feature switches**
-- In the left side menu navigate to Overview section and click on Featurew switches
-- Verify that Copilot Global Opt-in consent and Global data sharing consent are Enabled, these enable the AI-powered functionalities
-- Verify that Integrations Customer Voice integration is Enabled, this enables use of Customer Voice surveys (usually for feedback collection purposes) in emails and text messages
+- In the left-side menu, go to the Overview section and click `Feature switches`
+- Verify that `Copilot Global Opt-in consent` and `Global data sharing consent` are Enabled. These enable the AI-powered features.
+- Verify that `Integrations Customer Voice integration` is Enabled. This enables the use of Customer Voice surveys in emails and text messages.
 
 **Step 3. Verify Email marketing domain**
-- In the left side menu navigate to Email marketing section and click on Domains
-- Verify that you have one out of the box domain available, this is the domain from which your emails would be sent
+- In the left-side menu, go to the Email marketing section and click Domains
+- Verify that you have one out-of-the-box domain available. This is the domain from which your emails will be sent.
 
 **Step 4. Verify Brand profile**
-- In the left side menu navigate to Customer engagement section and click on Brand profiles
-- Open the ColorCloud record and verify
-    - Sender (using the out of the box Email marketing domain from Step 3.),
-    - Social links (can be dynamically pulled into your content blocks),
-    - Theme (will be used for your emails with this Brand profile)
+- In the left-side menu, go to the Customer engagement section and click Brand profiles
+- Open the `ColorCloud` record and verify:
+    - Sender, using the out-of-the-box email marketing domain from Step 3
+    - Social links, which can be pulled dynamically into your content blocks
+    - Theme, which will be used for your emails with this brand profile
 
 **Step 5. Verify Form settings**
-- Staying in Customer engagement section and click on Form settings
-- Open the Marketing form defaults record
-- Verify that reCAPTCHA is set to Active including Site and Secret keys being populated, this enables you to use reCAPTCHA on forms as a security measure
+- Stay in the Customer engagement section and click Form settings
+- Open the `Marketing form defaults` record
+- Verify that reCAPTCHA is set to Active and that the Site key and Secret key are populated. This enables you to use reCAPTCHA on forms as a security measure.
 
 **Step 6. Verify SMS provider**
-- Staying in Customer engagement section and click on SMS providers
-- Verify that ColorCloud record with Display Name Twilio is available, this is the phone number from which your text messages would be sent
+- Stay in the Customer engagement section and click SMS providers
+- Verify that the `ColorCloud` record with Display Name `Twilio` is available. This is the phone number from which your text messages will be sent.
 
 **Step 7. Verify Compliance profiles**
-- Staying in Customer engagement section and click on Compliance profiles
-- Open ColorCloud Commercial DOI record
-- Verify Address (is dynamically pulled into your content blocks)
-- Open Preference center (is dynamically pulled into your content blocks to allow recipients to unsubscribe from Commercial Purpose communication)
-- Go back to ColorCloud Commercial DOI record and check Consent purposes (these define how consent will be respected for the emails and text messages with the speicfic Customer profile and Purpose)
-- Still under the ColorCloud Commercial DOI record check Double opt-in (used for forms with Consent purpose checkboxes, where, if enabled, Double opt-in is sent right after form submission to verify email address of the person submitting the form prior to Contact and/or Lead + Consent record creation)
-- Go back to Compliance profiles and open ColorCloud Legitimate Interest
-- Open Preference center (allows recipients to unsubscribe from Legitimate interest Purpose communication, that is the only difference opposed to ColorCloud Commercial DOI)
+- Stay in the Customer engagement section and click Compliance profiles
+- Open the `ColorCloud Commercial DOI` record
+- Verify Address, which is pulled dynamically into your content blocks
+- Open Preference center, which is pulled dynamically into your content blocks to let recipients unsubscribe from Commercial purpose communication
+- Go back to the `ColorCloud Commercial DOI` record and check `Consent purposes`. These define how consent is respected for emails and text messages for the specific customer profile and purpose.
+- Still under the `ColorCloud Commercial DOI` record, check `Double opt-in`. If enabled, a double opt-in email is sent right after form submission to verify the email address before Contact and/or Lead plus Consent records are created.
+- Go back to Compliance profiles and open `ColorCloud Legitimate Interest`
+- Open `Preference center`. This lets recipients unsubscribe from Legitimate Interest purpose communication. That is the main difference compared to `ColorCloud Commercial DOI`.
 
-Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings) to learn more about Compliance profiles and consent management in CI-J
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings) to learn more about compliance profiles and consent management in `CI-J`
 
 **Step 8. Verify Audience configuration**
-- Staying in Customer engagement section and click on Audience configuration (defines which email address and phone number from the recipient Contact or Customer profile record is the communication sent to)
-- Verify that for Data source contact, Contact point type Email, Recipient field is set to emailaddress1
-- Verify that for Data source msdynci_customerprofile, Contact point type Email, Recipient field ise set to msdynci_emailaddress1
-- Verify that for Data source msdynci_customerprofile, Contact point type Text Message, Recipient field ise set to msdynci_mobilephone
+- Stay in the Customer engagement section and click Audience configuration. This defines which email address and phone number from the recipient Contact or Customer profile record is used for communication.
+- Verify that for data source `contact`, contact point type `Email`, Recipient field is set to `emailaddress1`
+- Verify that for data source `msdynci_customerprofile`, contact point type `Email`, Recipient field is set to `msdynci_emailaddress1`
+- Verify that for data source `msdynci_customerprofile`, contact point type `Text Message`, Recipient field is set to `msdynci_mobilephone`
 
 **Step 9. Verify Audience data**
-- Navigate to Real-time journeys area, Audience section in the left side menu and click on Contacts
+- Navigate to the Real-time journeys area, then in the Audience section on the left-side menu click Contacts
 - Change the My Active Contacts view to All Contacts
-- Verify that Contact records are available, these are also the records ingested into yoru CI-D environment via Dataverse connection
-- In the Audience section in the left side menu click on Consent center
-- Verify that Contact Point Consent records are available with different channels (Text Message and Email), Purposes (Commercial and Legitimate interest) and Consent statuses (Opted In and Opted out), these records are checked by the system prior to send out communication (Email or Text message) with specific Purpose to the recipients
+- Verify that Contact records are available. These are also the records ingested into your `CI-D` environment through the Dataverse connection.
+- In the Audience section on the left-side menu click Consent center
+- Verify that Contact Point Consent records are available with different channels, purposes, and consent statuses. These records are checked by the system before sending communication with a specific purpose.
 
 **Step 10. Verify Assets & Templates**
-- Still in the Real-time journeys area, go to Assets section in the left side menu and click on Library
-- Verify that there is 1 font and 2 logo files available
-- Still in the Assets section, click on Content blocks
-- Verify that there are 3 Content block records, Header, Commercial Footer and Transactional Footer (footer content blocks include Company address, Preference center (hidden behind Unsubscribe) and Social links (also hidden behind text) dynamic values which are pulled from Compliance profile and Brand profile chosen for the email where these are used)
-- Still in the Assets section, click on Templates > Email > Custom templates
-- Verify that there is ColorCloud Email Template record
-- Still in the Assets section, click on Templates > Form > Custom templates
-- Verify that there is ColorCloud Form Template record
+- Still in the Real-time journeys area, go to the Assets section on the left-side menu and click Library
+- Verify that there is 1 font file and 2 logo files available
+- Still in the Assets section, click Content blocks
+- Verify that there are 3 content block records: `Header`, `Commercial Footer`, and `Transactional Footer`. The footer content blocks include dynamic values for company address, preference center, and social links that are pulled from the selected compliance profile and brand profile.
+- Still in the Assets section, click Templates > Email > Custom templates
+- Verify that there is a `ColorCloud Email Template` record
+- Still in the Assets section, click Templates > Form > Custom templates
+- Verify that there is a `ColorCloud Form Template` record
 
 **Expected outcome**
 
-You have successfully verified that all required CI-J components are preconfigured, including:
+You have successfully verified that all required `CI-J` components are preconfigured, including:
 - Feature switches (Copilot, Customer Voice integration)
 - Email domain configuration
 - Brand profile

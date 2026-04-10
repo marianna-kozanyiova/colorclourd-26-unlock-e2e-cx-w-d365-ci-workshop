@@ -1,100 +1,109 @@
 # Lab 5: Measure Customer Adoption and Engagement
 
+[Reading time: 5 min]
+
+[Lab time: XX min]
+
+- [Lab Overview](#lab-overview)
+- [Exercise 1: Create the CI-D measures](#exercise-1-create-the-ci-d-measures)
+- [Exercise 2: Build the CI-D segment for high value customers](#exercise-2-build-the-ci-d-segment-for-high-value-customers)
+- [Lab Summary](#lab-summary)
+
 # Lab Overview
 ## Introduction
-In this lab, you will close the ColorCloud story by moving from Maya Novak’s individual journey to a broader view of customer behavior across the unified customer base. In the previous labs, you designed and activated journeys for subscription, post-purchase onboarding & upsell, and feedback. Now, you will return to CI-D to measure how customers are adopting and engaging with ColorCloud products after purchase.
+In this lab, you will close the ColorCloud story by moving from Maya Novak's individual journey to a broader view of customer behavior across the unified customer base. In the previous labs, you designed and activated journeys for subscription, post-purchase onboarding and upsell, and feedback. Now, you will return to `CI-D` to measure how customers are adopting and engaging with ColorCloud products after purchase.
 
-You will begin by creating four customer measures in CI-D: **OrderCount**, **RegistrationCount**, **TotalUsageHours**, and **TotalRevenue**. These measures will help you quantify customer value, product activation, and engagement depth. You will then use those measures to create a **HighValueEarlyAdopters** CI-D segment, representing customers who have purchased, registered, actively used their product, and generated meaningful revenue.
+You will begin by creating four customer measures in `CI-D`: **`OrderCount`**, **`RegistrationCount`**, **`TotalUsageHours`**, and **`TotalRevenue`**. These measures will help you quantify customer value, product activation, and engagement depth. You will then use those measures to create a **`HighValueEarlyAdopters`** `CI-D` segment, representing customers who have purchased, registered, actively used their product, and generated meaningful revenue.
 
-This lab is designed as the bridge from a single customer story to generalization. As mentioned above, the focus now shifts from Maya’s individual journey to generating actionable customer insights across the broader customer base by identifying customers who show strong adoption, engagement, and commercial value.
+This lab is designed as the bridge from a single customer story to a broader view. The focus now shifts from Maya's individual journey to actionable customer insights across the wider customer base by identifying customers who show strong adoption, engagement, and commercial value.
 
 ## Objectives
 By the end of this lab, you will be able to:
-- Create CI-D measures
-- Use CI-D measures in CI-D segments
+- Create `CI-D` measures
+- Use `CI-D` measures in `CI-D` segments
 
 
 # Exercise 1: Create the CI-D measures
 In this exercise, you will create 4 measures that will help you quantify customer value, product activation, and engagement depth.
 
 **Step 1. Create OrderCount measure**
-- Open the CI-D environment you verified in Lab 1 and used in Labs 3 and 4
+- Open the `CI-D` environment you verified in Lab 1 and used in Labs 3 and 4
 - In the left navigation, go to Insights > **Measures**
-- At the top command bar, click on **+ New** > Build your own
-- Click on Edit details next to Untitled measure and name it **{{Your user ID}}OrderCount**, add Description (example: Counts the number of orders placed by each customer) and Tag (example: Adoption), then click on Done in the right bottom corner
+- At the top command bar, click **+ New** > Build your own
+- Click Edit details next to Untitled measure and name it **`{{Your user ID}}OrderCount`**, add a description, for example Counts the number of orders placed by each customer, and a tag, for example `Adoption`, then click Done in the bottom-right corner
 - Select Count under Function type
-- Under Measure expression click on + Add attribute > under Add attribute section on the right side expand Transactions : eCommerce > select OrderID > Add
-- Above Measure expression clik on Relationship path, select eCommerce_Transactions > eCommerce_Users > Customer and click on Done
-- Click on Save and close in the right bottom corner
+- Under Measure expression click + Add attribute > under Add attribute on the right side expand `Transactions : eCommerce` > select `OrderID` > Add
+- Above Measure expression click Relationship path, select `eCommerce_Transactions > eCommerce_Users > Customer`, and click Done
+- Click Save and close in the bottom-right corner
 
 **Step 2. Create RegistrationCount measure**
-- Go back to **Measures** overview
-- At the top command bar, click on **+ New** > Build your own
-- Click on Edit details next to Untitled measure and name it **{{Your user ID}}RegistrationCount**, add Description (example: Counts the number of products registered by each customer) and Tag (example: Adoption), then click on Done in the right bottom corner
+- Go back to the **Measures** overview
+- At the top command bar, click **+ New** > Build your own
+- Click Edit details next to Untitled measure and name it **`{{Your user ID}}RegistrationCount`**, add a description, for example Counts the number of products registered by each customer, and a tag, for example `Adoption`, then click Done in the bottom-right corner
 - Select Count under Function type
-- Under Measure expression click on + Add attribute > under Add attribute section on the right side expand ProductRegistration : Warranty > select registrationid > Add
-- Above Measure expression clik on Relationship path, select Warranty_ProductRegistrations > Warranty_User > Customer and click on Done
-- Click on Save and close in the right bottom corner
+- Under Measure expression click + Add attribute > under Add attribute on the right side expand `ProductRegistration : Warranty` > select `registrationid` > Add
+- Above Measure expression click Relationship path, select `Warranty_ProductRegistrations > Warranty_User > Customer`, and click Done
+- Click Save and close in the bottom-right corner
 
 **Step 3. Create TotalUsageHours measure**
-- Go back to **Measures** overview
-- At the top command bar, click on **+ New** > Build your own
-- Click on Edit details next to Untitled measure and name it **{{Your user ID}}TotalUsageHours**, add Description (example: Sums the total product usage hours for each customer) and Tag (example: Engagement), then click on Done in the right bottom corner
+- Go back to the **Measures** overview
+- At the top command bar, click **+ New** > Build your own
+- Click Edit details next to Untitled measure and name it **`{{Your user ID}}TotalUsageHours`**, add a description, for example Sums the total product usage hours for each customer, and a tag, for example `Engagement`, then click Done in the bottom-right corner
 - Select Sum under Function type
-- Under Measure expression click on + Add attribute > under Add attribute section on the right side expand Telemetry : IotHUB > select totalusagehours > Add
-- Above Measure expression clik on Relationship path, select IotHUB_Telemetry > ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer and click on Done
-- Click on Save and close in the right bottom corner
+- Under Measure expression click + Add attribute > under Add attribute on the right side expand `Telemetry : IotHUB` > select `totalusagehours` > Add
+- Above Measure expression click Relationship path, select `IotHUB_Telemetry > ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer`, and click Done
+- Click Save and close in the bottom-right corner
 
 **Step 4. Create TotalRevenue measure**
-- Go back to **Measures** overview
-- At the top command bar, click on **+ New** > Build your own
-- Click on Edit details next to Untitled measure and name it **{{Your user ID}}TotalRevenue**, add Description (example: Sums the total revenue generated by each customer) and Tag (example: Commercial value), then click on Done in the right bottom corner
+- Go back to the **Measures** overview
+- At the top command bar, click **+ New** > Build your own
+- Click Edit details next to Untitled measure and name it **`{{Your user ID}}TotalRevenue`**, add a description, for example Sums the total revenue generated by each customer, and a tag, for example `Commercial value`, then click Done in the bottom-right corner
 - Select Sum under Function type
-- Under Measure expression click on + Add attribute > under Add attribute section on the right side expand Transactions : eCommerce > select Price > Add
-- Above Measure expression clik on Relationship path, select eCommerce_Transactions > eCommerce_Users > Customer and click on Done
-- Click on Save and close in the right bottom corner
+- Under Measure expression click + Add attribute > under Add attribute on the right side expand `Transactions : eCommerce` > select `Price` > Add
+- Above Measure expression click Relationship path, select `eCommerce_Transactions > eCommerce_Users > Customer`, and click Done
+- Click Save and close in the bottom-right corner
 
 **Step 5. Check results for one of the measures**
-- Go back to **Measures** overview where you should see the 4 measures you just created
+- Go back to the **Measures** overview where you should see the 4 measures you just created
 - Open one of the measures where Status is set to Successful and check the data
 
-Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/measures) to learn more about Measures
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/measures) to learn more about measures
 
 **Expected outcome**
 
-You have created 4 CI-D measures: **{{Your user ID}}OrderCount**, **{{Your user ID}}RegistrationCount**, **{{Your user ID}}TotalUsageHours**, **{{Your user ID}}TotalRevenue**; which can now be used further in CI-D segments.
+You have created 4 `CI-D` measures: **`{{Your user ID}}OrderCount`**, **`{{Your user ID}}RegistrationCount`**, **`{{Your user ID}}TotalUsageHours`**, and **`{{Your user ID}}TotalRevenue`**. These can now be used in `CI-D` segments.
 
 
 # Exercise 2: Build the CI-D segment for high value customers
-In this exercise, you will combine the four measures into a CI-D segment that identifies customers who are showing strong early adoption and engagement.
+In this exercise, you will combine the four measures into a `CI-D` segment that identifies customers who are showing strong early adoption and engagement.
 
 **Step 1. Go to Segments**
-- In CI-D, go to Insights > **Segments**
+- In `CI-D`, go to Insights > **Segments**
 
 **Step 2. Create HighValueEarlyAdopters segment**
-- At the top command bar, click on **+ New** > Build your own
-- Click on Edit details next to Untitled segment and name it **{{Your user ID}}HighValueEarlyAdopters**, add Description (example: Customers with strong early adoption and engagement based on orders, registrations, usage, and revenue) and Tags (examples: Adoption, Engagement, High Value), then click on Done in the right bottom corner
-- In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}OrderCount**, change logical operator specific number to greather than or equal to and enter 1 afterwards
-- In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}RegistrationCount** > Add item to Existing rule > Rule 1, change logical operator specific number to greather than or equal to and enter 1 afterwards
-- In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}TotalUsageHours** > Add item to Existing rule > Rule 1, change logical operator specific number to greather than and enter 100 afterwards
-- In the Add to Rule 1 section on the right side, expand Customer_Measure : CustomerInsights section and select **{{Your user ID}}TotalRevenue** > Add item to Existing rule > Rule 1, change logical operator specific number to greather than and enter 500 afterwards
-- At the bottom right corner click on Save, then at the bottom left corner click on Run
+- At the top command bar, click **+ New** > Build your own
+- Click Edit details next to Untitled segment and name it **`{{Your user ID}}HighValueEarlyAdopters`**, add a description, for example Customers with strong early adoption and engagement based on orders, registrations, usage, and revenue, and tags, for example `Adoption`, `Engagement`, `High Value`, then click Done in the bottom-right corner
+- In the Add to Rule 1 section on the right side, expand `Customer_Measure : CustomerInsights` and select **`{{Your user ID}}OrderCount`**, change the specific number operator to `greater than or equal to`, and enter `1`
+- In the Add to Rule 1 section on the right side, expand `Customer_Measure : CustomerInsights` and select **`{{Your user ID}}RegistrationCount`** > Add item to Existing rule > Rule 1, change the specific number operator to `greater than or equal to`, and enter `1`
+- In the Add to Rule 1 section on the right side, expand `Customer_Measure : CustomerInsights` and select **`{{Your user ID}}TotalUsageHours`** > Add item to Existing rule > Rule 1, change the specific number operator to `greater than`, and enter `100`
+- In the Add to Rule 1 section on the right side, expand `Customer_Measure : CustomerInsights` and select **`{{Your user ID}}TotalRevenue`** > Add item to Existing rule > Rule 1, change the specific number operator to `greater than`, and enter `500`
+- In the bottom-right corner click Save, then in the bottom-left corner click Run
 
 **Step 3. Verify the segment**
-- Back in the Segments overview, verify that **{{Your user ID}}HighValueEarlyAdopters** has Status Queued, Refreshing, or Successful
+- Back in the Segments overview, verify that **`{{Your user ID}}HighValueEarlyAdopters`** has status Queued, Refreshing, or Successful
 
 **Expected outcome**
 
-You have created a CI-D segment named **{{Your user ID}}HighValueEarlyAdopters** that uses **{{Your user ID}}OrderCount**, **{{Your user ID}}RegistrationCount**, **{{Your user ID}}TotalUsageHours**, and **{{Your user ID}}TotalRevenue** to identify customers who show strong early product adoption and engagement.
+You have created a `CI-D` segment named **`{{Your user ID}}HighValueEarlyAdopters`** that uses **`{{Your user ID}}OrderCount`**, **`{{Your user ID}}RegistrationCount`**, **`{{Your user ID}}TotalUsageHours`**, and **`{{Your user ID}}TotalRevenue`** to identify customers who show strong early product adoption and engagement.
 
 
 # Lab Summary
-In this lab, you used CI-D to move from journey orchestration into customer measurement and analysis. You created four measures to quantify orders, product registrations, usage, and revenue, and then combined them into a segment that identifies high-value early adopters.
+In this lab, you used `CI-D` to move from journey orchestration into customer measurement and analysis. You created four measures to quantify orders, product registrations, usage, and revenue, and then combined them into a segment that identifies high-value early adopters.
 
 Consider where this lab fits in the ColorCloud scenario:
 - ColorCloud wants to understand which customers are moving beyond purchase into successful product adoption and meaningful engagement
-- The **{{Your user ID}}OrderCount**, **{{Your user ID}}RegistrationCount**, **{{Your user ID}}TotalUsageHours**, and **{{Your user ID}}TotalRevenue** measures help quantify customer value, activation, and usage behavior
-- The **{{Your user ID}}HighValueEarlyAdopters** segment helps identify customers who already demonstrate strong early success with ColorCloud products
+- The **`{{Your user ID}}OrderCount`**, **`{{Your user ID}}RegistrationCount`**, **`{{Your user ID}}TotalUsageHours`**, and **`{{Your user ID}}TotalRevenue`** measures help quantify customer value, activation, and usage behavior
+- The **`{{Your user ID}}HighValueEarlyAdopters`** segment helps identify customers who already demonstrate strong early success with ColorCloud products
 - This audience can now be used for further analysis and future actions such as loyalty, upsell, premium experiences, or customer advocacy
 
 In case you still have time left for another hands-on lab, you can continue to [Lab 6 - Optional: AI-Powered Customer Insights](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06-optional.md).
