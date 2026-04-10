@@ -89,7 +89,7 @@ In this exercise, you will combine the four measures into a `CI-D` segment that 
 - Click Edit details next to Untitled segment and name it **`{{Your user ID}}HighValueAdopters`**, add a description, for example Customers showing strong commercial value and adoption based on revenue and registration rate, and tags, for example `Adoption`, `High Value`, then click Done in the bottom-right corner
 - In the Add to Rule 1 section on the right side, expand `Customer_Measure : CustomerInsights` and select **`{{Your user ID}}TotalRevenue`** > Add item to Existing rule > Rule 1, change the specific number operator to `greater than`, and enter `500`
 - In the segment logic builder canvas click on + Add rule under Rule 1, Rule 2 block will be added, then change the Union logical operator between the two rules to Intersect
-- In the Add to Rule 2 section on the right side, expand `{{Your user ID}}RegistrationRate : CustomerInsights` and select **`{{Your user ID}}OrderCount`**, change the specific number operator to `greater than or equal to`, and enter `0.5`
+- In the Add to Rule 2 section on the right side, expand `{{Your user ID}}RegistrationRate : CustomerInsights` (you might need to wait until the RegistrationRate measure is successfully created) and select **`{{Your user ID}}OrderCount`**, change the specific number operator to `greater than or equal to`, and enter `0.5`
 - In the bottom-right corner click Save, then in the bottom-left corner click Run
 
 **Step 3. Verify the segment**
