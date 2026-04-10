@@ -2,7 +2,7 @@
 
 [Reading time: 6 min]
 
-[Lab time: XX min]
+[Lab time: 25 min]
 
 - [Lab Overview](#lab-overview)
 - [Exercise 1: Sign in to Customer Insights - Journeys](#exercise-1-sign-in-to-customer-insights---journeys)
@@ -52,6 +52,8 @@ In this exercise, you will sign in to your assigned `CI-J` environment by using 
 **Step 8. Confirm successful access**
 - Verify that you can see the Customer Insights - Journeys app and that the environment opens without errors
 
+![Example: Customer Insights - Journeys sign-in completed](images/lab01-cij-sign-in-to-customer-insights-journeys.png)
+
 **Expected outcome**
 
 You are signed in to your assigned `CI-J` environment and ready to continue with the next exercise.
@@ -85,6 +87,8 @@ In this exercise, you will access the `CI-D` environment connected to your `CI-J
 **Step 5. Verify the environment loads successfully**
 - Wait for the `CI-D` home page to load
 
+![Example: CI-D home page](images/lab01-cid-verify-home-page.png)
+
 **Step 6. Confirm the number of customers**
 - In the top-right corner of the page, verify that you see 800 customers
 
@@ -96,6 +100,8 @@ In this exercise, you will access the `CI-D` environment connected to your `CI-J
     - `ERP`
     - `IotHub`
     - `Warranty`
+
+![Example: CI-D data sources](images/lab01-cid-verify-data-sources.png)
  
 **Step 8. Verify tables**
 - Navigate to Data > Tables
@@ -105,10 +111,14 @@ In this exercise, you will access the `CI-D` environment connected to your `CI-J
     - `Products`
     - `TelemetrySummary`
     - `Transactions`
+
+![Example: CI-D tables](images/lab01-cid-verify-tables.png)
  
 **Step 9. Verify unified customer profiles**
 - Navigate to Customers
 - Confirm that you can see unified customer profile records (cards)
+
+![Example: unified customer profiles](images/lab01-cid-verify-unified-customer-profiles.png)
 
 Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/overview) to learn more about [Data sources](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-sources), [Tables](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/tables), [Unification](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification), and [Customer profiles](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/customer-profiles)
 
@@ -170,12 +180,16 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 - Verify that for data source `msdynci_customerprofile`, contact point type `Email`, Recipient field is set to `msdynci_emailaddress1`
 - Verify that for data source `msdynci_customerprofile`, contact point type `Text Message`, Recipient field is set to `msdynci_mobilephone`
 
+![Example: audience configuration](images/lab01-cij-verify-audience-configuration.png)
+
 **Step 9. Verify Audience data**
 - Navigate to the Real-time journeys area, then in the Audience section on the left-side menu click Contacts
 - Change the My Active Contacts view to All Contacts
 - Verify that Contact records are available. These are also the records ingested into your `CI-D` environment through the Dataverse connection.
 - In the Audience section on the left-side menu click Consent center
 - Verify that Contact Point Consent records are available with different channels, purposes, and consent statuses. These records are checked by the system before sending communication with a specific purpose.
+
+![Example: audience data](images/lab01-cij-verify-audience-data.png)
 
 **Step 10. Verify Assets & Templates**
 - Still in the Real-time journeys area, go to the Assets section on the left-side menu and click Library
@@ -186,6 +200,8 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 - Verify that there is a `ColorCloud Email Template` record
 - Still in the Assets section, click Templates > Form > Custom templates
 - Verify that there is a `ColorCloud Form Template` record
+
+![Example: assets and templates](images/lab01-cij-verify-assets-and-templates.png)
 
 **Expected outcome**
 
