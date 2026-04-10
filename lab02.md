@@ -2,7 +2,7 @@
 
 [Reading time: 7 min]
 
-[Lab time: XX min]
+[Lab time: 20 min]
 
 - [Lab Overview](#lab-overview)
 - [Exercise 1: Build the subscription form](#exercise-1-build-the-subscription-form)
@@ -34,6 +34,8 @@ In this exercise, you will create a new marketing form based on the preconfigure
 - In the top command bar, select **+ New**
 - In the Form Templates pop-up window, under Custom templates, click **`ColorCloud Form Template`** and click Select in the bottom-right corner
 
+![Example: create a new form from template](images/lab02-create-a-new-form-from-template.png)
+
 **Step 3. Enter form details**
 - Use your user ID as a prefix when naming the form, **`{{Your user ID}} ColorCloud Newsletter Subscription`**. For example, if your user is colorcloud**01**@andrasfordos.onmicrosoft.com, name your form **`01 ColorCloud Newsletter Subscription`**. This is important because several users are working in the same environment.
 - Review the initial structure inherited from the template
@@ -43,6 +45,10 @@ In this exercise, you will create a new marketing form based on the preconfigure
 - Review whether the template already contains the required consent elements. Click the consent checkbox field and review the Edit purpose section on the right side. `Compliance profile` should be set to `ColorCloud Commercial DOI`, `Purpose` should be set to `Commercial`, `Required` should be `On`, and under `Properties`, `Update user's consent for both Email and Text` should be checked.
 - Confirm that reCAPTCHA is placed on the form
 
+![Example: review form email capture field](images/lab02-review-form-email-capture-field.png)
+
+![Example: review form consent element](images/lab02-review-form-consent-element.png)
+
 **Step 5. Review form settings**
 - Check that the `Audience` is set to `Contact` in the top-right corner. This means that when the form is submitted and the email address is verified through the double opt-in email, a new Contact record will be created or an existing Contact record will be updated.
 - In the icon menu on the right side of the Edit purpose section, click Form settings (fourth icon from the top)
@@ -50,11 +56,17 @@ In this exercise, you will create a new marketing form based on the preconfigure
 - Expand the Submission section and check that the `Thank you notification` refers to the double opt-in email
 - Expand the Consent section and check that `Double opt-in` is Enabled. It should be enabled because the compliance profile `ColorCloud Commercial DOI` is selected for the consent checkbox.
 
+![Example: review form settings](images/lab02-review-form-settings.png)
+
 **Step 6. Save and publish the form**
 - In the top-right corner click **Save**
 - Then click **Publish**
 - Wait until the form is published successfully
 - Click Publish options and create a new standalone page. You can either copy the script to embed the form on your own website or use the Microsoft-hosted standalone page. If you finish this lab early, you can use the standalone page to test the form submission.
+
+![Example: save and publish form](images/lab02-save-and-publish-form.png)
+
+![Example: standalone form submission page](images/lab02-inspect-standalone-form-submission-page.png)
 
 **Expected outcome**
 
@@ -72,6 +84,8 @@ In this exercise, you will create the first marketing email in the ColorCloud sc
 - In the top command bar, select **+ New**
 - In the Email Templates pop-up window, under Custom templates, click **`ColorCloud Email Template`** and click Select in the bottom-right corner
 
+![Example: create new email from template](images/lab02-create-new-email-from-template.png)
+
 **Step 3. Enter email details**
 - Use your user ID as a prefix when naming the email, **`{{Your user ID}} ColorCloud Newsletter Subscription Confirmation with Discount Code`**. For example, if your user is colorcloud**01**@andrasfordos.onmicrosoft.com, name your email **`01 ColorCloud Newsletter Subscription Confirmation with Discount Code`**.
 
@@ -81,6 +95,10 @@ In this exercise, you will create the first marketing email in the ColorCloud sc
 - In the icon menu on the right side, click Personalize and check that under Dynamic text, `FirstName` is set to `Contact > First Name`. This means the value will be pulled from the Contact record for each recipient and matches the audience selected for the form.
 - In the icon menu on the right side, click Settings, check that `Company address` is the same as the one you saw in the compliance profile in Lab 1, then expand Compliance and check that `Compliance profile` is set to `ColorCloud Commercial DOI` and `Purpose` is set to `Transactional`. Since the discount code was promised after subscription, this email should be sent independently of commercial consent.
 - In the body of the email, check the footer content block and confirm that there is no Unsubscribe link. Since the email is classified as Transactional, it is sent to deliver necessary product or service information.
+
+![Example: verify email header](images/lab02-verify-email-header.png)
+
+![Example: check email personalize settings](images/lab02-check-email-personalize-settings.png)
 
 **Step 5. Save and publish the email**
 - Once verified, click Save in the top-right corner and then click **Ready to send**
@@ -107,6 +125,10 @@ In this exercise, you will create a trigger-based journey that starts when the n
 - Choose **`{{Your user ID}} ColorCloud Newsletter Subscription`** under Choose a form - leave empty for all forms
 - Click Create in the bottom-right corner
 
+![Example: create new journey](images/lab02-create-new-journey.png)
+
+![Example: choose trigger-based journey](images/lab02-choose-trigger-based-journey.png)
+
 Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-trigger-based-journey) to learn more about trigger-based journeys and triggers
 
 **Step 6. Add the email**
@@ -114,11 +136,17 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 - In the Email section on the right, choose **`{{Your user ID}} ColorCloud Newsletter Subscription Confirmation with Discount Code`** under Select email
 - Click Save in the top-right corner
 
+![Example: add email tile to journey](images/lab02-add-email-tile-to-journey.png)
+
 **Step 7. Configure the journey entry and goal**
 - In the icon menu on the right side of the Email section click Entry, set Repeat to Never, and under Schedule choose the correct Time zone and Start
 - In the icon menu on the right side of the Entry section click Goal, then select `Onboard new people` from The goal of this journey is
 - Choose `Email Opened` for This goal is met when. Under The number of people needed, enter `1000` and select `#` instead of `%`. This is only an illustrative example for the workshop.
 - Click Save in the top-right corner
+
+![Example: configure journey entry settings](images/lab02-configure-journey-entry-settings.png)
+
+![Example: configure journey goal](images/lab02-configure-journey-goal.png)
 
 **Step 8. Publish the journey**
 - Click **Publish** in the top-right corner
