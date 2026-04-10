@@ -107,4 +107,4 @@ Consider where this journey fits in Maya Novak's experience:
 - She receives the **`{{Your user ID}} ColorCloud Aura CES`** text message with a Customer Voice survey through the **`{{Your user ID}} ColorCloud Aura First Use 7 Days Ago Feedback`** journey
 - Her feedback can now be used to measure early onboarding success and customer experience
 
-You are now ready to continue with the next step of Maya's experience in [Lab 5: Measure Customer Adoption and Engagement](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab05.md).
+You are now ready to continue with the next step of Maya's experience in [Lab 5: Measure Customer Value and Adoption](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab05.md).
