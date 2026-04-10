@@ -62,7 +62,7 @@ In this exercise, you will create 4 measures that will help you quantify custome
 - Next to Measure type toggle from Attribute to Table
 - Click Edit details next to Untitled measure and name it **`{{Your user ID}}RegistrationRate`**, add a description, for example Calculates product registration rate using registration and order counts, and a tag, for example `Adoption`, then click Done in the bottom-right corner
 - Select First under Function type
-- Under Measure expression click + Add attribute > under Add attribute on the right side click on Measures tab (right next to Attributes tab), expand `{{Your user ID}}RegistrationCount : CustomerInsights` > select `Calculation 1` > Add
+- Under Measure expression click + Add attribute > under Add attribute on the right side click on Measures tab (right next to Attributes tab; you might need to wait until the OrderCount and RegistrationCount measures are successfully created), expand `{{Your user ID}}RegistrationCount : CustomerInsights` > select `Calculation 1` > Add
 - Under Measure expression clik /
 - Under Measure expression click + Add attribute > under Add attribute on the right side click on Measures tab (right next to Attributes tab), expand `{{Your user ID}}OrderCount : CustomerInsights` > select `Calculation 1` > Add (you will get a warning that the attributes used in calculation(s) are from different tables, that is expected)
 - Click Save and close in the bottom-right corner
@@ -89,7 +89,7 @@ In this exercise, you will combine the four measures into a `CI-D` segment that 
 - Click Edit details next to Untitled segment and name it **`{{Your user ID}}HighValueAdopters`**, add a description, for example Customers showing strong commercial value and adoption based on revenue and registration rate, and tags, for example `Adoption`, `High Value`, then click Done in the bottom-right corner
 - In the Add to Rule 1 section on the right side, expand `Customer_Measure : CustomerInsights` and select **`{{Your user ID}}TotalRevenue`** > Add item to Existing rule > Rule 1, change the specific number operator to `greater than`, and enter `500`
 - In the segment logic builder canvas click on + Add rule under Rule 1, Rule 2 block will be added, then change the Union logical operator between the two rules to Intersect
-- In the Add to Rule 2 section on the right side, expand `{{Your user ID}}RegistrationRate : CustomerInsights` and select **`{{Your user ID}}OrderCount`**, change the specific number operator to `greater than or equal to`, and enter `0.5`
+- In the Add to Rule 2 section on the right side, expand `{{Your user ID}}RegistrationRate : CustomerInsights` (you might need to wait until the RegistrationRate measure is successfully created) and select **`{{Your user ID}}OrderCount`**, change the specific number operator to `greater than or equal to`, and enter `0.5`
 - In the bottom-right corner click Save, then in the bottom-left corner click Run
 
 **Step 3. Verify the segment**
@@ -109,4 +109,4 @@ Consider where this lab fits in the ColorCloud scenario:
 - The **`{{Your user ID}}HighValueAdopters`** segment helps identify customers who already demonstrate commercial value and active adoption
 - This audience can now be used for further analysis and future actions such as retention, loyalty, advocacy, or upsell strategies
 
-In case you still have time left for another hands-on lab, you can continue to [Lab 6 - Optional: AI-Powered Customer Insights](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06-optional.md).
+In case you still have time left for another hands-on lab, you can continue to [Lab 6 - Optional: Explore AI-Powered Customer Insights](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06-optional.md).
