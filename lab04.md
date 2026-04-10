@@ -1,4 +1,4 @@
-# Lab 4: Build Segment-based First Use Feedback Journey
+# Lab 4 - Optional: Build Segment-based First Use Feedback Journey
 
 [Reading time: 5 min]
 
