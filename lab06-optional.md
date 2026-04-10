@@ -14,7 +14,7 @@
 ## Introduction
 In this optional lab, you will explore how AI can help ColorCloud move faster from customer insight to customer action. In Lab 5, you created measures and a segment that identify customers showing strong commercial value and product adoption. In this lab, you will build on that work by using Copilot in both `CI-D` and `CI-J`.
 
-You will begin in `CI-D`, where you will use Copilot to ask natural-language questions about your unified customer data and identify an audience that ColorCloud could act on next. You will then move to `CI-J`, where you will use Copilot to improve an existing ColorCloud email for that audience. Finally, you will use Journey Copilot to draft a simple follow-up journey based on the same audience and message.
+You will begin in `CI-D`, where you will use Copilot to explore the unified Customer table and uncover customer profile patterns that can inform how ColorCloud communicates with valuable customers. You will then move to `CI-J`, where you will use Copilot to refine an existing ColorCloud email based on those insights. Finally, you will use Journey Copilot to draft a simple follow-up journey for the existing `HighValueAdopters` audience using the updated message.
 
 This lab is designed to show how AI can support both sides of the customer experience process:
 - understanding customers and finding opportunities in `CI-D`
@@ -22,144 +22,76 @@ This lab is designed to show how AI can support both sides of the customer exper
 
 ## Objectives
 By the end of this lab, you will be able to:
+- check Data prep report in `CI-D`
 - use Copilot in `CI-D` to ask questions about unified customer data
 - use Copilot in `CI-J` to improve existing email content and draft a simple follow-up journey
 
 
 # Exercise 1: Ask Copilot questions about your customer data in CI-D
-In this exercise, you will use Copilot in `CI-D` to ask questions about the customer data and measures you created in earlier labs. The goal is to uncover one insight that could justify a follow-up marketing action for ColorCloud.
+In this exercise, you will check AI-generated data prep report and use Copilot in `CI-D` to explore profile patterns in the unified Customer table. The goal is not to analyze the {{Your user ID}}HighValueAdopters segment directly, but to identify broader customer characteristics that can help ColorCloud decide how to position the next accessories message for valuable customers.
 
-**Step 1. Open the Discovery experience**
+**Step 1. Check Data prep report**
 - Open the `CI-D` environment you used in previous labs
+- In the left navigation, go to Home
+- Click on View data prep report in the right top corner of the second Data prep report section of the Home screen
+- Review `Overall data quality grade`, `Insights readiness`, `Critical issues` and `Warnings`
+
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-prep-overview) to learn more about data prep report
+
+**Step 2. Have Dialog with data**
 - In the left navigation, go to Insights > **Discovery**
-
-**Step 2. Ask one or more business questions**
-Use Copilot to ask 2–3 questions about your ColorCloud customer data.
-
-Suggested questions:
-- **Which customers in the `{{Your user ID}}HighValueAdopters` segment are the best candidates for an accessories offer?**
-- **What behaviors or attributes make customers in the `{{Your user ID}}HighValueAdopters` segment good candidates for a follow-up accessories message?**
-- **What action should ColorCloud take next for customers in the `{{Your user ID}}HighValueAdopters` segment to deepen adoption and increase value?**
-
-These questions tie directly to the measures and segment logic from Lab 5, including revenue, orders, registrations, registration rate, and the **`{{Your user ID}}HighValueAdopters`** segment. They also help justify a next step that can be reflected in the email and journey updates later in this lab.
-
-**Step 3. Review the Copilot responses**
-- Review the answer Copilot returns for each question
-- Identify one insight that supports a follow-up accessories or engagement action for ColorCloud
-
-For example, you may find that:
-- high-value adopters are good candidates for accessories because they already show strong purchase and activation behavior
-- some customers are engaged enough to benefit from a more premium or tailored accessories message
-- ColorCloud should use a follow-up journey to increase accessory adoption and deepen product usage
-
-**Step 4. Capture one recommended action**
-Based on the insight you found, write down one action ColorCloud could take next.
-
-Example:
-- Update the **ColorCloud Aura Accessories** email so it better fits high-value adopters
-- Create a simple follow-up journey for the **`{{Your user ID}}HighValueAdopters`** segment using that updated email
+- Use Copilot to ask `What are the most common values in the countryofresidence column in the Customer table?` Based on the values provided you should see that DE is the predominant market for ColorCloud.
+- Use Copilot to ask `How many customers with countryofresidence in DE have a gold value in the loyalty_tier column?` The answer should be 53.
+- Use Copilot to ask `How many customers customers with countryofresidence in DE with gold value in loyalty_tier column have a value in the rewardpoints column?` The answer should be 10.
 
 Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/dialog-with-data) to learn more about dialog with data
 
 **Expected outcome**
 
-You used Copilot in `CI-D` to ask questions about unified customer data and identified one insight and next best action for the **`{{Your user ID}}HighValueAdopters`** audience.
+You learned that `Germany (DE)` is ColorCloud’s  `predominant market`. Gold loyalty tier and reward points are present only for a smaller subset of customers, so market relevance is the stronger insight to carry into CI-J.
 
 
 # Exercise 2: Use Copilot to improve a ColorCloud email in CI-J
 In this exercise, you will use the insight from Exercise 1 to improve an existing ColorCloud email with Copilot in `CI-J`.
 
-Microsoft documents **Content ideas** in Customer Insights - Journeys as a Copilot capability that helps generate email content from key points and a selected tone of voice. Microsoft also notes that the generated content should still be reviewed and refined by the user. ([learn.microsoft.com](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/content-ideas))
-
-**Step 1. Open an existing ColorCloud email**
+**Step 1. Update existing ColorCloud email using content ideas**
 - Open the `CI-J` environment you used in previous labs
-- Go to the email you want to improve
+- Make sure you are in the Real-time journeys area, in the left navigation go to Channels > **Emails**
+- Open `{{Your user ID}} ColorCloud Aura Accessories` email then click on Edit in the right top corner
+- In the email body canvas, click on `Hi {{firstname}}, ...` Text element, once selected, click on Rewrite button right above the Text > Tone > Formal
+- Copilot has generated some option for you, choose one by clicking on Insert text button in the left bottom corner of the pop up window
+- Optional: Since the text will be inserted without styling, you can highlight it and update the Font (Montserrat-Regular), Size (14px) and Text color (white) via the command bar right underneath the email header
+- In the right top corner click on Save, once saved, click on Ready to send
 
-You can use:
-- **ColorCloud Aura Accessories** email, or
-- any other email created in earlier labs, such as onboarding or feedback email
-
-**Step 2. Decide how the email should change**
-Use the insight from Exercise 1 to decide what should be improved.
-
-Recommended approach:
-- update the email so it better fits customers in the **`{{Your user ID}}HighValueAdopters`** segment
-- make the message feel more relevant for customers who already show strong adoption and value
-- strengthen the value of the accessories offer and the call to action
-
-**Step 3. Open Content ideas**
-- In the email editor, open Copilot **Content ideas**
-
-**Step 4. Generate improved content**
-Enter a few key points for the email.
-
-Example key points for **ColorCloud Aura Accessories**:
-- Thank the customer for choosing ColorCloud Aura
-- Highlight accessories that enhance the product experience
-- Position the accessories offer for customers who are already engaged with the product
-- Keep the tone premium, helpful, and concise
-- Encourage customers to continue getting more value from their ColorCloud experience
-
-**Step 5. Review and apply the output**
-- Generate content ideas
-- Review the suggestions
-- Insert or adapt one of the generated sections into your email
-- Make small edits so the email fits the ColorCloud brand and the audience you identified in Exercise 1
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/content-ideas) to learn more about content ideas
 
 **Expected outcome**
 
-You used Copilot in `CI-J` to improve an existing ColorCloud email so it better matches the **`{{Your user ID}}HighValueAdopters`** audience and the action identified in Exercise 1.
+You used Copilot in `CI-J` to improve an existing ColorCloud email so it better matches your customer profile patterns identified in Exercise 1.
 
-**Microsoft documentation**
-- [Copilot - Use AI to kickstart email creation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/content-ideas)
 
 # Exercise 3: Use Copilot to draft a follow-up journey in CI-J
-In this exercise, you will use the same audience and updated email to draft a simple follow-up journey with Copilot in `CI-J`.
+In this exercise, you will use your **`{{Your user ID}}HighValueAdopters`** segment as audience and the updated email to draft a simple follow-up journey with Copilot in `CI-J`.
 
-Microsoft documents **Journey Copilot** as a preview feature that lets users describe a journey in conversational language and generate a journey draft. Microsoft also notes that the prompt must start from an existing segment or trigger, and that the feature is currently limited to the United States and English. ([learn.microsoft.com](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-use-copilot-create-journey))
+**Step 1. Draft new ColorCloud journey with Copilot**
+- Still in the Real-time journeys area, in the left navigation go to Engagement > **Journeys**
+- In top command bar click on **+ New journey**
+- Update the following prompt with your user ID `Create a journey for customers in the {{Your user ID}}HighValueAdopters segment. Send the {{Your user ID}} ColorCloud Aura Accessories email. Wait 3 days and send the {{Your user ID}} ColorCloud Aura Accessories email again to customers who didn't open it.` and then insert it in the Create journey with Copilot pop up window and click on Send (the paper-plane icon) in right bottom corner
+- After Copilot is done generating, click on create journey
+- Once the journey is created, check if the structure of the journey works for the prompt above and click on Save in the right top corner
 
-**Step 1. Identify the audience**
-Use the existing **`{{Your user ID}}HighValueAdopters`** segment that you created in Lab 5.
-
-This keeps the exercise simple and ties it directly to the audience you analyzed in Exercise 1 and the email you updated in Exercise 2.
-
-**Step 2. Decide on the journey**
-Use Copilot to draft a simple follow-up journey for that audience.
-
-Recommended journey:
-- Start from the existing **`{{Your user ID}}HighValueAdopters`** segment
-- Send the updated **ColorCloud Aura Accessories** email
-- Wait 3 days
-- Send a follow-up email encouraging customers to enhance their ColorCloud experience with accessories
-
-Suggested prompt:
-**Create a journey for customers in the `{{Your user ID}}HighValueAdopters` segment. Send the updated ColorCloud Aura Accessories email, wait 3 days, and then send a follow-up email encouraging customers to enhance their ColorCloud experience with accessories.**
-
-**Step 3. Review the generated journey**
-- Review the journey Copilot creates
-- Check whether the steps match your intended audience and message
-- Make any small adjustments needed
-
-**Step 4. Save your observation**
-Write down:
-- the prompt you used
-- whether Copilot created the journey successfully
-- one thing you would refine before publishing
+Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-use-copilot-create-journey) to learn more about creating journey using AI assistance
 
 **Expected outcome**
 
 You used Copilot in `CI-J` to draft a simple follow-up journey that connects the **`{{Your user ID}}HighValueAdopters`** segment with your updated accessories email.
 
-**Microsoft documentation**
-- [Copilot - Create journeys using AI assistance (preview)](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-use-copilot-create-journey)
 
 # Lab Summary
-In this lab, you explored how AI can help ColorCloud move from insight to action more quickly. You first used Copilot in `CI-D` to ask natural-language questions about unified customer data and identify a next best action for the **`{{Your user ID}}HighValueAdopters`** segment. You then used Copilot in `CI-J` to improve an existing ColorCloud email for that audience. Finally, you optionally used Copilot to draft a simple follow-up journey that connects the same audience with the updated message.
+In this lab, you explored how AI can help ColorCloud move from insight to action. You first used Copilot in `CI-D` to ask natural-language questions about unified customer data and identify patterns. You then used Copilot in `CI-J` to improve an existing ColorCloud email taking into consideration patterns you discovered. Finally, you used Copilot to draft a simple follow-up journey that connects the **`{{Your user ID}}HighValueAdopters`** segment from Lab 5 with the updated email.
 
 Consider where this lab fits in the ColorCloud scenario:
-- Lab 5 helped ColorCloud measure customer value and product adoption
-- this lab showed how AI can help interpret those insights and suggest a useful next step
-- the improved email and follow-up journey demonstrate how ColorCloud can quickly turn insight into action for high-value adopters
-- together, `CI-D` and `CI-J` show how AI can support both customer understanding and customer engagement
-
-This optional lab is a natural continuation of Lab 5 because it builds directly on the measures and audience logic already created there, especially the **`{{Your user ID}}HighValueAdopters`** segment.
+- `CI-D` helped you explore unified customer profile data and assess data readiness for AI-powered insights
+- the customer profile patterns you identified helped inform how ColorCloud should position its accessories communication
+- `CI-J` helped you use Copilot to accelerate both content improvement and journey design
+- together, `CI-D` and `CI-J` showed how AI can support the path from insight to activation using assets and audiences already created in earlier labs
