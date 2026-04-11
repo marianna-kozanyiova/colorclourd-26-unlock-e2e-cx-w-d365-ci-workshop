@@ -44,7 +44,6 @@ In this exercise, you will create a new marketing form based on the preconfigure
 - Confirm that the form is intended to capture the subscriber's email address. Click the `Email` field and review the Edit field section on the right side. Make sure the `Required` flag is `On` and, under `Advanced`, `Validation` is set to `Email`.
 - Select `Mobile Phone` field, in the Edit field section on the right side set it as `Required` and, under `Advanced`, change `Validation` from `No validation` to `Phone number`
 - Review whether the template already contains the required consent elements. Click the consent checkbox field and review the Edit purpose section on the right side. `Compliance profile` should be set to `ColorCloud Commercial DOI`, `Purpose` should be set to `Commercial`, `Required` should be `On`, and under `Properties`, `Update user's consent for both Email and Text` should be checked.
-- 
 - Confirm that reCAPTCHA is placed on the form
 
 ![Example: review form email capture field](images/lab02-review-form-email-capture-field.png)
