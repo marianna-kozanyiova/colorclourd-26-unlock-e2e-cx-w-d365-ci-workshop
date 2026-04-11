@@ -17,11 +17,11 @@ Moving forward, we will refer to Customer Insights - Journeys as **CI-J** and to
 The following labs are part of this workshop:
 - [Lab 1](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab01.md): Access Environment & Finalize Configuration
 - [Lab 2](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab02.md): Build Trigger-based Subscription Incentive Journey
-- [Lab 3a](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03a.md): Build Segment-based Post-Purchase Onboarding & Upsell Journey
-- [Lab 3b](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03b.md): Build Segment-based Post-Purchase Onboarding & Upsell Journey
-- [Lab 4 - Optional](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab04-optional.md): Build Segment-based First Use Feedback Journey
-- [Lab 5](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab05.md): Measure Customer Value and Adoption
-- [Lab 6 - Optional](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06-optional.md): Explore AI-Powered Customer Insights
+- [Lab 03a](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03a.md): Build Segment-based Post-Purchase Onboarding & Upsell Journey
+- [Lab 03b](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03b.md): Build Segment-based Post-Purchase Onboarding & Upsell Journey
+- [Lab 04 - Optional](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab04-optional.md): Build Segment-based First Use Feedback Journey
+- [Lab 05](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab05.md): Measure Customer Value and Adoption
+- [Lab 06 - Optional](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06-optional.md): Explore AI-Powered Customer Insights
 
 ## Links to Microsoft documentation
 [Dynamics 365 Customer Insights - Data](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/overview)
