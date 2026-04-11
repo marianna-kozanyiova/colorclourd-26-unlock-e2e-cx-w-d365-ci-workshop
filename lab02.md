@@ -97,7 +97,7 @@ In this exercise, you will create the first marketing email in the ColorCloud sc
 - In the icon menu on the right side, click Settings, check that `Company address` is the same as the one you saw in the compliance profile in Lab 1, then expand Compliance and check that `Compliance profile` is set to `ColorCloud Commercial DOI` and change the `Purpose` from `Commercial` to `Transactional`. Since the discount code was promised after subscription, this email should be sent independently of commercial consent.
 - In the body of the email, check the footer content block, you've classified the email as Transactional in the previous step, but the footer is for Commercial emails since it includes `Unsubcribe`
 - Select the footer `Section` in the body of the email and click on Delete
-- In the icon menu on the right side, click Content blocks, select `Transactional Footer` and add it to the bottom of the email by clicking on the bottom plus sign
+- In the icon menu on the right side, click Content blocks, select `Transactional Footer` and add it to the bottom of the email by clicking on the plus sign
 
 ![Example: verify email header](images/lab02-verify-email-header.png)
 
