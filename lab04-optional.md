@@ -1,8 +1,8 @@
-# Lab 4 - Optional: Build Segment-based First Use Feedback Journey
+# Lab 04 - Optional: Build Segment-based First Use Feedback Journey
 
 [Reading time: 5 min]
 
-[Lab time: XX min]
+[Lab time: 15 min]
 
 - [Lab Overview](#lab-overview)
 - [Exercise 1: Review the Customer Voice survey](#exercise-1-review-the-customer-voice-survey)
@@ -28,10 +28,14 @@ In this exercise, you will sign in to Customer Voice and review the survey proje
 - In your browser window, open a new tab and enter https://customervoice.microsoft.com/
 - Sign in with your workshop credentials, the same way you did for `CI-J`
 
+![Example: Customer Voice landing page](images/lab04-cv-customer-voice-landing-page.png)
+
 **Step 2. Review the survey project and survey**
 - In Customer Voice, go to All projects
 - Under My projects you should see a project named `ColorCloud Aura CES` (`Customer Effort Score`). Open the project.
 - Confirm that the project contains the `ColorCloud Aura CES` survey with `3` questions
+
+![Example: review Customer Voice survey](images/lab04-cv-review-survey.png)
 
 Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-voice/about) to learn more about Customer Voice
 
@@ -47,6 +51,8 @@ In this exercise, you will work in `CI-D` to create a segment of customers whose
 - Open the `CI-D` environment you verified in Lab 1 and used in Lab 2
 - In the left navigation, go to Insights > **Segments**
 
+![Example: CI-D segment list view](images/lab04-cid-segment-list-view.png)
+
 **Step 2. Create a ProductAuraFirstUse7DaysAgoCES segment**
 - At the top command bar, click **+ New** > Build your own
 - Click Edit details next to Untitled segment
@@ -56,9 +62,14 @@ In this exercise, you will work in `CI-D` to create a segment of customers whose
   - App
   - Feedback
 - Click Done in the bottom-right corner
+
+![Example: create new CI-D segment](images/lab04-cid-create-new-segment.png)
+
 - In the right navigation, on the Attributes tab, expand `Telemetry : IotHUB`, select `firstused` to add it to the segment logic builder canvas, click the two horizontal arrows next to the `Use time (UTC)` checkbox, and enter `7 Days Before Today`
 - At the top of the logic Rule 1 block, click Set relationship path and choose `IotHUB_Telemetry > ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer`, then click Done
 - In the bottom-right corner click Save, then in the bottom-left corner click Run
+
+![Example: configure newly created segment](images/lab04-cid-configure-newly-created-segment.png)
 
 **Step 3. Verify the segment status**
 - Back in the Segments overview, verify that the **`{{Your user ID}}ProductAuraFirstUse7DaysAgoCES`** segment has status Queued, Refreshing, or Successful
@@ -80,6 +91,8 @@ In this exercise, you will work in `CI-J` to update the text message that will b
 - Verify that `Compliance profile` is set to `ColorCloud Legitimate Interest` and `Purpose` is set to `Legitimate Interest`. In some locations, feedback requests can be sent based on legitimate interest, but recipients must still have the option to opt out.
 - In the top-right corner click Save, and once saved, click Ready to send
 
+![Example: add Customer Voice survey into text message](images/lab04-cij-add-customer-voice-into-text-message.png)
+
 Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-text-messaging#add-a-customer-voice-survey-to-a-text-message) to see how to add a Customer Voice survey to a text message
 
 **Step 2. Create a new segment-based journey**
@@ -88,9 +101,14 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 - In the top command bar select + New journey, then in the pop-up window click Skip and create from blank in the bottom-right corner
 - Name the journey **`{{Your user ID}} ColorCloud Aura First Use 7 Days Ago Feedback`** using your user ID prefix, the same as for the other elements you created
 - Choose `Segment-based`, choose **`{{Your user ID}}ProductAuraFirstUse7DaysAgoCES`** under Select segments, choose `A one-time journey where newly added audience members can start any time` under Select the frequency, set the correct Time zone and Start, then click Create in the bottom-right corner
+
+![Example: create new feedback journey](images/lab04-cij-create-new-journey.png)
+
 - In the journey canvas, click the plus sign, under Messages add Text message (Send a text message (SMS)), and choose **`{{Your user ID}} ColorCloud Aura CES`**
 - In the top-right corner click Save, and once saved, click Publish
 - Wait until the journey is Live
+
+![Example: add text message tile to journey](images/lab04-cij-add-text-message-tile.png)
 
 **Expected outcome**
 
@@ -107,4 +125,4 @@ Consider where this journey fits in Maya Novak's experience:
 - She receives the **`{{Your user ID}} ColorCloud Aura CES`** text message with a Customer Voice survey through the **`{{Your user ID}} ColorCloud Aura First Use 7 Days Ago Feedback`** journey
 - Her feedback can now be used to measure early onboarding success and customer experience
 
-You are now ready to continue with [Lab 5: Measure Customer Value and Adoption](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab05.md), where you will use Customer Insights - Data to measure customer value and adoption and identify high-value adopters in the ColorCloud scenario.
+You are now ready to continue with [Lab 05: Measure Customer Value and Adoption](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab05.md), where you will use Customer Insights - Data to measure customer value and adoption and identify high-value adopters in the ColorCloud scenario.
