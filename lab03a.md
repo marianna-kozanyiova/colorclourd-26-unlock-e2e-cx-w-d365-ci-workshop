@@ -1,8 +1,8 @@
-# Lab 3a: Build Segment-based Post-Purchase Onboarding & Upsell Journey
+# Lab 03a: Build Segment-based Post-Purchase Onboarding & Upsell Journey
 
 [Reading time: 5 min]
 
-[Lab time: XX min]
+[Lab time: 20 min]
 
 - [Lab Overview](#lab-overview)
 - [Exercise 1: Build the CI-D segments](#exercise-1-build-the-ci-d-segments)
@@ -29,6 +29,8 @@ In this exercise, you will work in `CI-D` to create the customer segments needed
 - Open the `CI-D` environment you verified in Lab 1
 - In the left navigation, go to Insights > **Segments**
 
+![Example: CI-D segments home page](images/lab03a-cid-segments-home-page.png)
+
 **Step 2. Create the AllAppUsers segment**
 - At the top command bar, click **+ New** > Build your own
 - Click Edit details next to Untitled segment
@@ -41,6 +43,8 @@ In this exercise, you will work in `CI-D` to create the customer segments needed
 - At the top of the logic Rule 1 block, click Set relationship path and choose `IotHUB_Telemetry > ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer`, then click Done
 - In the bottom-right corner click Save, then in the bottom-left corner click Run. If you get a warning about Segment table being Inactive, click Continue running.
 
+![Example: AllAppUsers segment configuration](images/lab03a-cid-segment-01AllAppUsers.png)
+
 **Step 3. Create the ProductShippedAura segment**
 - Back in the Segments overview, at the top command bar, click **+ New** > Build your own
 - Click Edit details next to Untitled segment
@@ -52,10 +56,15 @@ In this exercise, you will work in `CI-D` to create the customer segments needed
 - Click Done in the bottom-right corner
 - In the right navigation, on the Attributes tab, expand `Product : ERP`, select `category` to add it to the segment logic builder canvas, enter `Device` after `equal to`, and check `Ignore case`. Hint: if you are unsure which attributes are available, check `Data > Tables`.
 - In the right navigation, on the Attributes tab, expand `Product : ERP`, select `name` > Add item to > Existing rule > Rule 1, change the `is` operator to `contains`, enter `Aura` after `contains`, and check `Ignore case`
+
+![Example: add existing rule to ProductShippedAura segment](images/lab03a-cid-segment-ProductShippedAura-add-existing-rule.png)
+
 - In the right navigation, on the Attributes tab, expand `Transactions : eCommerce`, select `Status` > Add item to > Existing rule > Rule 1, enter `Shipped` after `equal to`, and check `Ignore case`
 - In the right navigation, on the Attributes tab, expand `Transactions : eCommerce`, select `ShippedDate` > Add item to > Existing rule > Rule 1, change the specific date operator to `within last`, and enter `30`
 - At the top of the logic Rule 1 block, click Set relationship path and choose `ERP_Product > eCommerce_Transactions > eCommerce_Users > Customer`, then click Done
 - In the bottom-right corner click Save, then in the bottom-left corner click Run
+
+![Example: ProductShippedAura segment overview](images/lab03a-cid-segment-ProductShippedAure-overview.png)
 
 **Step 4. Verify the Status of AllAppUsers and ProductShippedAura segments**
 - Back in the Segments overview, make sure that both segments have status Queued, Refreshing, or Successful. If successful, verify that you can see the number of members for each segment. When you open a segment, you can preview the customer profiles included in it.
@@ -78,10 +87,22 @@ In this exercise, you will continue in `CI-J` to finalize the email and text mes
 - In `CI-J`, make sure you are in the Real-time journeys area
 - In the left navigation, go to **Channels > Emails**
 - Open `ColorCloud Aura On Its Way Version A`, which is in Draft state, click the drop-down next to Save in the top-right corner, and select Save as
+
+![Example: email save as action](images/lab03a-cij-email-save-as.png)
+
 - In the Quick Create: Email drawer on the right side, add your user ID prefix to the Name and delete Copy from the end of the name. For example, if your user is colorcloud01@andrasfordos.onmicrosoft.com, name your email **`01 ColorCloud Aura On Its Way Version A`**, then click Save and Close in the bottom-right corner
+
+![Example: email save as quick create drawer](images/lab03a-cj-email-save-as-quick-create.png)
+
 - Go back to **Channels > Emails** and open the email **`{{Your user ID}} ColorCloud Aura On Its Way Version A`** you just created
 - Click the drop-down arrows in the email header next to From: and Subject:, place your cursor in the Subject field right before the word your, and click Personalization on the right side of the Subject field > + New dynamic text > Choose an attribute > Audience > CustomerProfile > `firstname` > Save. `{{firstname}}` should be added right before the word your.
+
+![Example: personalize email subject line](images/lab03a-cij-email-personalize-subject-line.png)
+
 - In the body of the email, select the Get set up in minutes text, then in the icon menu on the right side click Personalize, expand Inline conditions > + Add condition, define Display name as `NotAppUser`, update the condition to Make condition on segment membership, change `Is in segment` to `Is not in segment`, look for your **`{{Your user ID}}AllAppUsers`** CI-D segment, then click Save & copy
+
+![Example: email inline condition personalization](images/lab03a-cij-email-personalze-inline-condition.png)
+
 - Optional: You can check the email elements as you did in Lab 2. Check the Brand profile, Personalize, Settings, and the footer content block.
 - In the top-right corner click Save, and once saved, click Ready to send and make sure that your email moves to Live state
 
@@ -92,6 +113,9 @@ In this exercise, you will continue in `CI-J` to finalize the email and text mes
 **Step 3. Create ColorCloud Aura On Its Way Text message**
 - In `CI-J`, make sure you are in the Real-time journeys area
 - In the left navigation, go to **Channels > Text messages**
+
+![Example: text messages list view](images/lab03a-cij-text-messages-list-view.png)
+
 - In the top command bar click **+ New**
 - Name the text message **`{{Your user ID}} ColorCloud Aura On Its Way`** using your user ID prefix, the same naming approach used for forms, emails, journeys, and segments in the previous labs
 - Choose `+15074835080` as Text message sender
@@ -105,6 +129,8 @@ Then place your cursor right before the comma > Personalization icon > + New dyn
 - Choose `ColorCloud Commercial DOI` as the Compliance profile and `Commercial` as the Purpose
 - In the top-right corner click Save, and once saved, click Ready to send
 
+![Example: create new text message](images/lab03a-cij-text-messages-create-new.png)
+
 **Step 4. Verify rest of the Text messages**
 - Go back to **Channels > Text messages**, open `ColorCloud Aura On Its Way App Users`. This text message will be sent to customers who already use the app.
 - Go back to **Channels > Text messages**, open `ColorCloud Aura Accessories`. This text message will be sent to customers who are not app users yet and clicked the Download the app link in **`{{Your user ID}} ColorCloud Aura On Its Way Version A`**.
@@ -114,4 +140,4 @@ Then place your cursor right before the comma > Personalization icon > + New dyn
 You have finalized **`{{Your user ID}} ColorCloud Aura On Its Way Version A`** email and verified the other emails used in the onboarding and upsell journey. You have created **`{{Your user ID}} ColorCloud Aura On Its Way`** text message and verified the other text messages used in the journey.
 
 
-You are now ready to continue with building the journey in [Lab 3b: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03b.md).
+You are now ready to continue with building the journey in [Lab 03b: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03b.md).
