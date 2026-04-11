@@ -11,7 +11,7 @@
 
 # Lab Overview
 ## Introduction
-In this lab, you will access the Dynamics 365 Customer Insights environments and review the setup prepared for the workshop. You will verify key configurations across `CI-D` and `CI-J` to make sure everything is ready for building Maya's end-to-end customer experience.
+In this lab, you will access the Dynamics 365 Customer Insights environments and we will review the setup prepared for the workshop together. We will verify key configurations across `CI-D` and `CI-J` to make sure everything is ready for building Maya's end-to-end customer experience.
 
 ## Objectives
 By the end of this lab, you will be able to:
@@ -205,7 +205,7 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 
 **Expected outcome**
 
-You have successfully verified that all required `CI-J` components are preconfigured, including:
+We have successfully verified that all required `CI-J` components are preconfigured, including:
 - Feature switches (Copilot, Customer Voice integration)
 - Email domain configuration
 - Brand profile
