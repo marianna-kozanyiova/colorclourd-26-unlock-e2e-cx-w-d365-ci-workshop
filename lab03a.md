@@ -114,4 +114,4 @@ Then place your cursor right before the comma > Personalization icon > + New dyn
 You have finalized **`{{Your user ID}} ColorCloud Aura On Its Way Version A`** email and verified the other emails used in the onboarding and upsell journey. You have created **`{{Your user ID}} ColorCloud Aura On Its Way`** text message and verified the other text messages used in the journey.
 
 
-You are now ready to continue with building the journey in [Lab 3b: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03-b.md).
+You are now ready to continue with building the journey in [Lab 3b: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03b.md).
