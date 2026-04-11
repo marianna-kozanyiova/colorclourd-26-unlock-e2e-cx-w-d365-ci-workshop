@@ -177,4 +177,4 @@ Consider where this journey fits in Maya Novak's experience:
 - Her next step depends on whether she clicked the **Download the app** link
 - She can then continue into a more optimized onboarding and upsell experience across email and SMS
 
-You are now ready to continue with building Maya's ColorCloud customer experience in [Lab 4 - Optional: Build Segment-based First Use Feedback Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab04-optional.md).
+You are now ready to continue with building Maya's ColorCloud customer experience in [Lab 3b: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03-b.md).
