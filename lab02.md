@@ -169,4 +169,4 @@ Consider where this journey fits in Maya Novak's experience:
   - She receives the **`{{Your user ID}} ColorCloud Newsletter Subscription Confirmation with Discount Code`** email and discount code through the **`{{Your user ID}} ColorCloud Subscription Incentive`** journey
   - This becomes the starting point for her first purchase journey
 
-You are now ready to continue with building Maya's ColorCloud customer experience in [Lab 03a: Build Segment-based Post-Purchase Onboarding & Upsell Journey](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab03a.md).
+You are now ready to continue with building Maya's ColorCloud customer experience in [Lab 03a: Build Segment-based Post-Purchase Onboarding & Upsell Journey](lab03a.md).

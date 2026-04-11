@@ -128,4 +128,4 @@ Consider where this lab fits in the ColorCloud scenario:
 - The **`{{Your user ID}}HighValueAdopters`** segment helps identify customers who already demonstrate commercial value and active adoption
 - This audience can now be used for further analysis and future actions such as retention, loyalty, advocacy, or upsell strategies
 
-In case you still have time left for another hands-on lab, you can continue to [Lab 06 - Optional: Explore AI-Powered Customer Insights](https://github.com/marianna-kozanyiova/colorclourd-26-unlock-e2e-cx-w-d365-ci-workshop/blob/main/lab06-optional.md).
+In case you still have time left for another hands-on lab, you can continue to [Lab 06 - Optional: Explore AI-Powered Customer Insights](lab06-optional.md).
