@@ -65,7 +65,7 @@ You are signed in to your assigned `CI-J` environment and ready to continue with
 
 
 # Exercise 2: Verify Preconfigured CI-D Components
-In this exercise, you will access the `CI-D` environment connected to your `CI-J` app and verify that the required data and configuration are available for the workshop.
+In this exercise, you will access the `CI-D` environment connected to your `CI-J` app and we will verify that the required data and configuration are available for the workshop.
 
 **Step 1. Open Settings in Customer Insights - Journeys**
 - In the Customer Insights - Journeys app, navigate to the bottom-left corner and click Real-time journeys
@@ -124,7 +124,7 @@ Optional: Check [Microsoft documentation](https://learn.microsoft.com/en-us/dyna
 
 **Expected outcome**
 
-You have successfully accessed `CI-D` and verified that:
+You have successfully accessed `CI-D` and we verified that:
 - The environment contains about 800 customers
 - All required data sources and tables are available
 - Unified customer profiles have been created
@@ -132,7 +132,7 @@ You are now ready to use this data in the upcoming labs.
 
 
 # Exercise 3: Verify Preconfigured CI-J Components
-In this exercise, you will return to the `CI-J` app and verify that the key components required for the workshop are already configured.
+In this exercise, you will return to the `CI-J` app and we will verify that the key components required for the workshop are already configured.
 
 **Step 1. Go back to Customer Insights - Journeys**
 - Go back to the browser tab where you have the `CI-J` app open in the Settings area
@@ -165,9 +165,9 @@ In this exercise, you will return to the `CI-J` app and verify that the key comp
 **Step 7. Verify Compliance profiles**
 - Stay in the Customer engagement section and click Compliance profiles
 - Open the `ColorCloud Commercial DOI` record
-- Verify Address, which is pulled dynamically into your content blocks
-- Open Preference center, which is pulled dynamically into your content blocks to let recipients unsubscribe from Commercial purpose communication
-- Go back to the `ColorCloud Commercial DOI` record and check `Consent purposes`. These define how consent is respected for emails and text messages for the specific customer profile and purpose.
+- Verify `Address`, which is pulled dynamically into your content blocks
+- Open `Preference center`, which is pulled dynamically into your content blocks to let recipients unsubscribe from Commercial purpose communication
+- Go back to the `ColorCloud Commercial DOI` record and check `Consent purposes`. These are assigned to emails and text messages and define how consent is respected by the system.
 - Still under the `ColorCloud Commercial DOI` record, check `Double opt-in`. If enabled, a double opt-in email is sent right after form submission to verify the email address before Contact and/or Lead plus Consent records are created.
 - Go back to Compliance profiles and open `ColorCloud Legitimate Interest`
 - Open `Preference center`. This lets recipients unsubscribe from Legitimate Interest purpose communication. That is the main difference compared to `ColorCloud Commercial DOI`.
