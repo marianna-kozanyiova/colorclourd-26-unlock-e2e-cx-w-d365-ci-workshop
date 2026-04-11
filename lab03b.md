@@ -1,6 +1,6 @@
 # Lab 3b: Build Segment-based Post-Purchase Onboarding & Upsell Journey
 
-[Reading time: 4 min]
+[Reading time: 5 min]
 
 [Lab time: XX min]
 
