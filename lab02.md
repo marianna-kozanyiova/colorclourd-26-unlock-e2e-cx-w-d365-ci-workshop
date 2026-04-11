@@ -40,21 +40,23 @@ In this exercise, you will create a new marketing form based on the preconfigure
 - Use your user ID as a prefix when naming the form, **`{{Your user ID}} ColorCloud Newsletter Subscription`**. For example, if your user is colorcloud**01**@andrasfordos.onmicrosoft.com, name your form **`01 ColorCloud Newsletter Subscription`**. This is important because several users are working in the same environment.
 - Review the initial structure inherited from the template
 
-**Step 4. Review the form fields and elements**
-- Confirm that the form is intended to capture at least the subscriber's email address. Click the `Email` field and review the Edit field section on the right side. Make sure the `Required` flag is `On` and, under `Advanced`, `Validation` is set to `Email`.
+**Step 4. Review & update the form fields and elements**
+- Confirm that the form is intended to capture the subscriber's email address. Click the `Email` field and review the Edit field section on the right side. Make sure the `Required` flag is `On` and, under `Advanced`, `Validation` is set to `Email`.
+- Select `Mobile Phone` field, in the Edit field section on the right side set it as `Required` and, under `Advanced`, change `Validation` from `No validation` to `Phone number`
 - Review whether the template already contains the required consent elements. Click the consent checkbox field and review the Edit purpose section on the right side. `Compliance profile` should be set to `ColorCloud Commercial DOI`, `Purpose` should be set to `Commercial`, `Required` should be `On`, and under `Properties`, `Update user's consent for both Email and Text` should be checked.
+- 
 - Confirm that reCAPTCHA is placed on the form
 
 ![Example: review form email capture field](images/lab02-review-form-email-capture-field.png)
 
 ![Example: review form consent element](images/lab02-review-form-consent-element.png)
 
-**Step 5. Review form settings**
+**Step 5. Review & update form settings**
 - Check that the `Audience` is set to `Contact` in the top-right corner. This means that when the form is submitted and the email address is verified through the double opt-in email, a new Contact record will be created or an existing Contact record will be updated.
-- In the icon menu on the right side of the Edit purpose section, click Form settings (fourth icon from the top)
+- In the icon menu on the right side of the Edit purpose section, click Form settings
 - Expand the Audience section and check that `Choose how to handle duplicate contacts` is set to `Use a rule to match an existing contact` and `Select contact matching rule` is set to `Update contact using email`
-- Expand the Submission section and check that the `Thank you notification` refers to the double opt-in email
-- Expand the Consent section and check that `Double opt-in` is Enabled. It should be enabled because the compliance profile `ColorCloud Commercial DOI` is selected for the consent checkbox.
+- Expand the Consent section and check that `Double opt-in` is Enabled. It should be enabled because the compliance profile `ColorCloud Commercial DOI` is selected for the consent checkbox and it is the best practice to verify the email address from the form submission.
+- Expand the Submission section and update the `Thank you notification` from `Thank you for your submission.` to `You are one click away from receiving your discount code! Please go into your mailbox and verify your email address.`
 
 ![Example: review form settings](images/lab02-review-form-settings.png)
 
@@ -89,12 +91,14 @@ In this exercise, you will create the first marketing email in the ColorCloud sc
 **Step 3. Enter email details**
 - Use your user ID as a prefix when naming the email, **`{{Your user ID}} ColorCloud Newsletter Subscription Confirmation with Discount Code`**. For example, if your user is colorcloud**01**@andrasfordos.onmicrosoft.com, name your email **`01 ColorCloud Newsletter Subscription Confirmation with Discount Code`**.
 
-**Step 4. Verify the email details**
+**Step 4. Verify & update the email details**
 - Confirm that the `Brand profile` in the top-right corner is set to `ColorCloud`
 - Expand the email header and confirm that the `Sender` is `ColorCloud` and the `Subject` is `Welcome to ColorCloud – here's your exclusive offer 🎁`
 - In the icon menu on the right side, click Personalize and check that under Dynamic text, `FirstName` is set to `Contact > First Name`. This means the value will be pulled from the Contact record for each recipient and matches the audience selected for the form.
-- In the icon menu on the right side, click Settings, check that `Company address` is the same as the one you saw in the compliance profile in Lab 1, then expand Compliance and check that `Compliance profile` is set to `ColorCloud Commercial DOI` and `Purpose` is set to `Transactional`. Since the discount code was promised after subscription, this email should be sent independently of commercial consent.
-- In the body of the email, check the footer content block and confirm that there is no Unsubscribe link. Since the email is classified as Transactional, it is sent to deliver necessary product or service information.
+- In the icon menu on the right side, click Settings, check that `Company address` is the same as the one you saw in the compliance profile in Lab 1, then expand Compliance and check that `Compliance profile` is set to `ColorCloud Commercial DOI` and change the `Purpose` from `Commercial` to `Transactional`. Since the discount code was promised after subscription, this email should be sent independently of commercial consent.
+- In the body of the email, check the footer content block, you've classified the email as Transactional in the previous step, but the footer is for Commercial emails since it includes `Unsubcribe`
+- Select the footer `Section` in the body of the email and click on Delete
+- In the icon menu on the right side, click Content blocks, select `Transactional Footer` and add it to the bottom of the email by clicking on the bottom plus sign
 
 ![Example: verify email header](images/lab02-verify-email-header.png)
 
