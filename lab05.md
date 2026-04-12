@@ -1,4 +1,4 @@
-# Lab 05: Measure Customer Value and Adoption
+# Lab 05: Measure Customer Value & Adoption
 
 [Reading time: 5 min]
 
