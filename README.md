@@ -20,7 +20,7 @@ The following labs are part of this workshop:
 - [Lab 03a](lab03a.md): Build Segment-based Post-Purchase Onboarding & Upsell Journey
 - [Lab 03b](lab03b.md): Build Segment-based Post-Purchase Onboarding & Upsell Journey
 - [Lab 04 - Optional](lab04-optional.md): Build Segment-based First Use Feedback Journey
-- [Lab 05](lab05.md): Measure Customer Value and Adoption
+- [Lab 05](lab05.md): Measure Customer Value & Adoption
 - [Lab 06 - Optional](lab06-optional.md): Explore AI-Powered Customer Insights
 
 ## Links to Microsoft documentation
